@@ -18,6 +18,7 @@
   * Split out late user space to dedicated package (live-initscripts)
   * Distributor specific mode for overloading of functions
   * Release specific compatibility/legacy handling during package build-time
+  * Maybe even integrate mechanism to produce 'targeted' and 'generic' initrd-images, where the targeted only contain the scripts defined.
   * i18n/l10n support during early userspace (gettext, po4a)
   * Splash support (plymouth, splashy)
   * Use initramfs keyb functions, rather than re-implenting wheels
