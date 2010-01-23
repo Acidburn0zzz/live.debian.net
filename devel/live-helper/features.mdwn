@@ -1,0 +1,39 @@
+# live-helper Features
+
+### core
+
+  * us lh as generic exec wrapper
+  * create log file per default
+  * parse options only once
+  * parse config only once
+  * review all config value names
+  * rework documentation and manpages
+
+### config
+
+  * create --report-config option
+  * provide config auto update:
+    * s/enabled/true/g; s/disable/false/g
+    * s/categories/archive-areas/
+    * local packageslists changes:
+      * config/chroot_local-packageslists/foo to config/chroot_local-packageslists/foo.list
+      * any *.list doesn't need to be in LH_PACKAGES_LISTS anymore
+      * any list in LH_PACKAGES_LISTS needs to have a suffix *.list
+    * scripts/ renamed to auto/
+  * define modes by dropping files with variables into modes.d/ directory
+
+### binary_rootfs
+
+  * support partial squashfs images
+
+### binary_syslinux
+
+  * redo configfile stuff
+  * use custom theming from /usr/share/$bootloader-theme-$foo
+  * make use of isohybrid
+  * add gfxboot helper
+  * add extlinux support
+
+### source
+
+  * make source images apt-get'able
