@@ -40,5 +40,6 @@
   * Document stuff properly, both the actual implementation and its customization
   * Use sane coding style consistently
   * Optimize sh calls for speed and simplicity
+  * Think about implementing parts of it that are performance critical in C
   * Drop unused, overly complicated features
   * Synchronise and unify boot parameters
