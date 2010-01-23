@@ -32,6 +32,7 @@
   * Improved toram (awk progressbar or something like that)
   * Redo login manager support (kdm, gdm, nodm, plain startx on tty1)
   * Make sure it works with suspend-to-disk.
+  * Logging with different types of messages (info, warn, error, ...). Depending on the log-level just the according level messages are visible. All boot messages should be logged for later investigation.
 
 ## Bugs
 
