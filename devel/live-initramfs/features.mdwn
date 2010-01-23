@@ -8,6 +8,7 @@
   * Network protocols (http, ftp, rsync)
   * Network devices (nbd, aoe, iscsi)
   * Local filesystems (ext2-4 etc.), as image and plain.
+  * Local storage subsystems (lvm, md, etc.).
   * Allow to include system completely in initrd.img (like debirf).
   * Allow tunneling (ssh, openvpn, ike) when network is needed to access the root filesystem.
 
