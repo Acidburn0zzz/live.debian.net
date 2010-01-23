@@ -27,7 +27,7 @@
 
   * Redo persistency from scratch
   * Allow to clear persistency (by reformating the partition) through live-initramfs (for the firmware trick: factory reset).
-  * cryptsetup for persistency layer
+  * cryptsetup and rsyncrypto (or something similar) for the persistency layer
   * persistency layer on network shares, global and per user.
   * Improved toram (awk progressbar or something like that)
   * Redo login manager support (kdm, gdm, nodm, plain startx on tty1)
