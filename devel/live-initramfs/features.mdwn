@@ -1,0 +1,44 @@
+# live-initramfs Features
+
+## Boot methods
+
+  * Optical media (cd, dvd, bd) and nested images
+  * Mass storage (usb-zip, usb-hdd) and nested images
+  * Network filesystems (nfs, smb/cifs, afs) and nested images
+  * Network protocols (http, ftp, rsync)
+  * Network devices (nbd, aoe, iscsi)
+  * Local filesystems (ext2-4 etc.), as image and plain.
+  * Allow to include system completely in initrd.img (like debirf).
+  * Allow tunneling (ssh, openvpn, ike) when network is needed to access the root filesystem.
+
+## Boot process
+
+  * One time argument handling (with proper respect of live.conf, also from /live/live.conf)
+  * One time function handling
+  * Split out late user space to dedicated package (live-initscripts)
+  * Distributor specific mode for overloading of functions
+  * Release specific compatibility/legacy handling during package build-time
+  * i18n/l10n support during early userspace (gettext, po4a)
+  * Splash support (plymouth, splashy)
+  * Use initramfs keyb functions, rather than re-implenting wheels
+
+## Features
+
+  * Redo persistency from scratch
+  * Allow to clear persistency (by reformating the partition) through live-initramfs (for the firmware trick: factory reset).
+  * cryptsetup for persistency layer
+  * persistency layer on network shares, global and per user.
+  * Improved toram (awk progressbar or something like that)
+  * Redo login manager support (kdm, gdm, nodm, plain startx on tty1)
+
+## Bugs
+
+  * (Almost) whatever is listed in the BTS :)
+
+## General
+
+  * Document stuff properly, both the actual implementation and its customization
+  * Use sane coding style consistently
+  * Optimize sh calls for speed and simplicity
+  * Drop unused, overly complicated features
+  * Synchronise and unify boot parameters
