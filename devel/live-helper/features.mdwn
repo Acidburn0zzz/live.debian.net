@@ -25,6 +25,7 @@
 ### binary_rootfs
 
   * support partial squashfs images
+  * review pre-cached chroot mechanism and fix regression with config/binary_rootfs/excludes
 
 ### binary_syslinux
 
