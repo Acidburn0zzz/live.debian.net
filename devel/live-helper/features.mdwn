@@ -8,6 +8,7 @@
   * parse config only once
   * review all config value names
   * rework documentation and manpages
+  * allow to completely build off-line from cache, including 'faked' indices for remote mirrors.
 
 ### config
 
