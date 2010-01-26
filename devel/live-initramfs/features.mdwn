@@ -55,6 +55,7 @@
 
 ### Boot Process
 
+  * Allow to make more or less sure, that with a certain initrd we're booting a certain rootfs (live-uuid etc.)
   * Maybe even integrate mechanism to produce 'targeted' and 'generic' initrd-images, where the targeted only contain the scripts defined.
   * Use initramfs keyb functions, rather than re-implenting wheels
   * Allow to clear persistency (by reformating the partition) through live-initramfs (for the firmware trick: factory reset).
