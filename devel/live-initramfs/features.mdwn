@@ -34,6 +34,7 @@
 ### Boot Process
 
   * Splash support (plymouth, splashy)
+  * (Better) breakpoint support.
 
 ## Priority 3: Wishlist
 
