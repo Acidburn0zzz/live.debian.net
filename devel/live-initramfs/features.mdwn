@@ -62,5 +62,5 @@
   * cryptsetup and rsyncrypto (or something similar) for the persistency layer
   * persistency layer on network shares, global and per user.
   * Improved toram (awk progressbar or something like that)
-  * Redo login manager support (kdm, gdm, nodm, plain startx on tty1)
+  * Redo login manager support (kdm, gdm, nodm, qingy, plain startx on tty1)
   * Make sure it works with suspend-to-disk.
