@@ -36,6 +36,10 @@
   * add gfxboot helper
   * add extlinux support
 
+### chroot_linux-image
+
+  * make initrd compression configurable, e.g. lzma instead of gzip.
+
 ### source
 
   * make source images apt-get'able
