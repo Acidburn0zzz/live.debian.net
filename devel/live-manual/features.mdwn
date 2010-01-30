@@ -1,0 +1,8 @@
+# live-manual Features
+
+  * put every volatile content (such as temporary hacks, wishlists etc) to ikiwiki on live.d.n.
+  * put every 'more or less stable' documentation stuff into live-manual
+  * wipe wiki.d.o/DebianLive/*
+  * have w.d.o/DL pointing to l.d.n or something like that
+  * mop up all links on wiki.d.o to current DL wiki pages, mostly linking to live-manual
+  * look everywhere to update links pointing to alioth mailinglist to the debian mailinglist.
