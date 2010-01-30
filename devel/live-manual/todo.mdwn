@@ -1,4 +1,4 @@
-# live-manual Features
+# live-manual Todo
 
   * put every volatile content (such as temporary hacks, wishlists etc) to ikiwiki on live.d.n.
   * put every 'more or less stable' documentation stuff into live-manual

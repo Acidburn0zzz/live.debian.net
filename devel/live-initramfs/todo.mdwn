@@ -1,4 +1,4 @@
-# live-initramfs Features
+# live-initramfs 2.0 Todo
 
 ## Priority 1: Core Features
 
