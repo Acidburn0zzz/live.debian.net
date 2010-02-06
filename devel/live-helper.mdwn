@@ -25,6 +25,10 @@ An introduction to live-helper can be found in the live-helper manpage.
   * [Debian Live Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](debian-live@lists.debian.org)
   * [Debian Live IRC Channel](http://live.debian.net/archive/irc/):  [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
 
+## Documentation
+
+  * [[todo]]
+
 ## Repository
 
 <pre><tt># <b>Debian Live (sid/unstable snapshots)</b>
