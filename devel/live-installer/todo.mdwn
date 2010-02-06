@@ -1,0 +1,4 @@
+# live-installer Todo
+
+  * support netboot.
+  * support g-i in live-installer-launcher.
