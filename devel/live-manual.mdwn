@@ -1,0 +1,36 @@
+# live-manual
+
+## About
+
+This is the documentation for Debian Live project. It provides a broad overview of the tools and philosophy of Debian Live, as well as providing details on how live systems may be built and customised by end users and developers.
+
+## News
+
+  * 2009-01-12: Initial upload to debian (20090101-1).
+
+## Links
+
+  * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-manual.html)
+  * [Package Archive](http://live.debian.net/archive/packages/live-manual/)
+
+## Contact
+
+  * [Debian Live Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](debian-live@lists.debian.org)
+  * [Debian Live IRC Channel](http://live.debian.net/archive/irc/):  [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
+
+## Documentation
+
+  * [[todo]]
+
+## Repository
+
+<pre><tt># <b>Debian Live (sid/unstable snapshots)</b>
+deb http://live.debian.net/ sid/snapshots main contrib non-free
+deb-src http://live.debian.net/ sid/snapshots main contrib non-free</tt></pre>
+
+## Source
+
+The sources of live-manual are released under the terms of the GNU General Public License 3 (or later), and available in a git repository at live.debian.net.
+
+  * Browse: [http://live.debian.net/gitweb/?p=live-manual.git](http://live.debian.net/gitweb/?p=live-manual.git)
+  * Git: [git://live.debian.net/git/live-manual.git](git://live.debian.net/git/live-manual.git)
