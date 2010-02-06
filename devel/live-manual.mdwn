@@ -16,7 +16,7 @@ This is the documentation for Debian Live project. It provides a broad overview 
 ## Contact
 
   * [Debian Live Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](debian-live@lists.debian.org)
-  * [Debian Live IRC Channel](http://live.debian.net/archive/irc/):  [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
+  * [Debian Live IRC Channel](http://live.debian.net/archive/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
 
 ## Documentation
 
