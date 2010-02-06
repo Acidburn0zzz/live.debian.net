@@ -1,0 +1,37 @@
+# live-installer
+
+## About
+
+live-installer is a component that allows the debian-installer to use a debian-live filesystem image as installation source, rather than from regular packages.
+
+## News
+
+  * 2009-08-12: First upload with live-installer-launcher (12).
+  * 2007-06-29: Initial upload to debian (0).
+
+## Links
+
+  * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-installer.html)
+  * [Package Archive](http://live.debian.net/archive/packages/live-installer/)
+
+## Contact
+
+  * [Debian Live Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](debian-live@lists.debian.org)
+  * [Debian Live IRC Channel](http://live.debian.net/archive/irc/):  [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
+
+## Documentation
+
+  * [[todo]]
+
+## Repository
+
+<pre><tt># <b>Debian Live (sid/unstable snapshots)</b>
+deb http://live.debian.net/ sid/snapshots main contrib non-free
+deb-src http://live.debian.net/ sid/snapshots main contrib non-free</tt></pre>
+
+## Source
+
+The sources of live-installer are released under the terms of the GNU General Public License 2 (or later), and available in a svn repository at svn.debian.org.
+
+  * Browse: [http://svn.debian.org/wsvn/d-i/trunk/packages/live-installer/?op=log](http://svn.debian.org/wsvn/d-i/trunk/packages/live-installer/?op=log)
+  * SVN: [svn://svn.debian.org/d-i/trunk/packages/live-installer](svn://svn.debian.org/d-i/trunk/packages/live-installer)
