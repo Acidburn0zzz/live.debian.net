@@ -2,10 +2,10 @@
 
 ## Short Term (matter of days)
 
-  * proper implement iso-hyrbid in live-helper as a dedicated binary image flavour.
   * prepare squeeze alpha1 with live-installer and as iso-hybrid.
   * merge live-webhelper into live-helper.
   * build 5.0.4 release images.
+  * finish image-name option.
 
 ## Middle Term (matter of weeks)
 
