@@ -1,0 +1,18 @@
+# Contact
+
+The Debian Live Team can be contacted in several different ways (alphabetical order).
+
+## Bug Tracking System
+
+Bugs can be reported in the [Debian Bug Tracking System](http://bugs.debian.org/) against the respective packages (e.g. [live-helper](http://bugs.debian.org/cgi-bin/pkgreport.cgi?src=live-helper) or [live-initramfs](http://bugs.debian.org/cgi-bin/pkgreport.cgi?src=live-helper)).
+
+## Internet Relay Chat (IRC)
+
+[irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
+
+## Mailing Lists
+
+Address: debian-live@lists.debian.org
+
+  * [Archive](http://lists.debian.org/debian-live/)
+  * [Subscribe](http://lists.debian.org/debian-live/)
