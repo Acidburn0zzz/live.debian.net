@@ -3,6 +3,7 @@
 ### core
 
   * us lh as generic exec wrapper
+  * add bash completion.
   * create log file per default
   * parse options only once
   * parse config only once
@@ -10,6 +11,7 @@
   * rework documentation and manpages
   * allow to completely build off-line from cache, including 'faked' indices for remote mirrors.
   * interactive mode should set debconf frontends to interactive and priority to low.
+  * merge different tarball compressions into tar-gz, tar-bz2, etc., same way as usb-hdd and usb-zip.
 
 ### config
 
