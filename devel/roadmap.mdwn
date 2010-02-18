@@ -1,0 +1,17 @@
+# Roadmap
+
+## Short Term (matter of days)
+
+  * proper implement iso-hyrbid in live-helper as a dedicated binary image flavour.
+  * prepare squeeze alpha1 with live-installer and as iso-hybrid.
+  * merge live-webhelper into live-helper.
+
+## Middle Term (matter of weeks)
+
+  * cleanup the git repositories.
+  * start implementing phase1 of live-initramfs 2.0.
+
+## Long Term (matter of months)
+
+  * finish live-helper 2.0.
+  * finish live-initramfs 2.0.
