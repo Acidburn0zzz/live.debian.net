@@ -1,0 +1,20 @@
+# Releases
+
+## 6.0 "squeeze"
+
+  * 6.0 alpha1: End of Februar 2010
+
+## 5.0 "lenny"
+
+  * 5.0.4: Beginning of March 2010
+  * [5.0.3](http://cdimage.debian.org/cdimage/archive/5.0.3-live/): 2010-01-23
+  * [5.0.2](http://cdimage.debian.org/cdimage/archive/5.0.2-live/): 2009-09-04
+  * [5.0.1](http://cdimage.debian.org/cdimage/archive/5.0.1-live/): 2009-06-14
+  * [5.0.0](http://cdimage.debian.org/cdimage/archive/5.0.0-live/): 2009-02-14
+  * [5.0 rc1](http://live.debian.net/archive/images/5.0_rc1/): 2009-02-09
+  * [5.0 beta2](http://live.debian.net/archive/images/5.0_beta2/): 2008-12-20
+  * [5.0 beta1](http://live.debian.net/archive/images/5.0_beta1/): [2008-08-27](http://lists.debian.org/debian-live/2008/08/msg00222.html)
+
+## 4.0 "etch"
+
+No official releases were published.
