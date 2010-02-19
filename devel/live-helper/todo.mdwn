@@ -13,6 +13,7 @@
   * interactive mode should set debconf frontends to interactive and priority to low.
   * merge different tarball compressions into tar-gz, tar-bz2, etc., same way as usb-hdd and usb-zip.
   * merge different checksums into one function, and make configurable which hash to use.
+  * support building multiple binary images in a row.
 
 ### config
 
