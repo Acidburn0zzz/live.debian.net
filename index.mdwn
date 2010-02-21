@@ -28,6 +28,7 @@
 		</ul></td>
 
 		<td><ul>
+			<li><a href="/project/about">About</a></li>
 			<li><a href="/project/contact">Contact</a></li>
 			<li><a href="/project/releases">Releases</a></li>
 			<li><a href="/project/reviews">Reviews</a></li>
