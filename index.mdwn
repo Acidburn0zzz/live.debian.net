@@ -1,3 +1,42 @@
+<table align="center" valign="center" cellspacing="50px">
+	<tr>
+		<td><a href="/user"><img src="user.png"></a></td>
+		<td><a href="/devel"><img src="devel.png"></a></td>
+		<td><a href="/project"><img src="project.png"></a></td>
+	</tr>
+
+	<tr>
+		<td><h1>User</h1></td>
+		<td><h1>Development</h1></td>
+		<td><h1>Project</h1></td>
+	</tr>
+
+	<tr>
+		<td><ul>
+			<li><a href="http://cdimage.debian.org/cdimage/release/current-live/">Download</a></li>
+			<li><a href="/manual">Manual</a></li>
+		</ul></td>
+
+		<td><ul>
+			<li>[[devel/live-helper]]</li>
+			<li>[[devel/live-initramfs]]</li>
+			<li>[[devel/live-installer]]</li>
+			<li>[[devel/live-manual]]</li>
+			<li>[[devel/live-sysvinit]]</li>
+		</ul></td>
+
+		<td><ul>
+			<li><a href="/project/contact">Contact</a></li>
+			<li><a href="/project/releases">Releases</a></li>
+			<li><a href="/project/roadmap">Roadmap</a></li>
+		</ul></td>
+	</tr>
+</table>
+
+<hr />
+
+<h2>Other stuff</h2>
+
   * [archive](archive)
   * [cdimage](cdimage)
   * [debian](debian)
