@@ -2,79 +2,79 @@
 
 ## 2010
 
-  * 2010-01-23: [Debian Live Lenny 5.0.3](http://cdimage.debian.org/cdimage/release/5.0.3-live/)
+  * 2010-01-23: [Debian Live Lenny 5.0.3](http://cdimage.debian.org/cdimage/release/5.0.3-live/)<br />
     Updated images for Debian Lenny 5.0.3 have been uploaded.
 
 ## 2009
 
-  * 2009-09-04: [Debian Live Lenny 5.0.2](http://cdimage.debian.org/cdimage/archive/5.0.2-live/)
+  * 2009-09-04: [Debian Live Lenny 5.0.2](http://cdimage.debian.org/cdimage/archive/5.0.2-live/)<br />
     Updated images for Debian Lenny 5.0.2 have been uploaded.
 
-  * 2009-06-14: [Debian Live Lenny 5.0.1](http://cdimage.debian.org/cdimage/archive/5.0.1-live/)
+  * 2009-06-14: [Debian Live Lenny 5.0.1](http://cdimage.debian.org/cdimage/archive/5.0.1-live/)<br />
     Updated images for Debian Lenny 5.0.1 have been uploaded.
 
-  * 2009-02-15: [Debian Live Lenny 5.0.0](http://cdimage.debian.org/cdimage/archive/5.0.0-live/)
+  * 2009-02-15: [Debian Live Lenny 5.0.0](http://cdimage.debian.org/cdimage/archive/5.0.0-live/)<br />
     Debian Lenny 5.0.0 was released, for the first time also featuring live systems.
 
-  * 2009-02-09: [Debian Live Lenny RC1](http://live.debian.net/archive/images/5.0_rc1/)
+  * 2009-02-09: [Debian Live Lenny RC1](http://live.debian.net/archive/images/5.0_rc1/)<br />
     Debian Lenny RC1 was released.
 
-  * 2008-12-20: [Debian Live Lenny Beta2](http://live.debian.net/archive/images/5.0_beta2/)
+  * 2008-12-20: [Debian Live Lenny Beta2](http://live.debian.net/archive/images/5.0_beta2/)<br />
     Debian Lenny Beta2 was released.
 
 ## 2008
 
-  * 2008-08-27: [Debian Live Lenny Beta1](http://live.debian.net/archive/images/5.0_beta1/)
+  * 2008-08-27: [Debian Live Lenny Beta1](http://live.debian.net/archive/images/5.0_beta1/)<br />
     The Debian Live team is pleased to [announce](http://lists.debian.org/debian-live/2008/08/msg00222.html) the first beta of Debian Lenny's Live images.
 
 ## 2007
 
-  * 2007-11-01: [KDE4 beta4 Live CD](http://pkg-kde.alioth.debian.org/kde4livecd.html)
+  * 2007-11-01: [KDE4 beta4 Live CD](http://pkg-kde.alioth.debian.org/kde4livecd.html)<br />
     Debian Qt/KDE Team use our framework to create a KDE4 beta4 Live CD.
 
-  * 2007-07-09: [Debian Live Web Boot](http://blog.daniel-baumann.ch/2007/09/07#20070907_debian-live-web-boot)
+  * 2007-07-09: [Debian Live Web Boot](http://blog.daniel-baumann.ch/2007/09/07#20070907_debian-live-web-boot)<br />
     Added support for booting directly from network.
 
-  * 2007-05-24: [casper is dead, long lives live-initramfs](http://lists.debian.org/debian-live/2007/05/msg00104.html)
+  * 2007-05-24: [casper is dead, long lives live-initramfs](http://lists.debian.org/debian-live/2007/05/msg00104.html)<br />
     Forked casper.
 
-  * 2007-04-30: [live-initramfs in unstable](http://packages.debian.org/changelogs/pool/main/l/live-initramfs/current/changelog#versionversion1.87.1-1)
+  * 2007-04-30: [live-initramfs in unstable](http://packages.debian.org/changelogs/pool/main/l/live-initramfs/current/changelog#versionversion1.87.1-1)<br />
     Uploaded first live-initramfs to Debian unstable.
 
-  * 2007-04-26: [http://www.chris-lamb.co.uk/blog/2007/04/26/pimp-your-webpage/](New website design)
+  * 2007-04-26: [http://www.chris-lamb.co.uk/blog/2007/04/26/pimp-your-webpage/](New website design)<br />
     Pimp your webpage.
 
-  * 2007-04-19: [Google Summer of Code 2007](http://lists.debian.org/debian-live/2007/04/msg00112.html)
+  * 2007-04-19: [Google Summer of Code 2007](http://lists.debian.org/debian-live/2007/04/msg00112.html)<br />
     "GUI for live-helper" project granted.
 
-  * 2007-03-14: [live-package is dead, long lives live-helper](http://lists.debian.org/debian-live/2007/03/msg00113.html)
+  * 2007-03-14: [live-package is dead, long lives live-helper](http://lists.debian.org/debian-live/2007/03/msg00113.html)<br />
     Rewritten and modularized live-package.
 
-  * 2007-03-12: [live-helper in unstable](http://packages.debian.org/changelogs/pool/main/l/live-helper/current/changelog#versionversion1.0_a1-1)
+  * 2007-03-12: [live-helper in unstable](http://packages.debian.org/changelogs/pool/main/l/live-helper/current/changelog#versionversion1.0_a1-1)<br />
     Uploaded first live-helper to Debian unstable.
 
-  * 2007-02-17: [Debian Live Encryption](http://blog.daniel-baumann.ch/2007/02/17#20070217_debian-live-encryption)
+  * 2007-02-17: [Debian Live Encryption](http://blog.daniel-baumann.ch/2007/02/17#20070217_debian-live-encryption)<br />
     Added support for encrypted live filesystem.
 
-  * 2007-02-10: [Debian Live USB](http://blog.daniel-baumann.ch/2007/02/10#20070210_debian-live-usb)
+  * 2007-02-10: [Debian Live USB](http://blog.daniel-baumann.ch/2007/02/10#20070210_debian-live-usb)<br />
     Added support for USB image generation.
 
-  * 2007-02-05: [Debian Live Autobuild](http://blog.daniel-baumann.ch/2007/02/05#20070205_debian-live-autobuild)
+  * 2007-02-05: [Debian Live Autobuild](http://blog.daniel-baumann.ch/2007/02/05#20070205_debian-live-autobuild)<br />
     Setup image autobuild server.
 
 ## 2006
 
-  * 2006-07-17: [live-package in unstable](http://packages.debian.org/changelogs/pool/main/l/live-package/current/changelog#versionversion0.99-1)
+  * 2006-07-17: [live-package in unstable](http://packages.debian.org/changelogs/pool/main/l/live-package/current/changelog#versionversion0.99-1)<br />
     Uploaded first live-package to Debian unstable.
 
-  * 2006-06-02: Debian Live NET
+  * 2006-06-02: Debian Live NET<br />
     Added support for netboot image generation.
 
-  * 2006-03-16: [Debian Live ISO](http://lists.debian.org/debian-live/2006/03/msg00047.html)
+  * 2006-03-16: [Debian Live ISO](http://lists.debian.org/debian-live/2006/03/msg00047.html)<br />
     Added support for ISO image generation.
 
-  * 2006-02-28: [Debian Live Resources](http://blog.daniel-baumann.ch/2006/02/28#20060228_debian-live-resources)
+  * 2006-02-28: [Debian Live Resources](http://blog.daniel-baumann.ch/2006/02/28#20060228_debian-live-resources)<br />
     Setup project resources.
 
-  * 2006-02-14: [Debian Initiative](http://blog.daniel-baumann.ch/2006/02/14#20060214_debian-live-initiative)
+  * 2006-02-14: [Debian Initiative](http://blog.daniel-baumann.ch/2006/02/14#20060214_debian-live-initiative)<br />
     Project announcement.
