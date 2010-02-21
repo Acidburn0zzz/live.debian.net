@@ -1,0 +1,31 @@
+# Other
+
+## autorun4linuxcd
+
+  * [http://git.debian.org/?p=debian-live/autorun4linuxcd.git](http://git.debian.org/?p=debian-live/autorun4linuxcd.git)
+
+## autotesting
+
+  * [http://git.debian.org/?p=debian-live/autotesting.git](http://git.debian.org/?p=debian-live/autotesting.git)
+
+## live-helper config
+
+  * [http://git.debian.org/?p=debian-live/config-junior.git](http://git.debian.org/?p=debian-live/config-junior.git)
+  * [http://git.debian.org/?p=debian-live/config-webc.git](http://git.debian.org/?p=debian-live/config-webc.git)
+
+## live-magic
+
+  * [http://git.debian.org/?p=users/lamby-guest/live-magic.git](http://git.debian.org/?p=users/lamby-guest/live-magic.git)
+  * [http://live.debian.net/gitweb/?p=live-magic.git](http://live.debian.net/gitweb/?p=live-magic.git)
+
+## live-startscripts
+
+  * [http://live.debian.net/gitweb/?p=live-startscripts.git](http://live.debian.net/gitweb/?p=live-startscripts.git)
+
+## live-webhelper
+
+  * [http://live.debian.net/gitweb/?p=live-webhelper.git](http://live.debian.net/gitweb/?p=live-webhelper.git)
+
+## live-workbench
+
+  * [http://git.debian.org/?p=debian-live/live-workbench.git](http://git.debian.org/?p=debian-live/live-workbench.git)

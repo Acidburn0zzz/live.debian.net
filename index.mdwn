@@ -24,6 +24,7 @@
 			<li>[[devel/live-installer]]</li>
 			<li>[[devel/live-manual]]</li>
 			<li>[[devel/live-sysvinit]]</li>
+			<li>[[devel/other]]</li>
 		</ul></td>
 
 		<td><ul>
