@@ -1,4 +1,11 @@
 # live-installer Todo
 
+## live-installer
+
   * support netboot.
-  * support g-i in live-installer-launcher.
+
+## live-installer-launcher
+
+  * fix desktop file.
+  * maybe add a check/workaround if host kernel and d-i kernel don't match.
+  * support gui mode.
