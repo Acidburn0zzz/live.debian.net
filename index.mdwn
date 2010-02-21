@@ -32,6 +32,7 @@
 			<li><a href="/project/releases">Releases</a></li>
 			<li><a href="/project/reviews">Reviews</a></li>
 			<li><a href="/project/roadmap">Roadmap</a></li>
+			<li><a href="/project/status">Status</a></li>
 		</ul></td>
 	</tr>
 </table>

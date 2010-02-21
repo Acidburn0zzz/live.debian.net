@@ -1,0 +1,3 @@
+# Status
+
+  * Images for lenny, squeeze and sid are working. [2010-02-21]
