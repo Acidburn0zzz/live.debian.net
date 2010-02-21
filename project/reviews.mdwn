@@ -1,0 +1,25 @@
+# Reviews
+
+Debian Live was mentioned on various Internet sites. Here is an incomplete list in order of its appearance.
+
+## General
+
+  * [Debian Weekly News, Issue 2006/08](http://www.debian.org/News/weekly/2006/08/)
+  * [Debian Weekly News, Issue 2006/17](http://www.debian.org/News/weekly/2006/17/)
+  * [Debian Weekly News, Issue 2006/27](http://www.debian.org/News/weekly/2006/27/)
+  * [Debian Weekly News, Issue 2007/03](http://www.debian.org/News/weekly/2007/03/)
+  * [Debian Planet](http://www.debianplanet.org/node.php?id=1322)
+  * [Linux Weekly News](http://lwn.net/Articles/177564/)
+  * [Damn Small Linux Board](http://damnsmalllinux.org/cgi-bin/forums/ikonboard.cgi?;act=ST;f=21;t=11709)
+  * [digg](http://www.digg.com/linux_unix/Official_Debian_Live_CD_)
+  * [Softpedia](http://news.softpedia.com/news/Debian-Live-Distro-Coming-18918.shtml)
+  * [Softpedia](http://news.softpedia.com/news/Live-Debian-30747.shtml)
+  * [German: Linux Magazine](http://www.linux-magazin.de/news/debconf7_alles_neu_macht_debian_live)
+  * [German: Linux Magazine (Workshop)](http://www.linux-magazin.de/online_artikel/workshop_debian_live_system_mit_etch)
+
+## 5.0 "lenny" beta1
+
+  * [Linux Weekly News](http://lwn.net/Articles/295698/)
+  * [German: Golem](http://www.golem.de/0808/62028.html)
+  * [German: Heise](http://www.heise.de/newsticker/Debian-5-0-auf-Live-CD--/meldung/115009)
+  * [German: Pro Linux](http://www.pro-linux.de/news/2008/13107.html)

@@ -29,6 +29,7 @@
 		<td><ul>
 			<li><a href="/project/contact">Contact</a></li>
 			<li><a href="/project/releases">Releases</a></li>
+			<li><a href="/project/reviews">Reviews</a></li>
 			<li><a href="/project/roadmap">Roadmap</a></li>
 		</ul></td>
 	</tr>
