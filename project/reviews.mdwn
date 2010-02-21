@@ -20,6 +20,7 @@ Debian Live was mentioned on various Internet sites. Here is an incomplete list 
 ## 5.0 "lenny" beta1
 
   * [Linux Weekly News](http://lwn.net/Articles/295698/)
+  * [Distrowatch](http://distrowatch.com/?newsid=05058)
   * [German: Golem](http://www.golem.de/0808/62028.html)
   * [German: Heise](http://www.heise.de/newsticker/Debian-5-0-auf-Live-CD--/meldung/115009)
   * [German: Pro Linux](http://www.pro-linux.de/news/2008/13107.html)
