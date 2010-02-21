@@ -41,7 +41,7 @@
   * 2007-04-30: [live-initramfs in unstable](http://packages.debian.org/changelogs/pool/main/l/live-initramfs/current/changelog#versionversion1.87.1-1)<br />
     Uploaded first live-initramfs to Debian unstable.
 
-  * 2007-04-26: [http://www.chris-lamb.co.uk/blog/2007/04/26/pimp-your-webpage/](New website design)<br />
+  * 2007-04-26: [New website design](http://www.chris-lamb.co.uk/blog/2007/04/26/pimp-your-webpage/)<br />
     Pimp your webpage.
 
   * 2007-04-19: [Google Summer of Code 2007](http://lists.debian.org/debian-live/2007/04/msg00112.html)<br />
