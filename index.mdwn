@@ -40,7 +40,5 @@
   * [archive](archive)
   * [cdimage](cdimage)
   * [debian](debian)
-  * [debian-cd](debian-cd)
-  * [manual](manual)
   * [other](other)
   * [README.images](README.images)
