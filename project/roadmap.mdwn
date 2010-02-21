@@ -2,14 +2,10 @@
 
 ## Short Term (matter of days)
 
-  * rethink sources.list and sources.list.d handling.
-  * release live-helper 2.0~a7-1.
-  * upload live-initramfs 1.173.1-2.
-  * prepare squeeze alpha1 with live-installer and as iso-hybrid.
-
   * build 5.0.4 release images.
 
   * merge live-webhelper into live-helper.
+  * rethink sources.list and sources.list.d handling.
   * finish grub on usb.
   * finish usb-zip support.
   * finish image-name option.
