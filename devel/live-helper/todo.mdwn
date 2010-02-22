@@ -29,11 +29,13 @@
     * scripts/ renamed to auto/
   * define modes by dropping files with variables into modes.d/ directory
   * improve Check_defaults() to cover more wrong combinations/values
+  * improve --clone (see bootcd for inspiration).
 
 ### binary_rootfs
 
   * support partial squashfs images
   * review pre-cached chroot mechanism and fix regression with config/binary_rootfs/excludes
+  * support read-ahead and squashfs -sort
 
 ### binary_syslinux
 
