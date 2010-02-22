@@ -15,6 +15,7 @@
   * merge different checksums into one function, and make configurable which hash to use.
   * support building multiple binary images in a row.
   * add --repository to automatically include some third-party repositories.
+  * improve webfrontend, use http://linuxcoe.sourceforge.net/ for inspiration.
 
 ### config
 
