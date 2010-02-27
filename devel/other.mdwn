@@ -12,6 +12,11 @@
 
 ## live-helper config
 
+debian-eeepc
+
+  * Browse: [http://git.debian.org/?p=debian-eeepc/eeepc-live.git](http://git.debian.org/?p=debian-eeepc/eeepc-live.git)
+  * Git: [git://git.debian.org/debian-eeepc/eeepc-live.git](git://git.debian.org/debian-eeepc/eeepc-live.git)
+
 debian-junior
 
   * Browse: [http://git.debian.org/?p=debian-live/config-junior.git](http://git.debian.org/?p=debian-live/config-junior.git)
