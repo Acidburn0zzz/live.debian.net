@@ -11,6 +11,7 @@ live-installer is a component that allows the debian-installer to use a debian-l
 
 ## Links
 
+  * [Debian Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-installer)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-installer.html)
   * [Package Archive](http://live.debian.net/archive/packages/live-installer/)
 
