@@ -33,8 +33,8 @@ An introduction to live-helper can be found in the live-helper manpage.
 ## Repository
 
 <pre><tt># <b>Debian Live (sid/unstable snapshots)</b>
-deb http://live.debian.net/ sid/snapshots main contrib non-free
-deb-src http://live.debian.net/ sid/snapshots main contrib non-free</tt></pre>
+deb http://live.debian.net/ sid-snapshots main contrib non-free
+deb-src http://live.debian.net/ sid-snapshots main contrib non-free</tt></pre>
 
 ## Source
 
