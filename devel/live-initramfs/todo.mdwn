@@ -66,3 +66,4 @@
   * Redo login manager support (kdm, gdm, nodm, qingy, plain startx on tty1)
   * Make sure it works with suspend-to-disk.
   * investigate about using squashfs instead of cpio for snapshots (use puppy linux for inspiration)
+  * optionally, prompt the user for missing firmware just like d-i does with check-missing-firmware.sh in hw-detect
