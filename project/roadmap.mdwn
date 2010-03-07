@@ -2,13 +2,8 @@
 
 ## Short Term (matter of days)
 
-  * build 5.0.4 release images.
-
-  * merge live-webhelper into live-helper.
   * rethink sources.list and sources.list.d handling.
-
   * build squeeze alpha1 images.
-
   * finish grub on usb.
   * finish usb-zip support.
   * finish image-name option.
