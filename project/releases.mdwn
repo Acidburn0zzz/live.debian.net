@@ -2,7 +2,7 @@
 
 ## 6.0 "squeeze"
 
-  * 6.0 alpha1: End of Februar 2010
+  * 6.0 alpha1: Mid of March 2010
 
 ## 5.0 "lenny"
 
