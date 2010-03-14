@@ -1,4 +1,4 @@
-# Team
+# Debian Live System Team
 
 ## Infrastructure
 
