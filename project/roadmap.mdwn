@@ -3,15 +3,23 @@
 ## Short Term (matter of days)
 
   * rethink sources.list and sources.list.d handling.
-  * build squeeze alpha1 images.
   * finish grub on usb.
   * finish usb-zip support.
   * finish image-name option.
+  * build 'all-in-one' dvd.
+  * fix size issues in the desktop images (tasksel usage screwup).
+  * trusted keys from local repository are not removed again.
+  * "common" source packages must include other architectures packages (e.g. bootloaders) too.
+  * using menu beep when syslinux prompt is ready.
+
+  * think about prebuilt alternatives images with grub instead of syslinux.
+  * zsync files for snapshots? cdimage.d.o appears to drop them anyway due to a bug with zsync that makes it useless (see debian-cd ml archive for details).
 
 ## Middle Term (matter of weeks)
 
   * cleanup the git repositories.
   * start implementing live-initramfs 2.0.
+  * clone brendans setup for autotesting on live.debian.net.
 
 ## Long Term (matter of months)
 
