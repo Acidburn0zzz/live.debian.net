@@ -35,6 +35,7 @@
 			<li><a href="/project/reviews">Reviews</a></li>
 			<li><a href="/project/roadmap">Roadmap</a></li>
 			<li><a href="/project/status">Status</a></li>
+			<li><a href="/project/team">Team</a></li>
 		</ul></td>
 	</tr>
 </table>
