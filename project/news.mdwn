@@ -2,6 +2,9 @@
 
 ## 2010
 
+  * 2010-03-17: Debian Live Squeeze alpha1<br />
+    The first alpha images for the upcoming Debian Squeeze 6.0 release have been uploaded.
+
   * 2010-01-23: [Debian Live Lenny 5.0.3](http://cdimage.debian.org/cdimage/release/5.0.3-live/)<br />
     Updated images for Debian Lenny 5.0.3 have been uploaded.
 
