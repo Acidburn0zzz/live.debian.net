@@ -2,7 +2,7 @@
 
 ## 6.0 "squeeze"
 
-  * 6.0 alpha1: Mid of March 2010
+  * [6.0 alpha1](http://live.debian.net/archive/iamges/6.0_alpha1): 2010-03-14
 
 ## 5.0 "lenny"
 
