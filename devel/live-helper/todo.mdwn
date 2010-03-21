@@ -20,6 +20,7 @@
 ### config
 
   * create --report-config option
+  * create --validate-config option
   * provide config auto update:
     * s/enabled/true/g; s/disable/false/g
     * s/categories/archive-areas/
