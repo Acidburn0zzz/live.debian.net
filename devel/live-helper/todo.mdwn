@@ -5,6 +5,7 @@
   * us lh as generic exec wrapper
   * add bash completion.
   * create log file per default
+  * support global cache in /var/cache/live-helper
   * parse options only once
   * parse config only once
   * review all config value names
