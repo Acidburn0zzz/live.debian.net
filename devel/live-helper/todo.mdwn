@@ -34,6 +34,10 @@
   * improve Check_defaults() to cover more wrong combinations/values
   * improve --clone (see bootcd for inspiration).
 
+### cgi
+
+  * add debconf prompts to make setup automatic
+
 ### binary_rootfs
 
   * support partial squashfs images
