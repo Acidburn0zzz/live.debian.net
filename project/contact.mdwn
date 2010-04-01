@@ -8,7 +8,8 @@ Bugs can be reported in the [Debian Bug Tracking System](http://bugs.debian.org/
 
 ## Internet Relay Chat (IRC)
 
-[irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
+  * [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
+  * [Archive](http://live.debian.net/archive/irc/)
 
 ## Mailing Lists
 
