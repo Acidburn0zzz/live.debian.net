@@ -8,3 +8,4 @@
   * mop up all links on wiki.d.o/DebianLive to their new location
   * look everywhere to update links pointing to alioth mailinglist to the debian mailinglist.
   * add both 'last modified' and 'last build' timestamps on the manuals build index.html.
+  * add test target that can be run live.debian.net and which sends mail to the mailinglist in case of build failures.
