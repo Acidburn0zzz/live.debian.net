@@ -38,6 +38,11 @@
 
   * add debconf prompts to make setup automatic
 
+### binary_debian-installer
+
+  * populate bootloader configuration with both regular netinstall and
+    live-installer entries.
+
 ### binary_rootfs
 
   * support partial squashfs images
