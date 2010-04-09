@@ -7,3 +7,4 @@
   * merge debian-live.alioth.d.o into live.d.n
   * mop up all links on wiki.d.o/DebianLive to their new location
   * look everywhere to update links pointing to alioth mailinglist to the debian mailinglist.
+  * add both 'last modified' and 'last build' timestamps on the manuals build index.html.
