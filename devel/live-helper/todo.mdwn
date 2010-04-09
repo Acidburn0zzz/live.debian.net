@@ -8,7 +8,7 @@
   * support global cache in /var/cache/live-helper
   * parse options only once
   * parse config only once
-  * review all config value names
+  * review all config value names, use ini format for config tree and stabilize it
   * rework documentation and manpages
   * allow to completely build off-line from cache, including 'faked' indices for remote mirrors.
   * interactive mode should set debconf frontends to interactive and priority to low.
