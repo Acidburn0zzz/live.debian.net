@@ -48,7 +48,6 @@
 
   * redo configfile stuff
   * use custom theming from /usr/share/$bootloader-theme-$foo
-  * make use of isohybrid
   * add gfxboot helper
   * add extlinux support
 
