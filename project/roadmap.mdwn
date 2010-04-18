@@ -17,7 +17,6 @@
 
 ## Middle Term (matter of weeks)
 
-  * cleanup the git repositories.
   * start implementing live-initramfs 2.0.
   * clone brendans setup for autotesting on live.debian.net.
 
