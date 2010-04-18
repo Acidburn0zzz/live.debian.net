@@ -36,6 +36,14 @@ live-initramfs is a fork of [casper](http://packages.ubuntu.com/casper/).
 deb http://live.debian.net/ sid-snapshots main contrib non-free
 deb-src http://live.debian.net/ sid-snapshots main contrib non-free</tt></pre>
 
+<pre><tt># <b>Debian Live (squeeze/testing snapshots)</b>
+deb http://live.debian.net/ squeeze-snapshots main contrib non-free
+deb-src http://live.debian.net/ squeeze-snapshots main contrib non-free</tt></pre>
+
+<pre><tt># <b>Debian Live (lenny/stable snapshots)</b>
+deb http://live.debian.net/ lenny-snapshots main contrib non-free
+deb-src http://live.debian.net/ lenny-snapshots main contrib non-free</tt></pre>
+
 ## Source
 
 The sources of live-initramfs are released under the terms of the GNU General Public License 3 (or later), and available in a git repository at live.debian.net.

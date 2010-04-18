@@ -30,6 +30,14 @@ live-installer is a component that allows the debian-installer to use a debian-l
 deb http://live.debian.net/ sid-snapshots main contrib non-free
 deb-src http://live.debian.net/ sid-snapshots main contrib non-free</tt></pre>
 
+<pre><tt># <b>Debian Live (squeeze/testing snapshots)</b>
+deb http://live.debian.net/ squeeze-snapshots main contrib non-free
+deb-src http://live.debian.net/ squeeze-snapshots main contrib non-free</tt></pre>
+
+<pre><tt># <b>Debian Live (lenny/stable snapshots)</b>
+deb http://live.debian.net/ lenny-snapshots main contrib non-free
+deb-src http://live.debian.net/ lenny-snapshots main contrib non-free</tt></pre>
+
 ## Source
 
 The sources of live-installer are released under the terms of the GNU General Public License 2 (or later), and available in a svn repository at svn.debian.org.
