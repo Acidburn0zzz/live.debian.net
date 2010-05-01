@@ -44,7 +44,7 @@ More information:
 
 ## PelicanHPC
 
-[PelicanHPC](http://pareto.uab.es/mcreel/PelicanHPC/) let's you set up a high performance computing cluster in a few minutes. A Pelican cluster allows you to do parallel computing using MPI. Pelican can be run on a single multiple core machine to use all cores to solve a problem, or multiple computers can be used together to form a cluster.
+[PelicanHPC](http://pareto.uab.es/mcreel/PelicanHPC/) lets you set up a high performance computing cluster in a few minutes. A Pelican cluster allows you to do parallel computing using MPI. Pelican can be run on a single multiple core machine to use all cores to solve a problem, or multiple computers can be used together to form a cluster.
 
 More information:
 
@@ -89,9 +89,17 @@ More information:
   * [Homepage](http://www.webconverg.com/)
   * [Wikipedia](http://en.wikipedia.org/wiki/Webconverger)
 
+## Xen
+
+The [Xen Live CD](http://wiki.xensource.com/xenwiki/LiveCD) brings together several features and attempts to show many different situations, as far as possible, in a clear and functional way. For example, different architectures of the Hypervisor, pre-configured virtual machines with different kernel of dom0, virtual framebuffer enabled for virtual work stations, extra examples with SDL console enabled, demonstration of conversion between machines HVM / PVM, several methods of how to make a virtual hard disk, among many other examples of what can be done with Xen.
+
+More information:
+
+  * [Homepage](http://wiki.xensource.com/xenwiki/LiveCD)
+
 ## Xorcom Rapid
 
-[Xorcom Rapid](http://www.xorcom.com/downloads/live-cd-quick-start.html) is a full Asterisk based PBX.
+The [Xorcom Rapid Live](http://www.xorcom.com/downloads/live-cd-quick-start.html) system is an Asterisk based PBX.
 
 More information:
 
