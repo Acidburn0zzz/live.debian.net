@@ -1,0 +1,14 @@
+# Derivatives
+
+This is a list of projects using Debian Live technologies.
+
+### Webconverger
+
+Webconverger is a minimalistic browser-only system designed to be used solely for accessing Web applications. It does not have high system requirements and will also run on older machines.
+
+Webconverger runs the Iceweasel web browser with a customised window manager [dwm](http:/dwm.suckless.org/) and Firefox add-on that locks the browser to a simple kiosk operation mode. The browser runs in full screen mode with all menus, toolbars, key commands and most right button menus disabled. Webconverger contains Adobe Flash support and PDF viewing by default. Both wired and wireless networks are supported via DHCP. There is also support for internationalization, including CJK input methods.
+
+More information:
+
+  * [Homepage](http://www.webconverg.com/)
+  * [Wikipedia](http://en.wikipedia.org/wiki/Webconverger)
