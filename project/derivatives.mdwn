@@ -2,7 +2,7 @@
 
 This is a selection of notable projects (in alphabetical order) using Debian Live technologies.
 
-## Clonzilla
+## Clonezilla
 
 [Clonezilla](http://www.clonezilla.org/) is a partition or disk cloning tool. It saves and restores only blocks in use on the hard drive if the file system is supported. For unsupported file systems, dd is used instead.
 
@@ -25,6 +25,14 @@ More information:
 More information:
 
   * [Homepage](http://livecd.gnustep.org/)
+
+## lernstick
+
+[lernstick](http://imedias.ch/lernstick/) contains a lot of software for educational purposes.
+
+More information:
+
+  * [Homepage](http://imedias.ch/lernstick/)
 
 ## PelicanHPC
 
