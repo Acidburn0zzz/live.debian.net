@@ -2,6 +2,14 @@
 
 This is a selection of notable projects (in alphabetical order) using Debian Live technologies.
 
+## Debian Eee PC
+
+The goal of the [Debian Eee PC](http://wiki.debian.org/DebianEeePC/) project is full support for the ASUS Eee PC in Debian.
+
+More information:
+
+  * [Homepage](http://wiki.debian.org/DebianEeePC/)
+
 ## GNUSTEP
 
 [GNUSTEP](http://livecd.gnustep.org/) contains a lot of software for GNUstep, a free implementation of the OPENSTEP framework.
