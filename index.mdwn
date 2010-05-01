@@ -13,7 +13,7 @@
 
 	<tr>
 		<td><ul>
-			<li><a href="http://cdimage.debian.org/cdimage/release/current-live/">Download</a></li>
+			<li>Download: <a href="http://cdimage.debian.org/cdimage/release/current-live/">stable</a> <a href="http://cdimage.debian.org/cdimage/squeeze_live_alpha1/">testing</a></li>
 			<li><a href="/manual">Manual</a></li>
 			<li><a href="http://wiki.debian.org/DebianLive/">Wiki</a></li>
 		</ul></td>
