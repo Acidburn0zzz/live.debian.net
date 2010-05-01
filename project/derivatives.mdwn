@@ -18,6 +18,16 @@ More information:
 
   * [Homepage](http://mandalka.name/privatix/index.html)
 
+## Puredyne
+
+[Puredyne](http://puredyne.goto10.org/) is aimed at creative people, looking for tools outside the standard. It provides the best experimental creative applications alongside a solid set of graphic, audio and video tools in a fast, minimal package. For everything from sound art to innovative filmmaking.
+
+Puredyne is optimised for use in realtime audio and video processing. It distinguishes itself by offering a low latency kernel and the high responsiveness needed by artists working in this field.
+
+More Information:
+
+  * [Homepage](http://puredyne.goto10.org/)
+
 ## Webconverger
 
 [Webconverger](http://www.webconverger.com/) is a minimalistic browser-only system designed to be used solely for accessing Web applications. It does not have high system requirements and will also run on older machines.
