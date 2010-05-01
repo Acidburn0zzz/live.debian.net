@@ -13,7 +13,7 @@ Bugs can be reported in the [Debian Bug Tracking System](http://bugs.debian.org/
 
 ## Mailing Lists
 
-Address: debian-live@lists.debian.org
+Address: <a href="mailto:debian-live@lists.debian.org">debian-live@lists.debian.org</a>
 
   * [Archive](http://lists.debian.org/debian-live/)
-  * [Subscribe](http://lists.debian.org/debian-live/)
+  * [Subscribe/Unsubscribe](http://lists.debian.org/debian-live/)
