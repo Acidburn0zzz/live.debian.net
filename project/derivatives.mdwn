@@ -18,6 +18,14 @@ More information:
 
   * [Homepage](http://wiki.debian.org/DebianEeePC/)
 
+## Debian KDE
+
+The Debian KDE team prepares live systems to allow users to try the latest KDE versions without any risk to their existing installation.
+
+More information:
+
+  * [Homepage](http://pkg-kde.alioth.debian.org/kde4livecd.html)
+
 ## GNUSTEP
 
 [GNUSTEP](http://livecd.gnustep.org/) contains a lot of software for GNUstep, a free implementation of the OPENSTEP framework.
