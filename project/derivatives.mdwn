@@ -48,9 +48,19 @@ More information:
 
 Puredyne is optimised for use in realtime audio and video processing. It distinguishes itself by offering a low latency kernel and the high responsiveness needed by artists working in this field.
 
-More Information:
+More information:
 
   * [Homepage](http://puredyne.goto10.org/)
+
+## Voyage
+
+[Voyage](http://linux.voyage.hk/) is best run on a x86 embedded platforms such as PC Engines ALIX/WRAP and Soekris 45xx/48xx boards.
+
+It can also run on low-end x86 PC platforms. Typical installation requires 128MB disk space, although larger storage allows more packages to be installed. Voyage Linux is so small that it is best suitable for running a full-feature firewall, wireless access point, VoIP gateway and network storage device.
+
+More information:
+
+  * [Homepage](http://linux.voyage.hk/)
 
 ## Webconverger
 
