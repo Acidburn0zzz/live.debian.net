@@ -1,6 +1,6 @@
 # Derivatives
 
-This is a selection of notable projects (in alphabetical order) using Debian Live technologies.
+This is a selection of projects (in alphabetical order) that are using Debian Live technologies.
 
 ## Clonezilla
 
@@ -88,3 +88,11 @@ More information:
 
   * [Homepage](http://www.webconverg.com/)
   * [Wikipedia](http://en.wikipedia.org/wiki/Webconverger)
+
+## Xorcom Rapid
+
+[Xorcom Rapid](http://www.xorcom.com/downloads/live-cd-quick-start.html) is a full Asterisk based PBX.
+
+More information:
+
+  * [Homepage](http://www.xorcom.com/downloads/live-cd-quick-start.html)
