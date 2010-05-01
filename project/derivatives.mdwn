@@ -2,6 +2,14 @@
 
 This is a selection of notable projects (in alphabetical order) using Debian Live technologies.
 
+## PelicanHPC
+
+[PelicanHPC](http://pareto.uab.es/mcreel/PelicanHPC/) let's you set up a high performance computing cluster in a few minutes. A Pelican cluster allows you to do parallel computing using MPI. Pelican can be run on a single multiple core machine to use all cores to solve a problem, or multiple computers can be used together to form a cluster.
+
+More information:
+
+  * [Homepage](http://pareto.uab.es/mcreel/PelicanHPC/)
+
 ## Privatix
 
 [Privatix](http://mandalka.name/privatix/index.html) is focusing on privacy and encryption. It ensures your privacy and confidentiality while using the internet and communicating or editing and encrypting sensitive data.
