@@ -2,6 +2,14 @@
 
 This is a selection of notable projects (in alphabetical order) using Debian Live technologies.
 
+## GNUSTEP
+
+[GNUSTEP](http://livecd.gnustep.org/) contains a lot of software for GNUstep, a free implementation of the OPENSTEP framework.
+
+More information:
+
+  * [Homepage](http://livecd.gnustep.org/)
+
 ## PelicanHPC
 
 [PelicanHPC](http://pareto.uab.es/mcreel/PelicanHPC/) let's you set up a high performance computing cluster in a few minutes. A Pelican cluster allows you to do parallel computing using MPI. Pelican can be run on a single multiple core machine to use all cores to solve a problem, or multiple computers can be used together to form a cluster.
