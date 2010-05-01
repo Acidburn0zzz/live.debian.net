@@ -1,6 +1,14 @@
 # Derivatives
 
-This is a selection of projects using Debian Live technologies.
+This is a selection of notable projects (in alphabetical order) using Debian Live technologies.
+
+## Privatix
+
+[Privatix](http://mandalka.name/privatix/index.html) is focusing on privacy and encryption. It ensures your privacy and confidentiality while using the internet and communicating or editing and encrypting sensitive data.
+
+More information:
+
+  * [Homepage](http://mandalka.name/privatix/index.html)
 
 ## Webconverger
 
