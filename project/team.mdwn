@@ -16,3 +16,8 @@ People working on Debian Live are listed here:
 ## Task description
 
 The Debian Live team works on the framework to build official Debian Live systems.
+
+## Various links
+
+  * [DDPO](http://qa.debian.org/developer.php?login=debian-live@lists.debian.org)
+  * [Liststats](http://blends.debian.net/liststats/authorstat_live.png)
