@@ -57,6 +57,9 @@
   * 2007-06-29: [live-installer in unstable](http://packages.debian.org/changelogs/pool/main/l/live-installer/current/changelog#versionversion0)
     Initial upload to debian (0).
 
+  * 2007-05-28: [live-magic in unstable](http://packages.debian.org/changelogs/pool/main/l/live-magic/current/changelog#versionversion0.1-1)
+    Initial upload to debian (0.1-1).
+
   * 2007-05-24: [casper is dead, long lives live-initramfs](http://lists.debian.org/debian-live/2007/05/msg00104.html)<br />
     Forked casper.
 
