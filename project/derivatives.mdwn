@@ -42,6 +42,14 @@ More information:
 
   * [Homepage](http://livecd.gnustep.org/)
 
+## Grml
+
+[Grml](http://www.grml.org/) includes a collection of software especially for system administrators and users of texttools. Grml can be used (for example) as a rescue system, for analyzing systems/networks or as a working environment.
+
+More information:
+
+  * [Homepage](http://www.grml.org/)
+
 ## lernstick
 
 [lernstick](http://imedias.ch/lernstick/) contains a lot of software for educational purposes.
