@@ -2,6 +2,14 @@
 
 This is a selection of projects (in alphabetical order) that are using Debian Live technologies.
 
+## Amnesic Incognito
+
+[Amnesic Incognito](http://amnesia.boum.org/) is aimed at preserving your privacy and anonymity. All outgoing connections to the Internet are forced to go through the Tor network, and no trace is left on local storage devices unless explicitely asked.
+
+More information:
+
+  * [Homepage](http://amnesia.boum.org/)
+
 ## Clonezilla
 
 [Clonezilla](http://www.clonezilla.org/) is a partition or disk cloning tool. It saves and restores only blocks in use on the hard drive if the file system is supported. For unsupported file systems, dd is used instead.
