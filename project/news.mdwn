@@ -98,5 +98,5 @@
   * 2006-02-28: [Debian Live Resources](http://blog.daniel-baumann.ch/2006/02/28#20060228_debian-live-resources)<br />
     Setup project resources.
 
-  * 2006-02-14: [Debian Initiative](http://blog.daniel-baumann.ch/2006/02/14#20060214_debian-live-initiative)<br />
+  * 2006-02-14: [Debian Live Initiative](http://blog.daniel-baumann.ch/2006/02/14#20060214_debian-live-initiative)<br />
     Project announcement.
