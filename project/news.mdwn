@@ -32,10 +32,13 @@
   * 2009-02-09: [Debian Live Lenny RC1](http://live.debian.net/archive/images/5.0_rc1/)<br />
     Debian Lenny RC1 was released.
 
-  * 2008-12-20: [Debian Live Lenny Beta2](http://live.debian.net/archive/images/5.0_beta2/)<br />
-    Debian Lenny Beta2 was released.
+  * 2009-01-01: [live-manual in unstable](http://packages.debian.org/changelogs/pool/main/l/live-manual/current/changelog#versionversion20090101-1)
+    Initial upload to debian (20090101-1).
 
 ## 2008
+
+  * 2008-12-20: [Debian Live Lenny Beta2](http://live.debian.net/archive/images/5.0_beta2/)<br />
+    Debian Lenny Beta2 was released.
 
   * 2008-08-27: [Debian Live Lenny Beta1](http://live.debian.net/archive/images/5.0_beta1/)<br />
     The Debian Live team is pleased to [announce](http://lists.debian.org/debian-live/2008/08/msg00222.html) the first beta of Debian Lenny's Live images.
