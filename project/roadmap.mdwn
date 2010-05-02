@@ -2,21 +2,31 @@
 
 ## Short Term (matter of days)
 
+live-helper:
+
   * rethink sources.list and sources.list.d handling.
-  * finish grub on usb.
-  * finish usb-zip support.
-  * finish image-name option.
-  * build 'all-in-one' dvd.
-  * fix size issues in the desktop images (tasksel usage screwup).
   * trusted keys from local repository are not removed again.
+  * finish usb-zip support.
+  * finish grub on usb.
+  * fix size issues in the desktop images (tasksel usage screwup).
   * "common" source packages must include other architectures packages (e.g. bootloaders) too.
   * using menu beep when syslinux prompt is ready.
+  * build 'all-in-one' dvd.
+  * finish image-name option and other temporary branches.
+
+live-initramfs:
+
+  * fix bug with debconf imported in 1.216.
+  * split into live-initramfs and live-sysvinit.
+
+other:
 
   * think about prebuilt alternatives images with grub instead of syslinux.
   * zsync files for snapshots? cdimage.d.o appears to drop them anyway due to a bug with zsync that makes it useless (see debian-cd ml archive for details).
 
 ## Middle Term (matter of weeks)
 
+  * release squeeze beta1.
   * start implementing live-initramfs 2.0.
   * clone brendans setup for autotesting on live.debian.net.
 
