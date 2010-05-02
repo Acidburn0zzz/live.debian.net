@@ -34,6 +34,14 @@ More information:
 
   * [Homepage](http://pkg-kde.alioth.debian.org/kde4livecd.html)
 
+## FAI - Fully Automatic Installation
+
+[FAI](http://www.informatik.uni-koeln.de/fai/) is a non-interactive system to install, customize and manage Linux systems and software configurations on computers as well as virtual machines and chroot environments, from small networks to large-scale infrastructures and clusters.
+
+More information:
+
+  * [Homepage](http://www.informatik.uni-koeln.de/fai/)
+
 ## GNUSTEP
 
 [GNUSTEP](http://livecd.gnustep.org/) contains a lot of software for GNUstep, a free implementation of the OPENSTEP framework.
