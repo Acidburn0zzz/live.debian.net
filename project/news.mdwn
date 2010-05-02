@@ -14,13 +14,13 @@
 
 ## 2009
 
-  * 2009-11-15: [live-helper 2.0~a1](http://packages.debian.org/changelogs/pool/main/l/live-helper/current/changelog#versionversion2.0~a1-1)
+  * 2009-11-15: [live-helper 2.0~a1](http://packages.debian.org/changelogs/pool/main/l/live-helper/current/changelog#versionversion2.0~a1-1)<br />
     Releasing first 2.0 alpha version (2.0~a1-1).
 
   * 2009-09-04: [Debian Live Lenny 5.0.2](http://cdimage.debian.org/cdimage/archive/5.0.2-live/)<br />
     Updated images for Debian Lenny 5.0.2 have been uploaded.
 
-  * 2009-08-12: [live-installer with live-installer-launcher](http://packages.debian.org/changelogs/pool/main/l/live-installer/current/changelog#versionversion12)
+  * 2009-08-12: [live-installer with live-installer-launcher](http://packages.debian.org/changelogs/pool/main/l/live-installer/current/changelog#versionversion12)<br />
     First upload with live-installer-launcher (12).
 
   * 2009-06-14: [Debian Live Lenny 5.0.1](http://cdimage.debian.org/cdimage/archive/5.0.1-live/)<br />
@@ -32,7 +32,7 @@
   * 2009-02-09: [Debian Live Lenny RC1](http://live.debian.net/archive/images/5.0_rc1/)<br />
     Debian Lenny RC1 was released.
 
-  * 2009-01-01: [live-manual in unstable](http://packages.debian.org/changelogs/pool/main/l/live-manual/current/changelog#versionversion20090101-1)
+  * 2009-01-01: [live-manual in unstable](http://packages.debian.org/changelogs/pool/main/l/live-manual/current/changelog#versionversion20090101-1)<br />
     Initial upload to debian (20090101-1).
 
 ## 2008
@@ -48,16 +48,16 @@
   * 2007-11-01: [KDE4 beta4 Live CD](http://pkg-kde.alioth.debian.org/kde4livecd.html)<br />
     Debian Qt/KDE Team use our framework to create a KDE4 beta4 Live CD.
 
-  * 2007-08-24: [live-helper 1.0](http://packages.debian.org/changelogs/pool/main/l/live-helper/current/changelog#versionversion1.0.0-1)
+  * 2007-08-24: [live-helper 1.0](http://packages.debian.org/changelogs/pool/main/l/live-helper/current/changelog#versionversion1.0.0-1)<br />
     Released final 1.0 version (1.0.0-1).
 
   * 2007-07-09: [Debian Live Web Boot](http://blog.daniel-baumann.ch/2007/09/07#20070907_debian-live-web-boot)<br />
     Added support for booting directly from network.
 
-  * 2007-06-29: [live-installer in unstable](http://packages.debian.org/changelogs/pool/main/l/live-installer/current/changelog#versionversion0)
+  * 2007-06-29: [live-installer in unstable](http://packages.debian.org/changelogs/pool/main/l/live-installer/current/changelog#versionversion0)<br />
     Initial upload to debian (0).
 
-  * 2007-05-28: [live-magic in unstable](http://packages.debian.org/changelogs/pool/main/l/live-magic/current/changelog#versionversion0.1-1)
+  * 2007-05-28: [live-magic in unstable](http://packages.debian.org/changelogs/pool/main/l/live-magic/current/changelog#versionversion0.1-1)<br />
     Initial upload to debian (0.1-1).
 
   * 2007-05-24: [casper is dead, long lives live-initramfs](http://lists.debian.org/debian-live/2007/05/msg00104.html)<br />
