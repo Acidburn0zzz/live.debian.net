@@ -110,8 +110,17 @@ Webconverger runs the Iceweasel web browser with a customised window manager [dw
 
 More information:
 
-  * [Homepage](http://www.webconverg.com/)
+  * [Homepage](http://www.webconverger.com/)
   * [Wikipedia](http://en.wikipedia.org/wiki/Webconverger)
+
+## XBMC Live
+
+[XBMC Media Center](http://www.xbmc.org/) (formerly Xbox Media Center) is a multimedia player/jukebox application for Linux, Mac OS X, Windows, and Xbox. It can be used to play or view most common video, audio, and picture formats such as MPEG-1/2/4, DivX, XviD, MP3, AAC, JPG, and GIF directly from a CD or DVD in the Xbox DVD-ROM drive or from the Xbox hard drive. XBMC can also stream files over a local network or from the Internet. Playlist and slideshow functions, a weather forecast, and many audio visualizations are also included.
+
+More information:
+
+  * [Homepage](http://www.xbmc.org/)
+  * [Wikipedia](http://en.wikipedia.org/wiki/XBMC)
 
 ## Xen
 
