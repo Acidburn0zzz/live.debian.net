@@ -1,4 +1,4 @@
-# Derivatives
+# Downstream
 
 This is a selection of projects (in alphabetical order) that are using Debian Live technologies.
 

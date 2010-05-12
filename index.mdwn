@@ -30,7 +30,7 @@
 		<td><ul>
 			<li><a href="/project/about">About</a></li>
 			<li><a href="/project/contact">Contact</a></li>
-			<li><a href="/project/derivatives">Derivatives</a></li>
+			<li><a href="/project/downstream">Downstream</a></li>
 			<li><a href="/project/news">News</a></li>
 			<li><a href="/project/releases">Releases</a></li>
 			<li><a href="/project/reviews">Reviews</a></li>
