@@ -3,6 +3,7 @@
 ## live-installer
 
   * support netboot.
+  * implement some sort of 'verification' or 'test' mode to check if the system installed correctly.
 
 ## live-installer-launcher
 
