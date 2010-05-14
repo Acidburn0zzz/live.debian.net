@@ -42,6 +42,15 @@ More information:
 
   * [Homepage](http://www.informatik.uni-koeln.de/fai/)
 
+## Gibraltar
+
+[Gibraltar](http://www.gibraltar.at/) Security Gateways provides protection against a multitude of current security risks and threats. They combine several important security applications into one product and provide for secure connections in your network. Gibraltar is either available preinstalled on five different hardware appliances or just as a software release.
+
+More information:
+
+  * [Homepage](http://www.gibraltar.at/)
+  * [Wikipedia](http://en.wikipedia.org/wiki/Gibraltar_\(operating_system\))
+
 ## GNUSTEP
 
 [GNUSTEP](http://livecd.gnustep.org/) contains a lot of software for GNUstep, a free implementation of the OPENSTEP framework.
