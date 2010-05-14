@@ -59,6 +59,15 @@ More information:
 
   * [Homepage](http://livecd.gnustep.org/)
 
+## GParted
+
+[GParted Live](http://www.gparted.org/livecd.php) is a small bootable GNU/Linux distribution for x86 machine. It enables you to use all the features of the latest versions of GParted.
+
+More information:
+
+  * [Homepage](http://www.gparted.org/livecd.php)
+  * [Wikipedia](http://en.wikipedia.org/wiki/Gparted)
+
 ## Grml
 
 [Grml](http://www.grml.org/) includes a collection of software especially for system administrators and users of texttools. Grml can be used (for example) as a rescue system, for analyzing systems/networks or as a working environment.
