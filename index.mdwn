@@ -23,7 +23,7 @@
 			<li>[[devel/live-initramfs]]</li>
 			<li>[[devel/live-installer]]</li>
 			<li>[[devel/live-manual]]</li>
-			<li>[[devel/live-sysvinit]]</li>
+			<li>[[devel/live-sysinit]]</li>
 			<li>[[devel/other]]</li>
 		</ul></td>
 
