@@ -19,11 +19,11 @@
 		</ul></td>
 
 		<td><ul>
+			<li>[[devel/live-config]]</li>
 			<li>[[devel/live-helper]]</li>
 			<li>[[devel/live-initramfs]]</li>
 			<li>[[devel/live-installer]]</li>
 			<li>[[devel/live-manual]]</li>
-			<li>[[devel/live-sysinit]]</li>
 			<li>[[devel/other]]</li>
 		</ul></td>
 

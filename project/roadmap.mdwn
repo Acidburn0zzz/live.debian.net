@@ -14,11 +14,6 @@ live-helper:
   * build 'all-in-one' dvd.
   * finish image-name option and other temporary branches.
 
-live-initramfs:
-
-  * fix bug with debconf imported in 1.216.
-  * split into live-initramfs and live-sysinit.
-
 other:
 
   * think about prebuilt alternatives images with grub instead of syslinux.

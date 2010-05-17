@@ -1,8 +1,8 @@
-# live-sysinit
+# live-config
 
 ## About
 
-live-sysinit contains the initscripts that take care about initial configuration of the live-system during the boot process.
+live-config contains the initscripts that take care about initial configuration of the live-system during the boot process.
 
 ## News
 
@@ -10,9 +10,9 @@ live-sysinit contains the initscripts that take care about initial configuration
 
 ## Links
 
-  * [Debian Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-sysinit)
-  * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-sysinit.html)
-  * [Package Archive](http://live.debian.net/archive/packages/live-sysinit/)
+  * [Debian Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-config)
+  * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-config.html)
+  * [Package Archive](http://live.debian.net/archive/packages/live-config/)
 
 ## Contact
 
@@ -39,7 +39,7 @@ deb-src http://live.debian.net/ lenny-snapshots main contrib non-free</tt></pre>
 
 ## Source
 
-The sources of live-sysinit are released under the terms of the GNU General Public License 3 (or later), and available in a git repository at live.debian.net.
+The sources of live-config are released under the terms of the GNU General Public License 3 (or later), and available in a git repository at live.debian.net.
 
-  * Browse: [http://live.debian.net/gitweb/?p=live-sysinit.git](http://live.debian.net/gitweb/?p=live-sysinit.git)
-  * Git: [git://live.debian.net/git/live-sysinit.git](git://live.debian.net/git/live-sysinit.git)
+  * Browse: [http://live.debian.net/gitweb/?p=live-config.git](http://live.debian.net/gitweb/?p=live-config.git)
+  * Git: [git://live.debian.net/git/live-config.git](git://live.debian.net/git/live-config.git)
