@@ -9,8 +9,9 @@
   * parse options only once
   * parse config only once
   * review all config value names, use ini format for config tree and stabilize it
-  * rework documentation and manpages
+  * finish documentation and manpages
   * allow to completely build off-line from cache, including 'faked' indices for remote mirrors.
+  * allow to build for cross-architectures (binfmt where possible, otherwise two stage debootstrap with qemu emulation).
   * interactive mode should set debconf frontends to interactive and priority to low.
   * merge different tarball compressions into tar-gz, tar-bz2, etc., same way as usb-hdd and usb-zip.
   * merge different checksums into one function, and make configurable which hash to use.
