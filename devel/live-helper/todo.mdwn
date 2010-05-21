@@ -18,6 +18,7 @@
   * support building multiple binary images in a row.
   * support building images without root (fakeroot, fakechroot, sudo etc).
   * improve webfrontend, use http://linuxcoe.sourceforge.net/ for inspiration.
+  * add a flag to make use of tmpfs for the build directory automatically.
 
 ### config
 
