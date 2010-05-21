@@ -16,6 +16,7 @@
   * merge different tarball compressions into tar-gz, tar-bz2, etc., same way as usb-hdd and usb-zip.
   * merge different checksums into one function, and make configurable which hash to use.
   * support building multiple binary images in a row.
+  * support building images without root (fakeroot, fakechroot, sudo etc).
   * improve webfrontend, use http://linuxcoe.sourceforge.net/ for inspiration.
 
 ### config
