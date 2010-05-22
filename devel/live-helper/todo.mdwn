@@ -65,6 +65,7 @@
 ### chroot_linux-image
 
   * make initrd compression configurable, e.g. lzma instead of gzip.
+  * divert update-initramfs during chroot stage, only (re)build initrd once in chroot_hacks.
 
 ### source
 
