@@ -84,6 +84,16 @@ More information:
 
   * [Homepage](http://imedias.ch/lernstick/)
 
+## OpenMediaVault
+
+[OpenMediaVault](http://www.openmediavault.org/) is a network attached storage (NAS) solution. It contains services like SSH, (S)FTP, SMB/CIFS, AFS, UPnP media server, DAAP media server, RSync, DDNS, BitTorrent client and many more.
+
+Thanks to the modular design of the framework it can be enhanced via plugins.
+
+More information:
+
+  * [Homepage](http://www.openmediavault.org/)
+
 ## PelicanHPC
 
 [PelicanHPC](http://pareto.uab.es/mcreel/PelicanHPC/) lets you set up a high performance computing cluster in a few minutes. A Pelican cluster allows you to do parallel computing using MPI. Pelican can be run on a single multiple core machine to use all cores to solve a problem, or multiple computers can be used together to form a cluster.
