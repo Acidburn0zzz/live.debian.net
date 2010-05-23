@@ -1,8 +1,8 @@
-# live-config
+# live-config - System Configuration Scripts
 
 ## About
 
-live-config contains the initscripts that take care about initial configuration of the live-system during the boot process.
+live-config contains the scripts needed to perform late-userspace actions on Debian Live systems.
 
 ## News
 
