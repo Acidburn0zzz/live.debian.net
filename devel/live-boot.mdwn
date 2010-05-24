@@ -6,10 +6,10 @@ live-boot contains the scripts that configure a Debian Live system during the bo
 
 ## News
 
-  * 2010-05-24: Releasing first 2.0 alpha version (2.0~a1-1).
-  * 2010-05-18: Releasing final 1.0 version (1.236.2-1).
-  * 2007-04-30: Releasing first forked version (1.86.1-1).
-  * 2006-06-22: Initial upload to debian (1.59+debian-1).
+  * 2010-05-24: Releasing first 2.0 alpha version (live-boot 2.0~a1-1).
+  * 2010-05-18: Releasing final 1.0 version (live-initramfs 1.236.2-1).
+  * 2007-04-30: Releasing first forked version (live-initramfs 1.86.1-1).
+  * 2006-06-22: Initial upload to debian (casper 1.59+debian-1).
 
 ## Links
 
