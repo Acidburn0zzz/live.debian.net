@@ -2,11 +2,11 @@
 
 ## About
 
-live-config contains the scripts needed to perform late-userspace actions on Debian Live systems.
+live-config contains the scripts that configure a Debian Live system during the boot process (late userspace).
 
 ## News
 
-  * 2010-??-??: Initial upload to debian.
+  * 2010-05-24: Initial upload to debian.
 
 ## Links
 
