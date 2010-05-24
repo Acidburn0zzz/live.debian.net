@@ -6,7 +6,7 @@ live-config contains the scripts that configure a Debian Live system during the 
 
 ## News
 
-  * 2010-05-24: Initial upload to debian (2.0~a1-1).
+  * 2010-05-24: Uploading initial version to debian (2.0~a1-1).
 
 ## Links
 

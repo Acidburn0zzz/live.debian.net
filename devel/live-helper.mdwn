@@ -13,7 +13,7 @@ An introduction to live-helper can be found in the live-helper manpage.
   * 2009-11-15: Releasing first 2.0 alpha version (2.0~a1-1).
   * 2008-08-24: Releasing final 1.0 version (1.0.0-1).
   * 2007-03-12: Releasing first 1.0 alpha version (live-helper 1.0~a1-1).
-  * 2006-07-17: Initial upload to debian (live-package 0.99-1).
+  * 2006-07-17: Uploading initial version to debian (live-package 0.99-1).
 
 ## Links
 

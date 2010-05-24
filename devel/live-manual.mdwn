@@ -6,7 +6,7 @@ This is the documentation for Debian Live project. It provides a broad overview 
 
 ## News
 
-  * 2009-01-12: Initial upload to debian (20090101-1).
+  * 2009-01-12: Uploading initial version to debian (20090101-1).
 
 ## Links
 
