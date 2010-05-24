@@ -2,6 +2,12 @@
 
 ## 2010
 
+  * 2010-05-24: live-boot 2.0~a1-1
+    Releasing first 2.0 alpha version (2.0~a1-1).
+
+  * 2010-05-24: live-config 2.0~a1-1
+    Releasing first 2.0 alpha version (2.0~a1-1).
+
   * 2010-03-17: [Debian Live Squeeze alpha1](http://cdimage.debian.org/cdimage/squeeze_live_alpha1/)<br />
     The first alpha images for the upcoming Debian Squeeze 6.0 release have been uploaded.
 
