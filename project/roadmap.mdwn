@@ -22,10 +22,10 @@ other:
 ## Middle Term (matter of weeks)
 
   * release squeeze beta1.
-  * start implementing live-initramfs 2.0.
   * clone brendans setup for autotesting on live.debian.net.
 
 ## Long Term (matter of months)
 
+  * release final live-boot 2.0.
+  * release final live-config 2.0.
   * release final live-helper 2.0.
-  * release final live-initramfs 2.0.

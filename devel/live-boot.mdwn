@@ -1,0 +1,48 @@
+# live-boot
+
+## About
+
+live-boot contains the scripts that configure a Debian Live system during the boot process (early userspace).
+
+## News
+
+  * 2010-05-24: Releasing first 2.0 alpha version (2.0~a1-1).
+  * 2010-05-18: Releasing final 1.0 version (1.236.2-1).
+  * 2007-04-30: Releasing first forked version (1.86.1-1).
+  * 2006-06-22: Initial upload to debian (1.59+debian-1).
+
+## Links
+
+  * [Debian Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-boot)
+  * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-boot.html)
+  * [Package Archive](http://live.debian.net/archive/packages/live-boot/)
+
+## Contact
+
+  * [Debian Live Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](debian-live@lists.debian.org)
+  * [Debian Live IRC Channel](http://live.debian.net/archive/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
+
+## Documentation
+
+  * [[todo]]
+
+## Repository
+
+<pre><tt># <b>Debian Live (sid/unstable snapshots)</b>
+deb http://live.debian.net/ sid-snapshots main contrib non-free
+deb-src http://live.debian.net/ sid-snapshots main contrib non-free</tt></pre>
+
+<pre><tt># <b>Debian Live (squeeze/testing snapshots)</b>
+deb http://live.debian.net/ squeeze-snapshots main contrib non-free
+deb-src http://live.debian.net/ squeeze-snapshots main contrib non-free</tt></pre>
+
+<pre><tt># <b>Debian Live (lenny/stable snapshots)</b>
+deb http://live.debian.net/ lenny-snapshots main contrib non-free
+deb-src http://live.debian.net/ lenny-snapshots main contrib non-free</tt></pre>
+
+## Source
+
+The sources of live-boot are released under the terms of the GNU General Public License 3 (or later), and available in a git repository at live.debian.net.
+
+  * Browse: [http://live.debian.net/gitweb/?p=live-boot.git](http://live.debian.net/gitweb/?p=live-boot.git)
+  * Git: [git://live.debian.net/git/live-boot.git](git://live.debian.net/git/live-boot.git)

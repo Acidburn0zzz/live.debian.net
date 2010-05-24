@@ -4,7 +4,7 @@ The Debian Live Team can be contacted in several different ways (alphabetical or
 
 ## Bug Tracking System
 
-Bugs can be reported in the [Debian Bug Tracking System](http://bugs.debian.org/) against the respective packages (e.g. [live-helper](http://bugs.debian.org/cgi-bin/pkgreport.cgi?src=live-helper) or [live-initramfs](http://bugs.debian.org/cgi-bin/pkgreport.cgi?src=live-helper)).
+Bugs can be reported in the [Debian Bug Tracking System](http://bugs.debian.org/) against the respective packages (e.g. [live-helper](http://bugs.debian.org/cgi-bin/pkgreport.cgi?src=live-helper), [live-boot](http://bugs.debian.org/cgi-bin/pkgreport.cgi?src=live-boot), or [live-config](http://bugs.debian.org/cgi-bin/pkgreport.cgi?src=live-config)).
 
 ## Internet Relay Chat (IRC)
 
