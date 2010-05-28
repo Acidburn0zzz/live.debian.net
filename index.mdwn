@@ -13,8 +13,8 @@
 
 	<tr>
 		<td><ul>
-			<li>Download stable: <a href="http://cdimage.debian.org/cdimage/release/current-live/">http</a> <a href="http://linuxtracker.org/index.php?page=torrents&search=live+iso&category=22&active=1">torrent</a></li>
-			<li>Download testing: <a href="http://cdimage.debian.org/cdimage/squeeze_live_alpha1/">http</a></li>
+			<li><b>Download stable:</b> <a href="http://cdimage.debian.org/cdimage/release/current-live/">http</a> <a href="http://linuxtracker.org/index.php?page=torrents&search=live+iso&category=22&active=1">torrent</a></li>
+			<li><b>Download testing:</b> <a href="http://cdimage.debian.org/cdimage/squeeze_live_alpha1/">http</a></li>
 			<li><a href="/manual">Manual</a></li>
 			<li><a href="http://wiki.debian.org/DebianLive/">Wiki</a></li>
 		</ul></td>
