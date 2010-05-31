@@ -1,53 +1,43 @@
-<table align="center" valign="center" cellspacing="50px">
-	<tr>
-		<td><a href="/user"><img src="user.png"></a></td>
-		<td><a href="/devel"><img src="devel.png"></a></td>
-		<td><a href="/project"><img src="project.png"></a></td>
-	</tr>
+<div id="contentstart">
 
-	<tr>
-		<td><h1>User</h1></td>
-		<td><h1>Development</h1></td>
-		<td><h1>Project</h1></td>
-	</tr>
+<div id="tab1" class="tab">
+	<a class="sl" id="sl_user" href="/user">User</a>
 
-	<tr>
-		<td><ul>
-			<li><b>Download stable:</b> <a href="http://cdimage.debian.org/cdimage/release/current-live/">http</a> <a href="http://linuxtracker.org/index.php?page=torrents&search=live+iso&category=22&active=1">torrent</a></li>
-			<li><b>Download testing:</b> <a href="http://cdimage.debian.org/cdimage/squeeze_live_alpha1/">http</a></li>
-			<li><a href="/manual">Manual</a></li>
-			<li><a href="http://wiki.debian.org/DebianLive/">Wiki</a></li>
-		</ul></td>
+	<ul>
+		<li><b>Download stable:</b> <a href="http://cdimage.debian.org/cdimage/release/current-live/">http</a> <a href="http://linuxtracker.org/index.php?page=torrents&amp;search=live+iso&amp;category=22&amp;active=1">torrent</a></li>
+		<li><b>Download testing:</b> <a href="http://cdimage.debian.org/cdimage/squeeze_live_alpha1/">http</a></li>
+		<li><a href="/manual">Manual</a></li>
+		<li><a href="http://wiki.debian.org/DebianLive/">Wiki</a></li>
+	</ul>
+</div>
 
-		<td><ul>
-			<li>[[devel/live-boot]]</li>
-			<li>[[devel/live-config]]</li>
-			<li>[[devel/live-helper]]</li>
-			<li>[[devel/live-installer]]</li>
-			<li>[[devel/live-manual]]</li>
-			<li>[[devel/other]]</li>
-		</ul></td>
+<div id="tab2" class="tab">
+	<a class="sl" id="sl_devel" href="/devel">Development</a>
 
-		<td><ul>
-			<li><a href="/project/about">About</a></li>
-			<li><a href="/project/contact">Contact</a></li>
-			<li><a href="/project/downstream">Downstream</a></li>
-			<li><a href="/project/news">News</a></li>
-			<li><a href="/project/releases">Releases</a></li>
-			<li><a href="/project/reviews">Reviews</a></li>
-			<li><a href="/project/roadmap">Roadmap</a></li>
-			<li><a href="/project/status">Status</a></li>
-			<li><a href="/project/team">Team</a></li>
-		</ul></td>
-	</tr>
-</table>
+	<ul>
+		<li><a href="./devel/live-boot/">live-boot</a></li>
+		<li><a href="./devel/live-config/">live-config</a></li>
+		<li><a href="./devel/live-helper/">live-helper</a></li>
+		<li><a href="./devel/live-installer/">live-installer</a></li>
+		<li><a href="./devel/live-manual/">live-manual</a></li>
+		<li><a href="./devel/other/">other</a></li>
+	</ul>
+</div>
 
-<hr />
+<div id="tab3" class="tab">
+	<a class="sl" id="sl_project" href="/project">Project</a>
 
-<h2>Other stuff</h2>
+	<ul>
+		<li><a href="/project/about">About</a></li>
+		<li><a href="/project/contact">Contact</a></li>
+		<li><a href="/project/downstream">Downstream</a></li>
+		<li><a href="/project/news">News</a></li>
+		<li><a href="/project/releases">Releases</a></li>
+		<li><a href="/project/reviews">Reviews</a></li>
+		<li><a href="/project/roadmap">Roadmap</a></li>
+		<li><a href="/project/status">Status</a></li>
+		<li><a href="/project/team">Team</a></li>
+	</ul>
+</div>
 
-  * [archive](archive)
-  * [cdimage](cdimage)
-  * [debian](debian)
-  * [other](other)
-  * [README.images](README.images)
+</div>
