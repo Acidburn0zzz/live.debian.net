@@ -6,7 +6,7 @@
 	<ul>
 		<li><b>Download stable:</b> <a href="http://cdimage.debian.org/cdimage/release/current-live/">http</a> <a href="http://linuxtracker.org/index.php?page=torrents&amp;search=live+iso&amp;category=22&amp;active=1">torrent</a></li>
 		<li><b>Download testing:</b> <a href="http://cdimage.debian.org/cdimage/squeeze_live_alpha1/">http</a></li>
-		<li><a href="/manual">Manual</a></li>
+		<li>Manual: <a href="/manual/en">English</a> <a href="/manual/de">German</a></li>
 		<li><a href="http://wiki.debian.org/DebianLive/">Wiki</a></li>
 	</ul>
 </div>
