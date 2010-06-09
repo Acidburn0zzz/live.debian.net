@@ -1,7 +1,5 @@
 # Status
 
-  * Images for lenny, squeeze are working. [2010-05-24]
-
-  * Images for sid are broken due to a bug in util-linux (sid can't be bootstrapped anymore), see <a href="http://bugs.debian.org/581420">#581420</a> and <a href="http://bugs.debian.org/582736">#582736</a> for more information. [2010-05-01]
+  * Images for lenny, squeeze, and sid are working. [2010-06-09]
 
   * iso-hybrid images with debian-installer don't work from block devices (e.g. usb sticks), d-i thinks that it's on a cdrom and breaks. [2010-05-28]
