@@ -13,6 +13,7 @@ live-config contains the scripts that configure a Debian Live system during the 
   * [Debian Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-config)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-config.html)
   * [Package Archive](http://live.debian.net/archive/packages/live-config/)
+  * [Git Statistics](stats)
 
 ## Contact
 
