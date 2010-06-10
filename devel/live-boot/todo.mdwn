@@ -17,7 +17,7 @@
 
   * One time argument handling (with proper respect of live.conf, also from /live/live.conf)
   * One time function handling
-  * Split out late user space to dedicated package (live-initscripts)
+  * Split out late user space to dedicated package (live-config)
   * Distributor specific mode for overloading of functions
   * Release specific compatibility/legacy handling during package build-time
   * i18n/l10n support during early userspace (gettext, po4a)
