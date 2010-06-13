@@ -30,6 +30,7 @@
   * Network filesystems (nfs, smb/cifs)
   * Local filesystems (ext2-4 etc.), as image and plain
   * Reimplement persistency from scratch
+  * Implement dmsquash like dracut.
 
 ### Boot Process
 
