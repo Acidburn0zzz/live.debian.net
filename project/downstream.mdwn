@@ -76,6 +76,14 @@ More information:
 
   * [Homepage](http://www.grml.org/)
 
+## Knoppel
+
+[Knoppel](http://www.knoppel.org/) is developed for Greek Users. It's main goal is to offer a Debian system with  a selected list of packages all translated in Greek.
+
+More information:
+
+  * [Homepage](http://www.knoppel.org/)
+
 ## lernstick
 
 [lernstick](http://imedias.ch/lernstick/) contains a lot of software for educational purposes.
