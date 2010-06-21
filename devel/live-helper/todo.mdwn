@@ -70,3 +70,4 @@
 ### source
 
   * make source images apt-get'able
+  * also cache source packages to avoid re-downloading
