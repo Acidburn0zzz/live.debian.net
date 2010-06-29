@@ -6,7 +6,8 @@
 
 ## 5.0 "lenny"
 
-  * [5.0.4](http://cdimage.debian.org/cdimage/release/5.0.4-live/): 2010-03-06
+  * [5.0.5](http://cdimage.debian.org/cdimage/release/5.0.5-live/): 2010-06-27
+  * [5.0.4](http://cdimage.debian.org/cdimage/archive/5.0.4-live/): 2010-03-06
   * [5.0.3](http://cdimage.debian.org/cdimage/archive/5.0.3-live/): 2010-01-23
   * [5.0.2](http://cdimage.debian.org/cdimage/archive/5.0.2-live/): 2009-09-04
   * [5.0.1](http://cdimage.debian.org/cdimage/archive/5.0.1-live/): 2009-06-14
