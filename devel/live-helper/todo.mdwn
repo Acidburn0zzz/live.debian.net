@@ -55,6 +55,10 @@
   * review pre-cached chroot mechanism and fix regression with config/binary_rootfs/excludes
   * support read-ahead and squashfs -sort
 
+### binary_usb
+
+  * add usb-zip and usb-gpt support.
+
 ### binary_syslinux
 
   * redo configfile stuff
