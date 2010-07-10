@@ -2,6 +2,6 @@
 
   * Images for lenny, squeeze, and sid are working. [2010-06-09]
 
-  * iso-hybrid images with debian-installer don't work from block devices (e.g. usb sticks), d-i thinks that it's on a cdrom and breaks. [2010-05-28]
+  * iso-hybrid images with debian-installer don't work from block devices (e.g. usb sticks), see [#588646](http://bugs.debian.org/588646) and [patches](http://live.debian.net/other/cdrom-detect/) for cdrom-detect 1.32 and trunk. [2010-07-09]
 
   * linux-2.6 in experimental doesn't contain aufs, see [#573189](http://bugs.debian.org/573189).
