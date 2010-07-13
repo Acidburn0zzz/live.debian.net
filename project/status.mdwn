@@ -1,7 +1,9 @@
 # Status
 
-  * Images for lenny, squeeze, and sid are working. [2010-06-09]
+  * Images for lenny, squeeze, and sid are working. [2010-07-13]
 
-  * iso-hybrid images with debian-installer don't work from block devices (e.g. usb sticks), see [#588646](http://bugs.debian.org/588646) and [patches](http://live.debian.net/other/cdrom-detect/) for cdrom-detect 1.32 and trunk. [2010-07-09]
+  * Images with squeeze or newer need to be build with '-r live.debian.net' in order to use live-boot and live-config, see [#](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=583485#20). [2010-05-27]
+
+  * iso-hybrid images with debian-installer don't work from block devices (e.g. usb sticks), see [#588646](http://bugs.debian.org/588646) and [patches](http://live.debian.net/other/cdrom-detect/) for cdrom-detect 1.32 and trunk. When you use '--debian-installer-distribution daily' it should work now. [2010-07-13]
 
   * linux-2.6 in experimental doesn't contain aufs, see [#573189](http://bugs.debian.org/573189).
