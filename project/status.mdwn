@@ -2,7 +2,7 @@
 
   * Images for lenny, squeeze, and sid are working. [2010-07-13]
 
-  * Images with squeeze or newer need to be build with '-r live.debian.net' in order to use live-boot and live-config, see [#](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=583485#20). [2010-05-27]
+  * Images with squeeze need to be build with '-r live.debian.net' in order to use [live-boot](http://packages.qa.debian.org/live-boot) and [live-config](http://packages.qa.debian.org/live-config) until they have migrated, see [#](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=583485#20). [2010-07-16]
 
   * iso-hybrid images with debian-installer don't work from block devices (e.g. usb sticks), see [#588646](http://bugs.debian.org/588646) and [patches](http://live.debian.net/other/cdrom-detect/) for cdrom-detect 1.32 and trunk. When you use '--debian-installer-distribution daily' it should work now. [2010-07-13]
 
