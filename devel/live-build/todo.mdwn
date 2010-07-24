@@ -1,11 +1,11 @@
-# live-helper 2.0 Todo
+# live-build 2.0 Todo
 
 ### core
 
   * us lh as generic exec wrapper
   * add bash completion.
   * create log file per default
-  * support global cache in /var/cache/live-helper
+  * support global cache in /var/cache/live-build
   * parse options only once
   * parse config only once
   * review all config value names, use ini format for config tree and stabilize it

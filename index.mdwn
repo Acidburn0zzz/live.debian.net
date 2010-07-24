@@ -18,8 +18,8 @@
 
 	<ul>
 		<li><a href="./devel/live-boot/">live-boot</a></li>
+		<li><a href="./devel/live-build/">live-build</a></li>
 		<li><a href="./devel/live-config/">live-config</a></li>
-		<li><a href="./devel/live-helper/">live-helper</a></li>
 		<li><a href="./devel/live-installer/">live-installer</a></li>
 		<li><a href="./devel/live-manual/">live-manual</a></li>
 		<li><a href="./devel/other/">other</a></li>

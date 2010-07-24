@@ -2,7 +2,7 @@
 
 ## Short Term (matter of days)
 
-live-helper:
+live-build:
 
   * rethink sources.list and sources.list.d handling.
   * trusted keys from local repository are not removed again.
@@ -28,4 +28,4 @@ other:
 
   * release final live-boot 2.0.
   * release final live-config 2.0.
-  * release final live-helper 2.0.
+  * release final live-build 2.0.

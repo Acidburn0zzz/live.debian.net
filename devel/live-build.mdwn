@@ -1,12 +1,12 @@
-# live-helper
+# live-build
 
 ## About
 
-live-helper is a set of scripts to build Debian Live system images.
+live-build is a set of scripts to build Debian Live system images.
 
-The idea behind live-helper is a framework that uses a configuration directory to completely automate and customize all aspects of building a Live image.
+The idea behind live-build is a framework that uses a configuration directory to completely automate and customize all aspects of building a Live image.
 
-An introduction to live-helper can be found in the live-helper manpage.
+An introduction to live-build can be found in the live-build manpage.
 
 ## News
 
@@ -17,9 +17,9 @@ An introduction to live-helper can be found in the live-helper manpage.
 
 ## Links
 
-  * [Debian Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-helper)
-  * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-helper.html)
-  * [Package Archive](http://live.debian.net/archive/packages/live-helper/)
+  * [Debian Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-build)
+  * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-build.html)
+  * [Package Archive](http://live.debian.net/archive/packages/live-build/)
   * [Git Statistics](stats)
 
 ## Contact
@@ -47,7 +47,7 @@ deb-src http://live.debian.net/ lenny-snapshots main contrib non-free</tt></pre>
 
 ## Source
 
-The sources of live-helper are released under the terms of the GNU General Public License 3 (or later), and available in a git repository at live.debian.net.
+The sources of live-build are released under the terms of the GNU General Public License 3 (or later), and available in a git repository at live.debian.net.
 
-  * Browse: [http://live.debian.net/gitweb/?p=live-helper.git](http://live.debian.net/gitweb/?p=live-helper.git)
-  * Git: [git://live.debian.net/git/live-helper.git](git://live.debian.net/git/live-helper.git)
+  * Browse: [http://live.debian.net/gitweb/?p=live-build.git](http://live.debian.net/gitweb/?p=live-build.git)
+  * Git: [git://live.debian.net/git/live-build.git](git://live.debian.net/git/live-build.git)

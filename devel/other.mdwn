@@ -10,7 +10,7 @@
   * Browse: [http://git.debian.org/?p=debian-live/autotesting.git](http://git.debian.org/?p=debian-live/autotesting.git)
   * Git: [git://git.debian.org/debian-live/autotesting.git](git://git.debian.org/debian-live/autotesting.git)
 
-## live-helper config
+## live-build config
 
 debian-eeepc
 
