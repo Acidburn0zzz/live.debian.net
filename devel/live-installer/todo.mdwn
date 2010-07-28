@@ -2,11 +2,4 @@
 
 ## live-installer
 
-  * support netboot.
-  * implement some sort of 'verification' or 'test' mode to check if the system installed correctly.
-
-## live-installer-launcher
-
-  * fix desktop file.
-  * maybe add a check/workaround if host kernel and d-i kernel don't match.
-  * support gui mode.
+  * support netboot ([#570812](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=570812)).
