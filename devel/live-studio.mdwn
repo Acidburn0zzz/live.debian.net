@@ -1,0 +1,28 @@
+# live-studio - Web based front-end
+
+## About
+
+live-studio is a web frontend to the Debian Live tools. It offers users of any operating system to customise, build and then download a Debian Live system from anywhere on the internet. Configurations can be recalled on subsequent visits.
+
+## News
+
+  * 2010-??-??: Uploading initial version to debian (x.y.z-a).
+
+## Links
+
+  * [Debian Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-studio)
+  * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-studio.html)
+  * [Package Archive](http://live.debian.net/archive/packages/live-studio/)
+  * [Git Statistics](stats)
+
+## Contact
+
+  * [Debian Live Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](debian-live@lists.debian.org)
+  * [Debian Live IRC Channel](http://live.debian.net/archive/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
+
+## Source
+
+The sources of live-studio are released under the terms of the GNU Affero General Public License 3 (or later), and available in a git repository at live.debian.net.
+
+  * Browse: [http://live.debian.net/gitweb/?p=live-studio.git](http://live.debian.net/gitweb/?p=live-studio.git)
+  * Git: [git://live.debian.net/git/live-studio.git](git://live.debian.net/git/live-studio.git)
