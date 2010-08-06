@@ -34,6 +34,14 @@ More information:
 
   * [Homepage](http://pkg-kde.alioth.debian.org/kde4livecd.html)
 
+## Django Live
+
+[Django Live](http://sourceforge.net/projects/djangolive/) is a live system to ease the setup, hosting and testing of applications based on the Dijango Web framework.
+
+More information:
+
+  * [Homepage](http://sourceforge.net/projects/djangolive/)
+
 ## FAI - Fully Automatic Installation
 
 [FAI](http://www.informatik.uni-koeln.de/fai/) is a non-interactive system to install, customize and manage Linux systems and software configurations on computers as well as virtual machines and chroot environments, from small networks to large-scale infrastructures and clusters.
