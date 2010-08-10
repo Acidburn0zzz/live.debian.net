@@ -18,6 +18,15 @@ More information:
 
   * [Homepage](http://www.clonezilla.org/)
 
+## Canonical OEM Services
+
+Canonical provides custom development services to help companies benefit from the power of Linux. Canonical's developers undertake development projects ranging from customising Ubuntu and full product life-cycle software development to providing embedded systems and architectural ports.
+
+More information:
+
+  * [Homepage](http://www.canonical.com)
+  * [Engineering Services](http://www.canonical.com/engineering-services)
+
 ## Debian Eee PC
 
 The goal of the [Debian Eee PC](http://wiki.debian.org/DebianEeePC/) project is full support for the ASUS Eee PC in Debian.
@@ -99,6 +108,14 @@ More information:
 More information:
 
   * [Homepage](http://imedias.ch/lernstick/)
+
+## Linaro
+
+[Linaro](http://www.linaro.org/) brings together the open source community and the electronics industry to work on key projects, deliver great tools, reduce industry wide fragmentation and provide common foundations for Linux software distributions and stacks to land on.
+
+More information:
+
+  * [Homepage](http://www.linaro.org/)
 
 ## OpenMediaVault
 
