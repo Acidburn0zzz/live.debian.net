@@ -10,14 +10,6 @@ More information:
 
   * [Homepage](http://amnesia.boum.org/)
 
-## Clonezilla
-
-[Clonezilla](http://www.clonezilla.org/) is a partition or disk cloning tool. It saves and restores only blocks in use on the hard drive if the file system is supported. For unsupported file systems, dd is used instead.
-
-More information:
-
-  * [Homepage](http://www.clonezilla.org/)
-
 ## Canonical OEM Services
 
 Canonical provides custom development services to help companies benefit from the power of Linux. Canonical's developers undertake development projects ranging from customising Ubuntu and full product life-cycle software development to providing embedded systems and architectural ports.
@@ -26,6 +18,14 @@ More information:
 
   * [Homepage](http://www.canonical.com)
   * [Engineering Services](http://www.canonical.com/engineering-services)
+
+## Clonezilla
+
+[Clonezilla](http://www.clonezilla.org/) is a partition or disk cloning tool. It saves and restores only blocks in use on the hard drive if the file system is supported. For unsupported file systems, dd is used instead.
+
+More information:
+
+  * [Homepage](http://www.clonezilla.org/)
 
 ## Debian Eee PC
 
