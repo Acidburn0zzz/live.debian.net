@@ -23,6 +23,7 @@
 		<li><a href="./devel/live-config/">live-config</a></li>
 		<li><a href="./devel/live-installer/">live-installer</a></li>
 		<li><a href="./devel/live-manual/">live-manual</a></li>
+		<li><a href="./devel/live-studio/">live-studio</a></li>
 		<li><a href="./devel/other/">other</a></li>
 	</ul>
 </div>
