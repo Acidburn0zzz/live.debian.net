@@ -2,6 +2,17 @@
 
 ## 2010
 
+  * 2010-09-02: live-tools 3.0~a1-1<br />
+    Releasing first 3.0 alpha version (3.0~a1-1).
+
+  * 2010-08-10: live-config 3.0~a1-1<br />
+    Releasing first 3.0 alpha version (3.0~a1-1).
+
+  * 2010-08-10: live-boot 3.0~a1-1<br />
+    Releasing first 3.0 alpha version (3.0~a1-1).
+
+  * 2010-08-05: Debian Live Team Meeting at DebConf 11 in New York, USA
+
   * 2010-07-21: [Debian Live Squeeze alpha2](http://cdimage.debian.org/cdimage/squeeze_live_alpha2/)<br />
     Debian Squeeze alpha2 was released.
 
