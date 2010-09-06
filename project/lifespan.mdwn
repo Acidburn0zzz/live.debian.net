@@ -1,0 +1,41 @@
+# Lifespan
+
+## 7.0 "wheezy"
+
+  * *Packages:* live-boot, live-build, live-config, live-manual, live-tools:
+
+  * *Version:* 3
+
+  * *Support:* everything is possible.
+
+  * *Legacy Support:* will run optimal on wheezy, but has legacy support for squeeze.
+
+## 6.0 "squeeze"
+
+  * *Packages:* live-boot, live-build, live-config, live-manual:
+
+  * *Version:* 2
+
+  * *Support:* only release criticial bugs and integration work.
+
+  * *Legacy Support:* will run optimal on squeeze, but has legacy support for lenny.
+
+## 5.0 "lenny"
+
+  * *Packages:* live-helper, live-initramfs
+
+  * *Version:* 1
+
+  * *Support:* only release criticial bugs.
+
+  * *Legacy Support:* will run optimal on lenny, but has legacy support for etch.
+
+## 4.0 "etch"
+
+  * *Packages:* casper, live-package
+
+  * *Version:* 0
+
+  * *Support:* no support at all.
+
+  * *Legacy Support:* runs on etch.
