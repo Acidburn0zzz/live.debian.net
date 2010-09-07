@@ -16,7 +16,7 @@
 
   * **Version:** 2
 
-  * **Support:** only release criticial bugs and integration work.
+  * **Support:** only release criticial bugs, integration work and selected backports from version 3.
 
   * **Legacy Support:** will run optimal on squeeze, but has legacy support for lenny.
 
@@ -26,7 +26,7 @@
 
   * **Version:** 1
 
-  * **Support:** only release criticial bugs.
+  * **Support:** only release criticial bugs in core functionality.
 
   * **Legacy Support:** will run optimal on lenny, but has legacy support for etch.
 
