@@ -1,7 +1,7 @@
 # Status
 
-  * Images for lenny, squeeze, and sid are working. [2010-08-14]
+  * Images for lenny, squeeze, and sid are working. [2010-09-16]
 
-  * Remember to <b><i><u>not</u></i></b> use '-r live.debian.net' for lenny and squeeze unless you know what you are doing, see [http://lists.debian.org/debian-live/2010/08/msg00071.html](http://lists.debian.org/debian-live/2010/08/msg00071.html). [2010-08-14]
+  * live-installer and possibly also debian-installer itself are broken, see [#596440](http://bugs.debian.org/596440) and [#595903](http://bugs.debian.org/595903).
 
   * linux-2.6 in experimental doesn't contain aufs, see [#573189](http://bugs.debian.org/573189).
