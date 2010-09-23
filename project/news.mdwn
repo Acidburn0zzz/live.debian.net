@@ -2,7 +2,7 @@
 
 ## 2010
 
-  * 2010-06-27: [Debian Live Lenny 5.0.6](http://cdimage.debian.org/cdimage/release/5.0.6-live/)<br />
+  * 2010-08-27: [Debian Live Lenny 5.0.6](http://cdimage.debian.org/cdimage/release/5.0.6-live/)<br />
     Updated images for Debian Lenny 5.0.6 have been uploaded.
 
   * 2010-09-02: live-tools 3.0~a1-1<br />
