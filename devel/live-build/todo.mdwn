@@ -1,4 +1,30 @@
-# live-build 2.0 Todo
+# live-build 3.0 Todo
+
+### misc
+
+  * gtk d-i true fuer squeeze
+  * volatile, backports
+  * btrfs support
+  * extlinux support -> check d-i from ext partitions in cdrom-detect
+  * tmpfs support
+  * implement globaly shared caches
+  * update d-i handling for new Xorg based gui installer
+  * fuers cgi die configs in ein repo pushen, so dass es dann via cgi kommt
+  * fix build failures with -p minimal and local packages
+  * add extlinux as bootloader
+  * binary_debian-installer fails when cpi is not available (should use chrooted cpio)
+  * update to use syslinux-themes-debian
+  * rethink sources.list and sources.list.d handling.
+  * trusted keys from local repository are not removed again.
+  * finish usb-zip support.
+  * finish grub on usb.
+  * fix size issues in the desktop images (tasksel usage screwup).
+  * "common" source packages must include other architectures packages (e.g. bootloaders) too.
+  * using menu beep when syslinux prompt is ready.
+  * build 'all-in-one' dvd.
+  * finish image-name option and other temporary branches.
+  * think about prebuilt alternatives images with grub instead of syslinux.
+  * zsync files for snapshots? cdimage.d.o appears to drop them anyway due to a bug with zsync that makes it useless (see debian-cd ml archive for details).
 
 ### core
 
@@ -39,6 +65,9 @@
 ### cgi
 
   * add debconf prompts to make setup automatic
+  * add FAQ to index page
+  * remove unavailable packages from apt list
+  * fix debian-live packages lists
 
 ### bootstrap
 
