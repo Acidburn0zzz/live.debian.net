@@ -10,8 +10,11 @@ An introduction to live-build can be found in the live-build manpage.
 
 ## News
 
+  * 2010-09-26: Releasing first 3.0 alpha version (3.0~a1-1).
+  * 2010-09-26: Releasing first 2.0 stable version (2.0.0-1).
+  * 2010-07-24: Releasing intermediate 2.0 version (live-build 2.0~a20-1).
   * 2009-11-15: Releasing first 2.0 alpha version (2.0~a1-1).
-  * 2008-08-24: Releasing final 1.0 version (1.0.0-1).
+  * 2008-08-24: Releasing first 1.0 stable version (1.0.0-1).
   * 2007-03-12: Releasing first 1.0 alpha version (live-helper 1.0~a1-1).
   * 2006-07-17: Uploading initial version to debian (live-package 0.99-1).
 
