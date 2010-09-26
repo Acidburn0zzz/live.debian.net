@@ -1,1 +1,22 @@
-# live-config Todo
+# live-config 3.0 Todo
+
+### small
+
+  * check sdm, xdm, wdm.
+  * factor out netbase (3.x).
+  * use live/config/* as scripts too.
+  * check preseeding for xserver-xorg.
+
+### bigger
+
+  * makeing plugins infrastructure self-contained
+  * making plugins post- and pre- login processing
+  * verify modifications with a d-i sample installation.
+  * allow some scripts (most prominently locales) to be run even in persistent mode.
+  * use verbose/quiet/interactive modes for scripts.
+  * use logfile.
+  * enable display managers only if they are the selected one.
+  * add option to specify the xsession.
+  * when not using persistency, do not import options into the debconf db.
+  * cleanup the scripts order and splitting.
+  * check if we have the most important scripts for ubuntu so that live-config supports both.
