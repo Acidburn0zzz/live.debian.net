@@ -1,4 +1,4 @@
-# live-boot 2.0 Todo
+# live-boot 3.0 Todo
 
 ## Priority 1: Core Features
 
@@ -15,9 +15,8 @@
 
 ### Boot Process
 
-  * One time argument handling (with proper respect of live.conf, also from /live/live.conf)
+  * One time argument handling (with proper respect of boot.conf, also from /live/boot.conf)
   * One time function handling
-  * Split out late user space to dedicated package (live-config)
   * Distributor specific mode for overloading of functions
   * Release specific compatibility/legacy handling during package build-time
   * i18n/l10n support during early userspace (gettext, po4a)
@@ -34,7 +33,7 @@
 
 ### Boot Process
 
-  * Splash support (plymouth, splashy)
+  * Splash support (plymouth)
   * (Better) breakpoint support.
 
 ## Priority 3: Wishlist
@@ -42,7 +41,7 @@
 ### General
 
   * Optimize sh calls for speed and simplicity
-  * Think about implementing parts of it that are performance critical in C
+  * Investigate about implementing parts of it that are performance critical in C
   * Fix (almost) whatever is listed in the BTS :)
 
 ### Boot Methods
