@@ -6,6 +6,7 @@ live-installer is a component that allows the debian-installer to use a debian-l
 
 ## News
 
+  * 2010-08-01: Split off launcher to debian-installer-launcher (24).
   * 2009-08-12: First upload with live-installer-launcher (12).
   * 2007-06-29: Uploading initial version to debian (0).
 
