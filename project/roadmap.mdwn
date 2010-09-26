@@ -2,22 +2,8 @@
 
 ## Short Term (matter of days)
 
-live-build:
-
-  * rethink sources.list and sources.list.d handling.
-  * trusted keys from local repository are not removed again.
-  * finish usb-zip support.
-  * finish grub on usb.
-  * fix size issues in the desktop images (tasksel usage screwup).
-  * "common" source packages must include other architectures packages (e.g. bootloaders) too.
-  * using menu beep when syslinux prompt is ready.
-  * build 'all-in-one' dvd.
-  * finish image-name option and other temporary branches.
-
-other:
-
-  * think about prebuilt alternatives images with grub instead of syslinux.
-  * zsync files for snapshots? cdimage.d.o appears to drop them anyway due to a bug with zsync that makes it useless (see debian-cd ml archive for details).
+  * getting manual autobuils on live.debian.net back again.
+  * getting image autobuilds on live.debian.net back again.
 
 ## Middle Term (matter of weeks)
 
