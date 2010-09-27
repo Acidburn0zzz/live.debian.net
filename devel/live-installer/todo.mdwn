@@ -1,6 +1,3 @@
 # live-installer Todo
 
-## live-installer
-
-  * support netboot ([#570812](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=570812)).
-  * support btrfs.
+See [BTS](http://bugs.debian.org/cgi-bin/pkgreport.cgi?&src=live-installer).
