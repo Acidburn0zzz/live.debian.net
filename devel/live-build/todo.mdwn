@@ -104,3 +104,4 @@
 
   * make source images apt-get'able
   * also cache source packages to avoid re-downloading
+  * introduce source mirrors so that we can have mirrors to fetch source packages from being different from those where we fetch debs from (not all mirrors carry sources, unfortunately).
