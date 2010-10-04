@@ -2,7 +2,7 @@
 
 ## 2010
 
-  * 2010-09-27: [New server running live.debian.net](http://lists.debian.org/debian-live/2010/09/msg00363.html)
+  * 2010-09-27: [New server running live.debian.net](http://lists.debian.org/debian-live/2010/09/msg00363.html)<br />
     live.debian.net was moved to a more powerful server in order to allow images autobuilds and autotests in future.
 
   * 2010-09-05: [Debian Live Lenny 5.0.6](http://cdimage.debian.org/cdimage/release/5.0.6-live/)<br />
