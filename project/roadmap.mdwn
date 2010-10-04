@@ -2,7 +2,7 @@
 
 ## Short Term (matter of days)
 
-  * getting images autobuils on live.debian.net back again.
+  * getting images autobuils (rather than semi-automatic) on live.debian.net back again.
   * getting package autobuilds (rather than semi-automatic) on live.debian.net back again.
 
 ## Middle Term (matter of weeks)
