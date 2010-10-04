@@ -11,10 +11,10 @@
   * 2010-09-02: live-tools 3.0~a1-1<br />
     Releasing first 3.0 alpha version (3.0~a1-1).
 
-  * 2010-08-10: live-config 3.0~a1-1<br />
+  * 2010-08-10: [live-config 3.0~a1-1](http://packages.debian.org/changelogs/pool/main/l/live-config/current/changelog#versionversion3.0_a1-1)<br />
     Releasing first 3.0 alpha version (3.0~a1-1).
 
-  * 2010-08-10: live-boot 3.0~a1-1<br />
+  * 2010-08-10: [live-boot 3.0~a1-1](http://packages.debian.org/changelogs/pool/main/l/live-boot/current/changelog#versionversion3.0_a1-1)<br />
     Releasing first 3.0 alpha version (3.0~a1-1).
 
   * 2010-08-05: Debian Live Team Meeting at DebConf 11 in New York, USA
@@ -25,10 +25,10 @@
   * 2010-06-27: [Debian Live Lenny 5.0.5](http://cdimage.debian.org/cdimage/archive/5.0.5-live/)<br />
     Updated images for Debian Lenny 5.0.5 have been uploaded.
 
-  * 2010-05-24: live-boot 2.0~a1-1<br />
+  * 2010-05-24: [live-boot 2.0~a1-1](http://packages.debian.org/changelogs/pool/main/l/live-boot/current/changelog#versionversion2.0_a1-1)<br />
     Releasing first 2.0 alpha version (2.0~a1-1).
 
-  * 2010-05-24: live-config 2.0~a1-1<br />
+  * 2010-05-24: [live-config 2.0~a1-1](http://packages.debian.org/changelogs/pool/main/l/live-config/current/changelog#versionversion2.0_a1-1)<br />
     Releasing first 2.0 alpha version (2.0~a1-1).
 
   * 2010-03-17: [Debian Live Squeeze alpha1](http://cdimage.debian.org/cdimage/archive/6.0_alpha1/)<br />
