@@ -5,7 +5,8 @@
 
 	<ul>
 		<li><a href="archive">Archive</a></li>
-		<li><b>Download:</b> <a href="http://cdimage.debian.org/cdimage/release/current-live/">stable</a> <a href="http://cdimage.debian.org/cdimage/squeeze_live_alpha2/">testing</a> <a href="cdimage/daily-builds">daily-builds</a></li>
+		<li><b>Download releases:</b> <a href="http://cdimage.debian.org/cdimage/release/current-live/">stable</a> <a href="http://cdimage.debian.org/cdimage/squeeze_live_alpha2/">testing</a></li>
+		<li><b>Download snapshots:</b> <a href="cdimage/daily-builds">daily-builds</a> <a href="cdimage/weekly-builds">weekly-builds</a> <a href="cdimage/monthly-builds">monthly-builds</a></li>
 		<li>Manual: <a href="/manual/en">English</a> <a href="/manual/de">German</a></li>
 		<li><a href="http://lists.debian.org/debian-live/">Mailinglist</a></li>
 		<li><a href="http://live-build.debian.net/"><b>Web Images Builder</b> (CGI)</a></li>
