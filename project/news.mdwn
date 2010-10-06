@@ -2,6 +2,12 @@
 
 ## 2010
 
+  * 2010-10-06: [Autobuilding live images](http://lists.debian.org/debian-live/2010/10/msg00098.html)<br />
+    Automatic build of live images is back at <a href="http://live.debian.net/cdimage/">live.debian.net/cdimage</a>.
+
+  * 2010-10-03: [Autobuilding live-maunual again](http://lists.debian.org/debian-live/2010/10/msg00022.html)<br />
+    Automatic build of live-manual is back at <a href="http://live.debian.net/manual/">live.debian.net/manual</a>.
+
   * 2010-09-27: [New server running live.debian.net](http://lists.debian.org/debian-live/2010/09/msg00363.html)<br />
     live.debian.net was moved to a more powerful server in order to allow images autobuilds and autotests in future.
 
