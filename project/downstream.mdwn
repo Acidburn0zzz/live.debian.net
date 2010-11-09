@@ -59,6 +59,12 @@ More information:
 
   * [Homepage](http://www.fai-project.org/)
 
+## Flujos-vivos
+
+[Flujos-vivos](http://vivo.flujos.org/) is a live system for making internet radio with free software oriented towards radio enthusiasts in Latin America.
+
+  * [Homepage](http://vivo.flujos.org/)
+
 ## Gibraltar
 
 [Gibraltar](http://www.gibraltar.at/) Security Gateways provides protection against a multitude of current security risks and threats. They combine several important security applications into one product and provide for secure connections in your network. Gibraltar is either available preinstalled on five different hardware appliances or just as a software release.
