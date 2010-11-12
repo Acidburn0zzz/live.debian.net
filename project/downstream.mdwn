@@ -74,6 +74,12 @@ More information:
   * [Homepage](http://www.gibraltar.at/)
   * [Wikipedia](http://en.wikipedia.org/wiki/Gibraltar_\(operating_system\))
 
+## GNUGuitarINUX
+
+[GNUGuitarINUX](http://gnuguitarinux.sourceforge.net/) is a lightweight distribution for guitar players. It is configured to obtain the best performance with the smallest possible latency. GNUGuitarINUX has several dedicated programs but rakarrack is its main target.
+
+  * [Homepage](http://gnuguitarinux.sourceforge.net/)
+
 ## GNUSTEP
 
 [GNUSTEP](http://livecd.gnustep.org/) contains a lot of software for GNUstep, a free implementation of the OPENSTEP framework.
