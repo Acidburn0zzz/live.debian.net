@@ -133,6 +133,14 @@ More information:
 
   * [Homepage](http://www.linaro.org/)
 
+## Musix
+
+[Musix](http://www.musix.org.ar/) is a free Multimedia Operating System for musicians, technical sound, DJs, graphic designers, and users in general.
+
+More information:
+
+  * [Homepage](http://www.musix.org.ar/)
+
 ## OpenMediaVault
 
 [OpenMediaVault](http://www.openmediavault.org/) is a network attached storage (NAS) solution. It contains services like SSH, (S)FTP, SMB/CIFS, AFS, UPnP media server, DAAP media server, RSync, DDNS, BitTorrent client and many more.
