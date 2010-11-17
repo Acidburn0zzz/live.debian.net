@@ -63,6 +63,8 @@ More information:
 
 [Flujos-vivos](http://vivo.flujos.org/) is a live system for making internet radio with free software oriented towards radio enthusiasts in Latin America.
 
+More information:
+
   * [Homepage](http://vivo.flujos.org/)
 
 ## Gibraltar
@@ -77,6 +79,8 @@ More information:
 ## GNUGuitarINUX
 
 [GNUGuitarINUX](http://gnuguitarinux.sourceforge.net/) is a lightweight distribution for guitar players. It is configured to obtain the best performance with the smallest possible latency. GNUGuitarINUX has several dedicated programs but rakarrack is its main target.
+
+More information:
 
   * [Homepage](http://gnuguitarinux.sourceforge.net/)
 
@@ -174,6 +178,14 @@ It can also run on low-end x86 PC platforms. Typical installation requires 128MB
 More information:
 
   * [Homepage](http://linux.voyage.hk/)
+
+## Vyatta
+
+[Vyatta](http://www.vyatta.com/) is a software-based network operating system that is portable to standard x86 hardware as well as common virtualization and cloud computing platforms. By deploying Vyatta, users benefit from a flexible enterprise-class routing and security feature set capable of scaling from DSL to 20Gbps performance at a fraction of the cost of proprietary solutions.
+
+More information:
+
+  * [Homepage](http://www.vyatta.com/)
 
 ## Webconverger
 
