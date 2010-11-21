@@ -133,6 +133,14 @@ More information:
 
   * [Homepage](http://www.linaro.org/)
 
+## LinuxAdvanced
+
+[LinuxAdvanced](http://www.linuxadvanced.at/) contains a lot of software for educational purposes.
+
+More information:
+
+  * [Homepage](http://www.linuxadvanced.at/)
+
 ## Musix
 
 [Musix](http://www.musix.org.ar/) is a free Multimedia Operating System for musicians, technical sound, DJs, graphic designers, and users in general.
