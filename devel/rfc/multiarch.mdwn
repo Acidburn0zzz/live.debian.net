@@ -1,1 +1,34 @@
 # RFC - Multiple Architecture on one Image
+
+## Overview
+
+The idea is to implement support for having different architecture of the same distribution on one live image.
+
+## live-build
+
+  * defaults.sh needs to parse config/foo first, then config/foo.$arch second.
+
+  * lb config needs to understand architectures as a seperate context:
+    - 'lb config -a amd64' will apply on config/*.amd64 files.
+    - 'lb config -a i386' will apply on config/*.i386 files.
+    - 'lb config -a any' will apply on config/* files (default).
+
+  * lb build needs to understand architectures as a seperate context:
+    - 'lb build -a amd64' will only build the amd64 images.
+    - 'lb build -a all' will build all possible architecture images (default).
+
+## live-boot
+
+  * Use filesystem.list to specify which filesystems need to be mounted in which order.
+
+## live-installer
+
+  * Needs to mount and copy any architecture independent filesystem image (filesystem.all.squashfs) first.
+  * Needs to mount and copy any architecture dependet filesystem image (filesystem.i386.squashfs) second.
+  * If lacking any of above, look normally for a single filesystem image (filesystem.squashfs).
+
+## syslinux-themes-debian
+
+  * Needs to prepared to incorporate additional menu entries.
+  * Needs to autodetect the default architecture (ifcpu64.c32).
+  * If using gfxboot, there should be an architecture switch to choose the architecture from.
