@@ -1,0 +1,7 @@
+# RFC - Request for Comment(s)
+
+  * [[multistrap]]
+  * [[tmpfs]]
+  * [[multiarch]]
+  * [[multifs]]
+  * [[lxc]]

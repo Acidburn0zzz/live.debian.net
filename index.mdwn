@@ -26,6 +26,7 @@
 		<li><a href="./devel/live-studio/">live-studio</a></li>
 		<li><a href="./devel/live-tools/">live-tools</a></li>
 		<li><a href="./devel/other/">other</a></li>
+		<li><a href="./devel/rfc/">RFC</a></li>
 	</ul>
 </div>
 
