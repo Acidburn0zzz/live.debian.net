@@ -1,3 +1,11 @@
 # Deployment
 
 This is a selection of deployments (in alphabetical order) that are using Debian Live technologies.
+
+## Mountain Grove RIII Schools
+
+The [Mountain Grove RIII School District](http://www.mgr3.k12.mo.us) utilizes Debian Live for network booting Debian desktops and Debian Live firmware installs used in combination with the VMware Player to manage deployments of other operating systems. Debian Live simplifies desktop deployment and management for the district.
+
+More information:
+
+  * [Homepage](http://www.mgr3.k12.mo.us)
