@@ -1,4 +1,4 @@
-# Reviews
+# Links
 
 Debian Live was mentioned on various Internet sites. Here is an incomplete list in order of its appearance.
 
@@ -24,3 +24,10 @@ Debian Live was mentioned on various Internet sites. Here is an incomplete list 
   * [German: Golem](http://www.golem.de/0808/62028.html)
   * [German: Heise](http://www.heise.de/newsticker/Debian-5-0-auf-Live-CD--/meldung/115009)
   * [German: Pro Linux](http://www.pro-linux.de/news/2008/13107.html)
+
+## Other
+
+  * [German translation](http://wiki.skolelinux.de/DebianLive)
+  * [Article in linux-magazin.de](http://www.linux-magazin.de/online_artikel/workshop_debian_live_system_mit_etch)
+  * [Another german documentation](http://wiki.freenetproject.org/deDebianLiveCD)
+  * [Spanish documentation project](http://el-directorio.org/DebianLive)
