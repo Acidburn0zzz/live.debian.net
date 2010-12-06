@@ -10,14 +10,10 @@ Everything that worked with live-initramfs works with live-boot/live-config, exc
 
 ### small
 
-  * check sdm, xdm, wdm.
   * factor out netbase (3.x).
-  * use live/config/* as scripts too.
-  * check preseeding for xserver-xorg.
 
 ### bigger
 
-  * makeing plugins infrastructure self-contained
   * making plugins post- and pre- login processing
   * verify modifications with a d-i sample installation.
   * allow some scripts (most prominently locales) to be run even in persistent mode.
