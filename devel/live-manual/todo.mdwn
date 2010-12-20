@@ -1,9 +1,6 @@
 # live-manual Todo
 
   * fix html css/stylesheet
-  * enable sisu builds on live.debian.net
-  * update content assuming squeeze = stable
-  * investigate why odf output is broken in sisu.
   * put every volatile content (such as temporary hacks, wishlists etc) to ikiwiki on live.d.n.
   * put every 'more or less stable' documentation stuff into live-manual
   * wipe wiki.d.o/DebianLive/*
@@ -13,3 +10,4 @@
   * look everywhere to update links pointing to alioth mailinglist to the debian mailinglist.
   * add both 'last modified' and 'last build' timestamps on the manuals build index.html.
   * add test target that can be run live.debian.net and which sends mail to the mailinglist in case of build failures.
+  * write style guide for manual
