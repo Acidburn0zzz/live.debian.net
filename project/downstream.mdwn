@@ -10,6 +10,15 @@ More information:
 
   * [Homepage](http://amnesia.boum.org/)
 
+## Canaima
+
+[Canaima](http://canaima.softwarelibre.gob.ve/) aims to be specifically designed for office users in the Venezuelan national government, as a response to a presidential decree that prioritizes the use of free technologies and determines a transition process.
+
+More information:
+
+  * [Homepage](http://canaima.softwarelibre.gob.ve/)
+  * [Wikipedia](http://en.wikipedia.org/wiki/Canaima_(software))
+
 ## Canonical OEM Services
 
 Canonical provides custom development services to help companies benefit from the power of Linux. Canonical's developers undertake development projects ranging from customising Ubuntu and full product life-cycle software development to providing embedded systems and architectural ports.
