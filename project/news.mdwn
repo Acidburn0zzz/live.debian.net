@@ -2,10 +2,13 @@
 
 ## 2010
 
+  * 2010-12-26: [Debian Live Squeeze beta2](http://cdimage.debian.org/cdimage/squeeze_live_beta2/)<br />
+    Debian Squeeze beta2 was released.
+
   * 2010-11-29: [Debian Live Lenny 5.0.7](http://cdimage.debian.org/cdimage/release/5.0.7-live/)<br />
     Updated images for Debian Lenny 5.0.7 have been uploaded.
 
-  * 2010-10-29: [Debian Live Squeeze beta1](http://cdimage.debian.org/cdimage/squeeze_live_beta1/)<br />
+  * 2010-10-29: [Debian Live Squeeze beta1](http://live.debian.net/archive/images/6.0_beta1/)<br />
     Debian Squeeze beta1 was released.
 
   * 2010-10-06: [Autobuilding live images](http://lists.debian.org/debian-live/2010/10/msg00098.html)<br />
