@@ -1,5 +1,10 @@
 # News
 
+## 2011
+
+  * 2010-01-12: [Debian Live Squeeze rc1](http://live.debian.net/cdimage/release/6.0_rc1/)<br />
+    Debian Squeeze rc1 was released.
+
 ## 2010
 
   * 2010-12-26: [Debian Live Squeeze beta2](http://cdimage.debian.org/cdimage/squeeze_live_beta2/)<br />
