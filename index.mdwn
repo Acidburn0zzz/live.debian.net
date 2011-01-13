@@ -5,7 +5,7 @@
 
 	<ul>
 		<li><a href="archive">Archive</a></li>
-		<li><b>Download releases:</b> <a href="http://cdimage.debian.org/cdimage/release/current-live/">stable</a> <a href="http://cdimage.debian.org/cdimage/squeeze_live_beta2/">testing</a></li>
+		<li><b>Download releases:</b> <a href="http://cdimage.debian.org/cdimage/release/current-live/">stable</a> <a href="http://cdimage.debian.org/cdimage/squeeze_live_rc1/">testing</a></li>
 		<li><b>Download snapshots:</b> <a href="cdimage/daily-builds">daily</a> <a href="cdimage/weekly-builds">weekly</a> <a href="cdimage/monthly-builds">monthly</a></li>
 		<li><b>Manual</b>: <a href="/manual/en">en</a> <a href="/manual/de">de</a> <a href="/manual/fr">fr</a> <a href="/manual/it">it</a> <a href="/manual/pt_BR">pt_BR</a> <a href="/manual/ro">ro</a></li>
 		<li><a href="http://lists.debian.org/debian-live/">Mailinglist</a></li>

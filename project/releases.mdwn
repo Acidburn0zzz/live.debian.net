@@ -3,21 +3,21 @@
 ## 6.0 "squeeze"
 
   * [6.0 rc1](http://live.debian.net/archive/images/6.0_rc1/): 2011-01-12
-  * [6.0 beta2](http://cdimage.debian.org/cdimage/squeeze_live_beta2/): 2010-12-26
+  * [6.0 beta2](http://live.debian.net/archive/images/6.0_beta2/): 2010-12-26
   * [6.0 beta1](http://live.debian.net/archive/images/6.0_beta1/): 2010-10-29
   * [6.0 alpha2](http://live.debian.net/archive/images/6.0_alpha2/): 2010-07-21
   * [6.0 alpha1](http://live.debian.net/archive/images/6.0_alpha1/): 2010-03-14
 
 ## 5.0 "lenny"
 
-  * [5.0.7](http://cdimage.debian.org/cdimage/release/5.0.7-live/): 2010-11-29
-  * [5.0.6](http://cdimage.debian.org/cdimage/archive/5.0.6-live/): 2010-09-05
-  * [5.0.5](http://cdimage.debian.org/cdimage/archive/5.0.5-live/): 2010-06-27
-  * [5.0.4](http://cdimage.debian.org/cdimage/archive/5.0.4-live/): 2010-03-06
-  * [5.0.3](http://cdimage.debian.org/cdimage/archive/5.0.3-live/): 2010-01-23
-  * [5.0.2](http://cdimage.debian.org/cdimage/archive/5.0.2-live/): 2009-09-04
-  * [5.0.1](http://cdimage.debian.org/cdimage/archive/5.0.1-live/): 2009-06-14
-  * [5.0.0](http://cdimage.debian.org/cdimage/archive/5.0.0-live/): 2009-02-14
+  * [5.0.7](http://live.debian.net/archive/images/5.0.7/): 2010-11-29
+  * [5.0.6](http://live.debian.net/archive/images/5.0.6/): 2010-09-05
+  * [5.0.5](http://live.debian.net/archive/images/5.0.5/): 2010-06-27
+  * [5.0.4](http://live.debian.net/archive/images/5.0.4/): 2010-03-06
+  * [5.0.3](http://live.debian.net/archive/images/5.0.3/): 2010-01-23
+  * [5.0.2](http://live.debian.net/archive/images/5.0.2/): 2009-09-04
+  * [5.0.1](http://live.debian.net/archive/images/5.0.1/): 2009-06-14
+  * [5.0.0](http://live.debian.net/archive/images/5.0.0/): 2009-02-14
   * [5.0 rc1](http://live.debian.net/archive/images/5.0_rc1/): 2009-02-09
   * [5.0 beta2](http://live.debian.net/archive/images/5.0_beta2/): 2008-12-20
   * [5.0 beta1](http://live.debian.net/archive/images/5.0_beta1/): [2008-08-27](http://lists.debian.org/debian-live/2008/08/msg00222.html)
