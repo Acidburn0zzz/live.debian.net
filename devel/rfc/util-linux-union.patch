@@ -1,0 +1,117 @@
+diff -ur util-linux-2.17.2/mount/mount.c util-linux-2.17.2.mod/mount/mount.c
+--- util-linux-2.17.2/mount/mount.c	2011-01-14 23:29:43.000000000 +0100
++++ util-linux-2.17.2.mod/mount/mount.c	2011-01-14 23:42:31.000000000 +0100
+@@ -149,6 +149,7 @@
+   { "sync",	0, 0, MS_SYNCHRONOUS},	/* synchronous I/O */
+   { "async",	0, 1, MS_SYNCHRONOUS},	/* asynchronous I/O */
+   { "dirsync",	0, 0, MS_DIRSYNC},	/* synchronous directory modifications */
++  { "union",	0, 0, MS_UNION  },	/* Union mount */
+   { "remount",  0, 0, MS_REMOUNT},      /* Alter flags of mounted FS */
+   { "bind",	0, 0, MS_BIND   },	/* Remount part of tree elsewhere */
+   { "rbind",	0, 0, MS_BIND|MS_REC }, /* Idem, plus mounted subtrees */
+@@ -1446,6 +1447,8 @@
+     case EBUSY:
+       if (flags & MS_REMOUNT) {
+ 	error (_("mount: %s is busy"), node);
++      } else if (flags & MS_UNION) {
++	error (_("mount: %s is not read-only"), node);
+       } else if (!strcmp(types, "proc") && !strcmp(node, "/proc")) {
+ 	/* heuristic: if /proc/version exists, then probably proc is mounted */
+ 	if (stat ("/proc/version", &statbuf))   /* proc mounted? */
+@@ -1491,6 +1494,8 @@
+ 
+       if (flags & MS_REMOUNT) {
+ 	error (_("mount: %s not mounted already, or bad option"), node);
++      } else if (flags & MS_UNION) {
++	error (_("mount: file system on %s doesn't support whiteouts"), spec);
+       } else {
+ 	error (_("mount: wrong fs type, bad option, bad superblock on %s,\n"
+ 	       "       missing codepage or helper program, or other error"),
+@@ -1585,10 +1590,13 @@
+     case EACCES:  /* pre-linux 1.1.38, 1.1.41 and later */
+     case EROFS:   /* linux 1.1.38 and later */
+     { char *bd = (loop ? "" : _("block device "));
+-      if (ro || (flags & MS_RDONLY)) {
+-          error (_("mount: cannot mount %s%s read-only"),
++      if (flags & MS_UNION) {
++	  error (_("mount: %s%s is read-only"), bd, spec);
++	  break;
++      } else if (ro || (flags & MS_RDONLY)) {
++	  error (_("mount: cannot mount %s%s read-only"),
+ 		 bd, spec);
+-          break;
++	  break;
+       } else if (readwrite) {
+ 	  error (_("mount: %s%s is write-protected but explicit `-w' flag given"),
+ 		 bd, spec);
+@@ -1950,6 +1958,7 @@
+ 	{ "make-rprivate", 0, 0, 142 },
+ 	{ "make-runbindable", 0, 0, 143 },
+ 	{ "no-canonicalize", 0, 0, 144 },
++	{ "union", 0, 0, 145 },
+ 	{ "internal-only", 0, 0, 'i' },
+ 	{ NULL, 0, 0, 0 }
+ };
+@@ -2079,7 +2088,7 @@
+ 
+ static void
+ print_version(int rc) {
+-	printf(	"mount from %s (with "
++	printf(	"mount from %s (with union "
+ #ifdef HAVE_LIBBLKID
+ 		"libblkid"
+ #else
+@@ -2249,6 +2258,9 @@
+ 		case 144:
+ 			nocanonicalize = 1;
+ 			break;
++		case 145: /* union */
++			mounttype = MS_UNION;
++			break;
+ 		case '?':
+ 		default:
+ 			usage (stderr, EX_USAGE);
+diff -ur util-linux-2.17.2/mount/mount_constants.h util-linux-2.17.2.mod/mount/mount_constants.h
+--- util-linux-2.17.2/mount/mount_constants.h	2010-02-04 12:53:56.000000000 +0100
++++ util-linux-2.17.2.mod/mount/mount_constants.h	2010-09-29 17:10:37.000000000 +0200
+@@ -22,6 +22,25 @@
+ #ifndef MS_DIRSYNC
+ #define MS_DIRSYNC	128	/* Directory modifications are synchronous */
+ #endif
++#ifndef MS_ACTION_MASK
++#define	MS_ACTION_MASK	0x380
++/* Remount, but new filesystem may be different from old. Atomic
++   (i.e. there is no interval when nothing is mounted at the mountpoint).
++   If new fs differs from the old one and old is busy - -EBUSY. */
++#define	MS_REPLACE	0x080	/* 128 */
++/* After, Before: as soon as we get unions these will add a new member
++   in the end or beginning of the chain. Fail if there is a stack
++   on the mountpoint. */
++#define	MS_AFTER	0x100	/* 256 */
++#define	MS_BEFORE	0x180
++/* Over: if nothing mounted on a mountpoint - same as if none of these
++flags had been set; if we have a union with more than one element - fail;
++if we have a stack or plain mount - mount atop of it, forming a stack. */
++#define	MS_OVER		0x200	/* 512 */
++#endif
++#ifndef MS_UNION
++#define MS_UNION	0x100	/* 256: Mount on top of a union */
++#endif
+ #ifndef MS_NOATIME
+ #define MS_NOATIME	0x400	/* 1024: Do not update access times. */
+ #endif
+diff -ur util-linux-2.17.2.orig/debian/changelog util-linux-2.17.2/debian/changelog
+--- util-linux-2.17.2.orig/debian/changelog	2011-01-14 23:29:43.000000000 +0100
++++ util-linux-2.17.2/debian/changelog	2011-01-14 23:38:30.000000000 +0100
+@@ -1,3 +1,11 @@
++util-linux (2.17.2-5+um) unstable; urgency=low
++
++  * add unionmount support patch from
++    http://git.kernel.org/?p=utils/util-linux-ng/val/util-linux-ng.git;a=commit;h=f448c2ddf5b9df85f1dcc802aadfabd9c327bac4
++
++
++ -- Michal Suchanek <hramrach@virtual.ruk.cuni.cz>  Fri, 14 Jan 2011 23:37:03 +0100
++
+ util-linux (2.17.2-5) unstable; urgency=low
+ 
+   * Merge in all those NMUs that were never pushed to me in bugs.
