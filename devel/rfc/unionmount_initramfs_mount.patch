@@ -1,0 +1,10 @@
+--- /usr/share/initramfs-tools/hooks/live~	2010-07-11 01:19:32.000000000 +0200
++++ /usr/share/initramfs-tools/hooks/live	2010-07-12 17:58:54.000000000 +0200
+@@ -223,3 +223,7 @@
+     manual_add_modules iscsi_tcp
+     manual_add_modules crc32c
+ fi
++
++# UnionMount
++    # only mount from patched util-linux can do this currently
++    copy_exec /bin/mount /bin/mount_full
