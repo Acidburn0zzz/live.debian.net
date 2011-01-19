@@ -194,6 +194,16 @@ More information:
 
   * [Homepage](http://puredyne.goto10.org/)
 
+## Raizo
+
+[Raizo](http://www.utec-tic.org/index.php?option=com_content&view=article&id=33&Itemid=118) is a live system used by the [CFA UTEC](http://www.utec-tic.org/) (Centre de Formation d'Apprentis de la Chambre de Commerce et d'Industrie; training center of the chamber of commerce) in Seine et Marne, France, during the course of networking and Linux administration.
+
+It contains NetKit, Visual NetKit and GNS3. GNS3 is provided without any IOS but with 2 scripts (gstart and ghalt) to use GNS3 with NetKit. Raizo includes Wireshark, aircrack-ng, DHCP, FTP, TFTP, SSH. No service is starting automatically and the interface and documentation are mostly in French.
+
+More information:
+
+  * [Homepage](http://www.utec-tic.org/index.php?option=com_content&view=article&id=33&Itemid=118)
+
 ## Voyage
 
 [Voyage](http://linux.voyage.hk/) is best run on a x86 embedded platforms such as PC Engines ALIX/WRAP and Soekris 45xx/48xx boards.
