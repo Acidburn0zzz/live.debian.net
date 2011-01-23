@@ -10,6 +10,7 @@
 
 ## 5.0 "lenny"
 
+  * [5.0.8](http://live.debian.net/archive/images/5.0.8/): 2011-01-23
   * [5.0.7](http://live.debian.net/archive/images/5.0.7/): 2010-11-29
   * [5.0.6](http://live.debian.net/archive/images/5.0.6/): 2010-09-05
   * [5.0.5](http://live.debian.net/archive/images/5.0.5/): 2010-06-27
