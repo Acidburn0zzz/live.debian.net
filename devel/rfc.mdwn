@@ -1,5 +1,6 @@
 # RFC - Request for Comment(s)
 
+  * [[package validation]]
   * [[multistrap]]
   * [[tmpfs]]
   * [[multiarch]]

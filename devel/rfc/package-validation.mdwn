@@ -1,0 +1,11 @@
+# RFC - Package Validation
+
+## Overview
+
+In order to implement 'Constant Usable Testing (CUT)' from a live point of view,
+we would need a possibility to handle non-installable packages gracefully.
+
+First, we'll need a way for apt to not fail on unavailable packages and skip that.
+
+Second, it would be nice to have some sort of 'diff' between the previous build,
+so we can see what changed.
