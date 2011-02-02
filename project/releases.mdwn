@@ -2,6 +2,7 @@
 
 ## 6.0 "squeeze"
 
+  * [6.0 rc2](http://live.debian.net/archive/images/6.0_rc2/): 2011-02-02
   * [6.0 rc1](http://live.debian.net/archive/images/6.0_rc1/): 2011-01-12
   * [6.0 beta2](http://live.debian.net/archive/images/6.0_beta2/): 2010-12-26
   * [6.0 beta1](http://live.debian.net/archive/images/6.0_beta1/): 2010-10-29

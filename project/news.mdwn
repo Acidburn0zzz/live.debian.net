@@ -2,6 +2,9 @@
 
 ## 2011
 
+  * 2010-02-02: [Debian Live Squeeze rc2(http://live.debian.net/cdimage/release/6.0_rc2/)<br />
+    Debian Squeeze rc2 was released.
+
   * 2011-01-23: [Debian Live Lenny 5.0.8](http://live.debian.net/archive/images/5.0.8/)<br />
     Updated images for Debian Lenny 5.0.8 have been uploaded.
 
