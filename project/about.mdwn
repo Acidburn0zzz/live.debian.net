@@ -1,5 +1,5 @@
 # About
 
-A Debian Live system is a [Debian](http://www.debian.org/) operating system that does not require a classical installer to use it. It comes on [various media](http://live.debian.net/manual/en/html/the-basics.html), including CD-ROM, USB sticks, or via netboot. [Why Debian Live?](http://live.debian.net/manual/en/html/2.html)
+A Debian Live system is a [Debian](http://www.debian.org/) operating system that does not require a classical installer to use it. It comes on [various media](http://live.debian.net/manual/en/html/the-basics.html), including CD-ROM, USB sticks, or via netboot. [Why Debian Live?](http://live.debian.net/manual/en/html/about-project.html)
 
 Although the Debian Live project is about the framework to create your own customized Live system, we offer some prebuilt images. Currently, builds for four desktop environments ([GNOME](http://www.gnome.org/), [KDE](http://www.kde.org/), [LXDE](http://www.lxde.org/), and [Xfce](http://www.xfce.org/)) as well as the standard system and for rescue purposes are vailable.
