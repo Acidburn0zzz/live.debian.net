@@ -158,6 +158,14 @@ More information:
 
   * [Homepage](http://www.musix.org.ar/)
 
+## NeuroDebian
+
+[NeuroDebian](http://neuro.debian.net/) is a project aiming at making Debian an ideal versatile platform for the neuroscience research needs. Besides providing a repository with backports of most recent releases of neuroscience-related software, NeuroDebian approaches universal availability of Debian across different platforms by providing Virtual Appliances and [Live-Debian images](http://neuro.debian.net/debian/live/).
+
+More information:
+
+  * [Homepage](http://neuro.debian.net/)
+
 ## OpenMediaVault
 
 [OpenMediaVault](http://www.openmediavault.org/) is a network attached storage (NAS) solution. It contains services like SSH, (S)FTP, SMB/CIFS, AFS, UPnP media server, DAAP media server, RSync, DDNS, BitTorrent client and many more.
