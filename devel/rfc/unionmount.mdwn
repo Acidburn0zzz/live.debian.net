@@ -12,7 +12,7 @@
   * Mount command with unionmount support
     - here is a [patch](../util-linux-union.patch) which you can apply to Squeeze util-linux and rebuild. It may break some other options, I am not sure how those defines are supposed to work. You only need the mount package.
   * Put your mount command into your initramfs
-    - a [patch](../unionmount_initramfs_mount.patch) you can apply to live-initramfs either directly or put it in chroot_local-patches
+    - using a [hook](../live-um.sh) (put in chroot_local-hooks). With recent live-boot-initramfs-tools you should see unionmount among the included options printed during update-initramfs.
   * Tell live-initramfs to use unionmount instead of aufs
      - Use some arguments like these with lb config
 
