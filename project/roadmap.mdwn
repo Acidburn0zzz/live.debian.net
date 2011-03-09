@@ -2,17 +2,10 @@
 
 ## Short Term (matter of days)
 
-  * getting images autobuils (rather than semi-automatic) on live.debian.net back again.
   * getting package autobuilds (rather than semi-automatic) on live.debian.net back again.
 
 ## Middle Term (matter of weeks)
 
-  * release squeeze beta1.
   * clone brendans setup for autotesting on live.debian.net.
 
 ## Long Term (matter of months)
-
-  * release final live-boot 2.0 for squeeze.
-  * release final live-config 2.0 for squeeze.
-  * release final live-build 2.0 for squeeze.
-  * start working on live-* 3.0 for wheezy.
