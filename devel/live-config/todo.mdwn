@@ -20,7 +20,6 @@ Everything that worked with live-initramfs works with live-boot/live-config, exc
   * use verbose/quiet/interactive modes for scripts.
   * use logfile.
   * enable display managers only if they are the selected one.
-  * add option to specify the xsession.
   * when not using persistency, do not import options into the debconf db.
   * cleanup the scripts order and splitting.
   * check if we have the most important scripts for ubuntu so that live-config supports both.
