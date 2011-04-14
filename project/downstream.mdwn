@@ -60,6 +60,14 @@ More information:
 
   * [Homepage](http://sourceforge.net/projects/djangolive/)
 
+## DoudouLinux
+
+[DoudouLinux](http://www.doudoulinux.org/) is a computer environment designed for children that is as simple to use as a gaming console. It provides educational games, art oriented applications (drawing, music), work oriented applications and fun games. Reading is not required for use and DoudouLinux is so simple that children can use it from 2 years old and quickly become autonomous. As a result children think that they are only playing while they are also learning many skills.
+
+More information:
+
+  * [Homepage](http://www.doudoulinux.org/)
+
 ## FAI - Fully Automatic Installation
 
 [FAI](http://www.fai-project.org/) is a non-interactive system to install, customize and manage Linux systems and software configurations on computers as well as virtual machines and chroot environments, from small networks to large-scale infrastructures and clusters.
