@@ -30,16 +30,20 @@ live-config contains the scripts that configure a Debian Live system during the 
 ## Repository
 
 <pre><tt># <b>Debian Live (sid/unstable snapshots)</b>
-deb http://live.debian.net/debian/ sid-snapshots main contrib non-free
-deb-src http://live.debian.net/debian/ sid-snapshots main contrib non-free</tt></pre>
+deb http://live.debian.net/ sid-snapshots main contrib non-free
+deb-src http://live.debian.net/ sid-snapshots main contrib non-free</tt></pre>
 
 <pre><tt># <b>Debian Live (wheezy/testing snapshots)</b>
-deb http://live.debian.net/debian/ wheezy-snapshots main contrib non-free
-deb-src http://live.debian.net/debian/ wheezy-snapshots main contrib non-free</tt></pre>
+deb http://live.debian.net/ wheezy-snapshots main contrib non-free
+deb-src http://live.debian.net/ wheezy-snapshots main contrib non-free</tt></pre>
 
 <pre><tt># <b>Debian Live (squeeze/stable snapshots)</b>
-deb http://live.debian.net/debian/ squeeze-snapshots main contrib non-free
-deb-src http://live.debian.net/debian/ squeeze-snapshots main contrib non-free</tt></pre>
+deb http://live.debian.net/ squeeze-snapshots main contrib non-free
+deb-src http://live.debian.net/ squeeze-snapshots main contrib non-free</tt></pre>
+
+<pre><tt># <b>Debian Live (lenny/oldstable snapshots)</b>
+deb http://live.debian.net/ lenny-snapshots main contrib non-free
+deb-src http://live.debian.net/ lenny-snapshots main contrib non-free</tt></pre>
 
 ## Source
 

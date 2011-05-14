@@ -40,11 +40,15 @@ An introduction to live-build can be found in the live-build manpage.
 deb http://live.debian.net/ sid-snapshots main contrib non-free
 deb-src http://live.debian.net/ sid-snapshots main contrib non-free</tt></pre>
 
-<pre><tt># <b>Debian Live (squeeze/testing snapshots)</b>
+<pre><tt># <b>Debian Live (wheezy/testing snapshots)</b>
+deb http://live.debian.net/ wheezy-snapshots main contrib non-free
+deb-src http://live.debian.net/ wheezy-snapshots main contrib non-free</tt></pre>
+
+<pre><tt># <b>Debian Live (squeeze/stable snapshots)</b>
 deb http://live.debian.net/ squeeze-snapshots main contrib non-free
 deb-src http://live.debian.net/ squeeze-snapshots main contrib non-free</tt></pre>
 
-<pre><tt># <b>Debian Live (lenny/stable snapshots)</b>
+<pre><tt># <b>Debian Live (lenny/oldstable snapshots)</b>
 deb http://live.debian.net/ lenny-snapshots main contrib non-free
 deb-src http://live.debian.net/ lenny-snapshots main contrib non-free</tt></pre>
 
