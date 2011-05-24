@@ -1,3 +1,5 @@
 # Status
 
-  * live-build 3.x: images for wheezy and sid are working, squeeze needs fixed syslinux-themes-debian in local-packages. [2011-05-14]
+  * live-build 3.x: images for wheezy, squeeze needs fixed syslinux-themes-debian in local-packages. [2011-05-14]
+
+  * sid completely broken because of fucked up 2.6.39, see [#627837](http://bugs.debian.org/627837). [2011-05-25]
