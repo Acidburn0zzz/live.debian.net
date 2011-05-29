@@ -1,5 +1,25 @@
 # Status
 
-  * live-build 3.x: images for wheezy, squeeze needs fixed syslinux-themes-debian in local-packages. [2011-05-14]
+Last update: 2011-05-30
 
-  * sid completely broken because of fucked up 2.6.39, see [#627837](http://bugs.debian.org/627837). [2011-05-25]
+## live-build 3.x
+
+  * building squeeze images requires backport of syslinux-themes-debian, otherwise works.
+
+  * building wheezy images works.
+
+  * building sid images is broken because of fucked up 2.6.39 kernel packages, see [#627837](http://bugs.debian.org/627837) ([Workaround](http://lists.debian.org/debian-live/2011/05/msg00144.html)).
+
+## live-build 2.x
+
+  * building lenny and squeeze images works.
+
+  * building wheezy and newer is not supported in 2.x.
+
+## live-build 1.x
+
+  * building lenny images works.
+
+  * building etch images requires updated default mirror selections (for archive.debian.org), otherwise works.
+
+  * building squeeze and newer is not supported in 1.x.
