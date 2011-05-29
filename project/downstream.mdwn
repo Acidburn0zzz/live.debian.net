@@ -68,6 +68,16 @@ More information:
 
   * [Homepage](http://www.doudoulinux.org/)
 
+## Edix
+
+The [Educational Linux System (Edix)](http://wwww.eddixon.net/moodle/) is a live system designed to boot from USB and provide instructors, trainers, and teachers with a ready to go solution providing classroom software support scaling from one learner to an entire school or district.
+
+While technically an Operating System the Edix system provides its real value as a system of operation using the software supplied as a means to organize, document, and provide professional training to learners at a distance or in the classroom.
+
+More information:
+
+  * [Homepage](http://www.eddixon.net/moodle/)
+
 ## FAI - Fully Automatic Installation
 
 [FAI](http://www.fai-project.org/) is a non-interactive system to install, customize and manage Linux systems and software configurations on computers as well as virtual machines and chroot environments, from small networks to large-scale infrastructures and clusters.
