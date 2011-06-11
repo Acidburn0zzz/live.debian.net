@@ -1,14 +1,12 @@
 # Status
 
-Last update: 2011-05-30
+Last update: 2011-06-11
 
 ## live-build 3.x
 
   * building squeeze images requires backport of syslinux-themes-debian, otherwise works.
 
-  * building wheezy images works.
-
-  * building sid images is broken because of fucked up 2.6.39 kernel packages, see [#627837](http://bugs.debian.org/627837) ([Workaround](http://lists.debian.org/debian-live/2011/05/msg00144.html)).
+  * building wheezy and sid images works.
 
 ## live-build 2.x
 
