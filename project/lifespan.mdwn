@@ -4,7 +4,7 @@
 
   * **Packages:** live-boot, live-build, live-config, live-manual, live-tools:
 
-  * **Version:** 3
+  * **Version:** 3.x
 
   * **Support:** everything is possible.
 
@@ -14,9 +14,9 @@
 
   * **Packages:** live-boot, live-build, live-config, live-manual:
 
-  * **Version:** 2
+  * **Version:** 2.x
 
-  * **Support:** only release criticial bugs and selected backports from version 3.
+  * **Support:** only release criticial bugs in core functionality.
 
   * **Legacy Support:** will run optimal on squeeze, but has legacy support for lenny.
 
@@ -24,7 +24,7 @@
 
   * **Packages:** live-helper, live-initramfs
 
-  * **Version:** 1
+  * **Version:** 1.x
 
   * **Support:** only release criticial bugs in core functionality.
 
@@ -34,7 +34,7 @@
 
   * **Packages:** casper, live-package
 
-  * **Version:** 0
+  * **Version:** 0.x
 
   * **Support:** no support at all.
 
