@@ -2,7 +2,7 @@
 
 ### misc
 
-  * gtk d-i true fuer squeeze
+  * gtk d-i true for squeeze
   * volatile, backports
   * btrfs support
   * extlinux support -> check d-i from ext partitions in cdrom-detect
@@ -25,6 +25,7 @@
   * finish image-name option and other temporary branches.
   * think about prebuilt alternatives images with grub instead of syslinux.
   * zsync files for snapshots? cdimage.d.o appears to drop them anyway due to a bug with zsync that makes it useless (see debian-cd ml archive for details).
+  * make lb invocation to build installer-only images possible.
 
 ### core
 
@@ -68,10 +69,6 @@
   * add FAQ to index page
   * remove unavailable packages from apt list
   * fix debian-live packages lists
-
-### bootstrap
-
-  * add multistrap support.
 
 ### binary_debian-installer
 
