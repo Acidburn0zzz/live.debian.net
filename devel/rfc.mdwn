@@ -1,7 +1,6 @@
 # RFC - Request for Comment(s)
 
   * [[derivatives]]
-  * [[multistrap]]
   * [[multifs]]
   * [[multiarch]]
   * [[unionmount]]
