@@ -246,6 +246,16 @@ More information:
 
  * [Homepage](http://www.supergrubdisk.org/rescatux/)
 
+## Ubuntu
+
+[Ubuntu](http://www.ubuntu.com/) is a Linux distribution that starts with the breadth of Debian and adds regular releases (every six months), a clear focus on the user and usability (it should "Just Work", TM) and a commitment to security updates with 18 months of support for every release. Ubuntu ships with the latest GNOME and KDE releases as well as a selection of server and desktop software that makes for a comfortable desktop experience off a single installation CD.
+
+Ubuntu is sponsored by [Canonical Ltd.](http://www.canonical.com/)
+
+More information:
+
+  * [Homepage](http://www.ubuntu.com/)
+
 ## Voyage
 
 [Voyage](http://linux.voyage.hk/) is best run on a x86 embedded platforms such as PC Engines ALIX/WRAP and Soekris 45xx/48xx boards.
