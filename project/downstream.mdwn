@@ -2,7 +2,7 @@
 
 This is a selection of projects (in alphabetical order) that are using Debian Live technologies.
 
-## Amnesic Incognito
+## Amnesic Incognito (Tails)
 
 [Amnesic Incognito](http://amnesia.boum.org/) is aimed at preserving your privacy and anonymity. All outgoing connections to the Internet are forced to go through the Tor network, and no trace is left on local storage devices unless explicitely asked.
 
