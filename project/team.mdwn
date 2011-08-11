@@ -21,4 +21,5 @@ The Debian Live team works on the framework to build official Debian Live system
 
   * [DDPO](http://qa.debian.org/developer.php?login=debian-live@lists.debian.org)
   * [Liststats](http://blends.debian.net/liststats/authorstat_live.png)
+  * [Listtraffic](http://lists.debian.org/stats/debian-live.png)
   * [Listspamreview](https://lists.debian.org/cgi-bin/review/review2.pl?debian-live)
