@@ -2,6 +2,9 @@
 
 ## 2011
 
+  * 2011-03-24: [Debian Live Squeeze 6.0.2](http://live.debian.net/cdimage/release/6.0.2/)<br />
+    Debian Squeeze 6.0.2 was released.
+
   * 2010-07-21: [Debian Live Team Members meet at DebConf 12 in Banja Luka, Bosnia Herzegovina](http://live.debian.net/archive/meetings/2011-debconf/)<br />
     Members of the Debian Live Team have met at the annual Debian Conference.
 
