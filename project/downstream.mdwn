@@ -36,6 +36,15 @@ More information:
 
   * [Homepage](http://www.clonezilla.org/)
 
+## CrunchBang
+
+[CrunchBang](http://www.crunchbanglinux.org/) offers a great blend of speed, style and substance. Using the nimble Openbox window manager, it is highly customisable and provides a modern, full-featured system without sacrificing performance.
+
+More information:
+
+  * [Homepage](http://www.crunchbang.org/)
+  * [Wikipedia](http://en.wikipedia.org/wiki/CrunchBang)
+
 ## Debian Eee PC
 
 The goal of the [Debian Eee PC](http://wiki.debian.org/DebianEeePC/) project is full support for the ASUS Eee PC in Debian.
