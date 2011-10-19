@@ -19,5 +19,6 @@
   * clone brendans setup for autotesting on live.debian.net.
   * integrate libguestfs
   * integrate efilinux
+  * integrate dracut
 
 ## Long Term (matter of months)
