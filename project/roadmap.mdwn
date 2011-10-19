@@ -17,5 +17,7 @@
     - rename options in config tree
   * getting package autobuilds (rather than semi-automatic) on live.debian.net back again.
   * clone brendans setup for autotesting on live.debian.net.
+  * integrate libguestfs
+  * integrate efilinux
 
 ## Long Term (matter of months)
