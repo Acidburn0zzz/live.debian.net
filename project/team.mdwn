@@ -2,7 +2,7 @@
 
 ## Infrastructure
 
-  * Website: [http://live.debian.net/](http:/live.debian.net/)
+  * Website: [http://live.debian.net/](http://live.debian.net/)
   * Alioth Project: [http://alioth.debian.org/projects/debian-live/](http://alioth.debian.org/projects/debian-live/)
   * Documentation: [http://live.debian.net/manual/](http://live.debian.net/manual/)
 
