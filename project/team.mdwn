@@ -3,15 +3,34 @@
 ## Infrastructure
 
   * Website: [http://live.debian.net/](http://live.debian.net/)
-  * Alioth Project: [http://alioth.debian.org/projects/debian-live/](http://alioth.debian.org/projects/debian-live/)
   * Documentation: [http://live.debian.net/manual/](http://live.debian.net/manual/)
 
 ## [[Contact]]
 
 ## Usual roles
 
-People working on Debian Live are listed here:
-[http://alioth.debian.org/project/memberlist.php?group_id=30929](http://alioth.debian.org/project/memberlist.php?group_id=30929)
+The following list of people (alphabetically sorted) are regularly working with Debian Live:
+
+  * Ben Armstrong
+  * Chris Lamb
+  * Cody Somerville
+  * Daniel Baumann
+  * intrigeri
+  * Kai Hendry
+  * Marco Amadori
+  * Otavio Salvador
+  * Richard Nelson
+
+<!-- alioth members
+Alex Owen
+Brendan Sleight
+Fathi Boudra
+Frank Lin Piat
+Frederic Daniel Luc Lehobey
+Mathieu GELI
+Michael Dorrington
+Vagrant Cascadian
+-->
 
 ## Task description
 
