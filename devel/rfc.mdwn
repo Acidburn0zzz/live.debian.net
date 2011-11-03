@@ -6,6 +6,6 @@
   * [[unionmount]]
   * [[overlayfs]]
   * [[tmpfs]]
-  * [[package validation]]
+  * [[package validation|package-validation]]
   * [[lxc]]
   * [[persistence]]
