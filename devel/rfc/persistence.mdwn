@@ -1,0 +1,85 @@
+# RFC - Persistence improvements
+
+## Overview
+
+The initial idea this document comes from is the need to make the
+persistence support in Debian Live fit for
+[Tails](https://tails.boum.org/), while keeping the set of features
+that is in use.
+
+Doing this properly does not boil down to adding a few features on top
+of what's already here: rather, this calls for rethinking and cleaning
+up the set of supported persistence options and the interface offered
+to the user.
+
+But that's not all. Persistence support is currently implemented in
+live-boot, and configured in `/etc/live/` and/or on the kernel
+command-line. The Tails usecase requires to move most boot-time
+communication with the user to a graphical boot menu, running long
+after live-boot has finished its job. So, at the end of the day, the
+persistence features needed by Tails (`live-snapshot`) must be
+implemented in a way that makes it possible to configure and run in
+late userspace. This calls for extracting at least parts of the
+persistence code out of the huge `live` script.
+
+## user interface
+
+### General parameters rework
+
+Currently, there is no way to enable the `home-sn` kind of persistence
+while disabling others. The new interface would be:
+
+* `persistent=(directories|system)`
+* `persistent-storage=(file|filesystem)`
+* `persistent-method=(snapshot|overlay)`
+
+Notes:
+
+* file+overlay not supported.
+* current `persistent=nofiles` is the same as
+  `persistent-storage=filesystem`
+* As long as every possible value for every persistence sub-option is
+  unique, we could support `persistent=directories,file,snapshot`, at
+  least to avoid too long kernel command-line.
+
+### Rework encryption parameters
+
+The problem: `persistent=cryptsetup` boot parameter is incompatible
+with `persistent=nofiles` which involves snapshot files are first
+searched on non-encrypted devices, then on encrypted ones. It probably
+should be made into a first-class independent parameter such as
+`persistent-encryption=cryptsetup`. `persistent-encryption=luks` would
+btw. be more correct and would allow adding support for plain dm-crypt
+mappings that are also setup with cryptsetup.
+
+Also, `persistent=cryptsetup` only makes persistence volume encryption
+best-effort, but not compulsory, contrary to what could be more
+intuitive and suited for our needs.
+
+As a conclusion, let's add `persistent-encryption=(none|luks|...)`
+option and forget the current `persistent=cryptsetup` useless mode
+of operation.
+
+### Clarify data search order
+
+The persistence data search order is not well documented enough:
+live-sn and home-sn files are searched before accordingly labelled
+partitions. This is not critical but we should fix it along the way.
+
+## live-snapshot
+
+### Add support for file deletion
+
+E.g. by replacing cpio with rsync.
+
+### Add a read-only mode
+
+This is easy for `live-snapshot`, tricky but doable for `-rw` kind of
+persistence. Let's start with the snapshot method. Let's add
+a `persistent-rw=(true|false)` parameter.
+
+### Generalize compression support
+
+Only live-snapshot's cpio kind supports compression.
+If we want to support compression for other modes of operation, the
+user interface would be `persistent-compression=...`.

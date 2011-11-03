@@ -8,3 +8,4 @@
   * [[tmpfs]]
   * [[package validation]]
   * [[lxc]]
+  * [[persistence]]
