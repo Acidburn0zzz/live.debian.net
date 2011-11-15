@@ -29,9 +29,12 @@ persistence code out of the huge `live` script.
 Currently, there is no way to enable the `home-sn` kind of persistence
 while disabling others. The new interface would be:
 
-* `persistent=(directories|system)`
-* `persistent-storage=(file|filesystem)`
-* `persistent-method=(snapshot|overlay)`
+* `persistent={directories,system}       (Default: directories,system)`
+* `persistent-storage={file,filesystem}  (Default: file,filesystem)`
+* `persistent-method={snapshot,overlay}  (Default: snapshot,overlay)`
+
+where `{ITEM1,ITEM2,...}` signifies a list of options that can be
+combined in any way.
 
 Notes:
 
@@ -56,8 +59,11 @@ Also, `persistent=cryptsetup` only makes persistence volume encryption
 best-effort, but not compulsory, contrary to what could be more
 intuitive and suited for our needs.
 
-As a conclusion, let's add `persistent-encryption=(none|luks|...)`
-option and forget the current `persistent=cryptsetup` useless mode
+As a conclusion, let's add an option:
+
+* `persistent-encryption={none,luks}  (Default: none)`
+
+and forget about the current `persistent=cryptsetup` useless mode
 of operation.
 
 ### Clarify data search order
