@@ -68,9 +68,10 @@ of operation.
 
 ### Clarify data search order
 
-The persistence data search order is not well documented enough:
-live-sn and home-sn files are searched before accordingly labelled
-partitions. This is not critical but we should fix it along the way.
+The persistence data search order is inconsistnet and not well
+documented enough: snapshot files are searched before snapshot
+partitions, but the opposite order is used for overlays. This is not
+critical but we should fix it along the way.
 
 ## live-snapshot
 
