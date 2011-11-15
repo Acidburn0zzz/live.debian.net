@@ -93,3 +93,107 @@ option which is disabled by default.
 Only live-snapshot's cpio kind supports compression.
 If we want to support compression for other modes of operation, the
 user interface would be `persistent-compression=...`.
+
+## Design fo custom mounts system: locally specified inclusions
+
+### Features
+
+* Allows all types of overlays and snapshots to have the same
+  flexibility as cpio.gz snapshots with a /etc/live-snapshot.list.
+* It's interface is consistent for both overlays and snapshots.
+* Each persistent media contains information about where its content
+  should appear in the live filesystem.
+
+### General idea
+
+We make home-{rw,sn} obsolete, and use live-{rw,sn} as the only way to
+tell that "this is a live-boot compatible overlay/snapshot". When a
+persistent media (i.e. with the right label/filename) is found by
+live-boot, it looks for a file called .live-persistence.list (but I'll
+continue calling it just ".list" for brewity) in its root. If it's not
+there, then it mounts the media on / just like it does for live-rw
+currently. But if .list is present, then it doesn't mount anything on
+/, it instead bind-mounts the directories listed in .list to their
+specified destinations. Each persistent media can have it's own .list,
+but we'd be careful about making sure not to hide a previous
+bind-mounted directory by mounting everything in the right order, and
+not allowing bind-mounts to the same mount point.
+
+### In-depth example
+
+We want to have home-rw style persistence, but we also want the apt
+cache in case of security upgrades and the occasional program we need
+but are not installed on the image. So, inside our persistent media
+$dev (either a file called live-rw.$EXT or a partition with label
+live-rw), we put a .list containing:
+
+    /home/user
+    /var/cache/apt
+  
+When live-boot is supposed to mount $dev, it does so on some $mnt. It
+checks for the existence of $mnt/.list, and since it's there it does:
+
+    mount -o bind ${mnt}/home/user      ${root}/home/user
+    mount -o bind ${mnt}/var/cache/apt  ${root}/var/cache/apt
+
+where $root is what will become the filesystem root after
+initramfs.
+
+Say that we also have another persistent media that contains the
+following .list:
+
+    /etc
+    /var
+    /home/user
+
+* /etc would be mounted as above without any second thoughts since
+  there's no possible mount hiding.
+* /var would have to be mounted before /var/cache/apt in order to
+  avoid getting one mount hiding the other. Note: if the same list
+  would include both, we'd only bind /var, i.e we'd just ignore the
+  children.
+* /home/user is problematic, since hiding is unavoidable. Hence we'd
+  only use the one appearing on the device we scanned first, and
+  reject all consecutive ones.
+
+### Snapshots
+
+.list could also be used for all types of snapshots, working as a
+"local" version of the currently available /etc/live-snapshot.list for
+cpio.gz type snapshots. The "local" .list is more flexible than the
+"gloabl" /etc/live-snapshot.list since the latter is *inside* the live
+system and thus isn't modifiable (unless you create a new live image).
+
+If there's good reasons for having a "global" .list, like
+/etc/live-snapshot.list, we could keep it, and introduce a
+/etc/live-overlay.list for overlays. And/or we could have a file
+called /etc/live-persistence.list that handles both overlays and
+snapshots. The question is then which .list:s take precedence over
+which. I don't see any use for all this though, so unless someone has
+a good use case I'd drop the /etc files completely and stick with just
+"local" .list files for both overlays and snapshots.
+
+Note: for snapshots the .list file wouldn't be limited to
+directories but could also handle individual files. Overlays cannot
+handle individual files as long as we rely on bind-mounting.
+
+### Backwards-compatibility
+
+*If* we care for backwards-compatibility, we'd have to allow for an
+optional extended syntax which allows specifying source-desination
+pairs. To use a home-{rw,sn} partition/file that worked in an older
+version of live-boot, the .list should look like this:
+
+    .    /home
+
+which translates to:
+
+    mount -o bind ${mnt}/.  ${root}/home
+
+so it would work exactly like before. If live-boot finds a
+home-{sn,rw} partition/file, it could just create the above file,
+making the backwards-compatibility completely transparent.
+
+*If* we care for backwards-compatibiliy, we should also keep the
+"global" /etc/live-snapshot.list, but then the precedence problem
+mentioned in the "Snapshots" section needs to be resolved.
