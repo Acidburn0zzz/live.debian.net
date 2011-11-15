@@ -82,8 +82,11 @@ E.g. by replacing cpio with rsync.
 ### Add a read-only mode
 
 This is easy for `live-snapshot`, tricky but doable for `-rw` kind of
-persistence. Let's start with the snapshot method. Let's add
-a `persistent-rw=(true|false)` parameter.
+persistence. Let's start with the snapshot method. Let's add a:
+
+* `persistent-read-only`
+
+option which is disabled by default.
 
 ### Generalize compression support
 
