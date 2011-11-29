@@ -14,64 +14,17 @@ to the user.
 
 But that's not all. Persistence support is currently implemented in
 live-boot, and configured in `/etc/live/` and/or on the kernel
-command-line. The Tails usecase requires to move most boot-time
+command-line. The Tails use case requires to move most boot-time
 communication with the user to a graphical boot menu, running long
 after live-boot has finished its job. So, at the end of the day, the
-persistence features needed by Tails (`live-snapshot`) must be
-implemented in a way that makes it possible to configure and run in
-late userspace. This calls for extracting at least parts of the
-persistence code out of the huge `live` script.
+persistence features needed by Tails must be implemented in a way that
+makes it possible to configure and run in late user space. This calls
+for extracting at least parts of the persistence code out of the huge
+`live` script.
 
-## user interface
-
-### General parameters rework
-
-Currently, there is no way to enable the `home-sn` kind of persistence
-while disabling others. The new interface would be:
-
-* `persistent={directories,system}       (Default: directories,system)`
-* `persistent-storage={file,filesystem}  (Default: file,filesystem)`
-* `persistent-method={snapshot,overlay}  (Default: snapshot,overlay)`
-
-where `{ITEM1,ITEM2,...}` signifies a list of options that can be
-combined in any way.
-
-Notes:
-
-* file+overlay not supported.
-* current `persistent=nofiles` is the same as
-  `persistent-storage=filesystem`
-* As long as every possible value for every persistence sub-option is
-  unique, we could support `persistent=directories,file,snapshot`, at
-  least to avoid too long kernel command-line.
-
-### Rework encryption parameters
-
-The problem: `persistent=cryptsetup` boot parameter is incompatible
-with `persistent=nofiles` which involves snapshot files are first
-searched on non-encrypted devices, then on encrypted ones. It probably
-should be made into a first-class independent parameter such as
-`persistent-encryption=cryptsetup`. `persistent-encryption=luks` would
-btw. be more correct and would allow adding support for plain dm-crypt
-mappings that are also setup with cryptsetup.
-
-Also, `persistent=cryptsetup` only makes persistence volume encryption
-best-effort, but not compulsory, contrary to what could be more
-intuitive and suited for our needs.
-
-As a conclusion, let's add an option:
-
-* `persistent-encryption={none,luks}  (Default: none)`
-
-and forget about the current `persistent=cryptsetup` useless mode
-of operation.
-
-### Clarify data search order
-
-The persistence data search order is inconsistnet and not well
-documented enough: snapshot files are searched before snapshot
-partitions, but the opposite order is used for overlays. This is not
-critical but we should fix it along the way.
+We either need to improve the current live-snapshot functionality, or
+preferably implement a "custom mounts system" for overlays. So either
+of the two following two big headers:
 
 ## live-snapshot
 
@@ -79,22 +32,13 @@ critical but we should fix it along the way.
 
 E.g. by replacing cpio with rsync.
 
-### Add a read-only mode
-
-This is easy for `live-snapshot`, tricky but doable for `-rw` kind of
-persistence. Let's start with the snapshot method. Let's add a:
-
-* `persistent-read-only`
-
-option which is disabled by default.
-
 ### Generalize compression support
 
-Only live-snapshot's cpio kind supports compression.
-If we want to support compression for other modes of operation, the
-user interface would be `persistent-compression=...`.
+Only live-snapshot's cpio kind supports compression.  If we want to
+support compression for other modes of operation, the user interface
+would be `persistent-compression=...`.
 
-## Design fo custom mounts system: locally specified inclusions
+## Design for custom mounts system: locally specified inclusions
 
 ### Features
 
@@ -109,91 +53,229 @@ user interface would be `persistent-compression=...`.
 We make home-{rw,sn} obsolete, and use live-{rw,sn} as the only way to
 tell that "this is a live-boot compatible overlay/snapshot". When a
 persistent media (i.e. with the right label/filename) is found by
-live-boot, it looks for a file called .live-persistence.list (but I'll
-continue calling it just ".list" for brewity) in its root. If it's not
-there, then it mounts the media on / just like it does for live-rw
-currently. But if .list is present, then it doesn't mount anything on
-/, it instead bind-mounts the directories listed in .list to their
-specified destinations. Each persistent media can have it's own .list,
-but we'd be careful about making sure not to hide a previous
-bind-mounted directory by mounting everything in the right order, and
-not allowing bind-mounts to the same mount point.
+live-boot, it looks for a file called live.persist in its root. If
+it's not there, then it mounts the media on / just like it does for
+live-rw currently. But if live.persist is present, then it doesn't
+mount anything on /, it instead mounts the directories listed in
+live.persist to their specified destinations. Each persistent media
+can have it's own live.persist, but we'd be careful about making sure
+not to hide a previous mounted directory by mounting everything in the
+right order, and not allowing mounts to the same mount point.
+
+### How to mount persistent media
+
+The type of mounting method to consider for this are, as I can see it,
+bind-mounts and union mounts. I think the latter is the better choice
+for the following reasons:
+
+* With union mounts we only save the "diff" against the live system,
+  and this has the potential to save a lot of disc space on the
+  persistent media (think persistent /usr).
+* While we still have to worry about union mounts hiding stuff in the
+  live system, we don't have to worry about it as much. In particular,
+  if a new version of a live system introduces some new directory, it
+  will be visible through the union mount (imagine a persistent /etc
+  and a new configuration file or directory from a new program in a
+  new version of the live system).
+
+I don't think the $UNION type "unionmount" supports making unions of
+two directories (which we require), but OTOH it's not even listed as a
+supported union filesystem in the man page. Is unionmount only there
+for historical reasons? Can we deprecate it?
+
+If we can't deprecate it and really care about supporting custom
+mounts type persistence for all union types we could make live-boot
+fall-back to bind-moumting if unionmount is used. I imagine that would
+make the implementation messier though. And moving from a live system
+where you use bind-mount to one where you use union mount (or vice
+versa) would produce weird results.
+
+On a similar note, switching between unionfs, unionfs-fuse and aufs is
+also problematic since they are not compatible (right?). I don't think
+converting between them is an option either. Likely we'd have to
+restrict a particular persistent media to only use one type of
+union. I suppose the lack of this problem this is the only advantage
+of bind-mounting over union mounting. I still think union mounting is
+preferable though.
+
+### Labels and existence of live.persist
+
+Perhaps it's better to have different labels for full persistence and
+custom mounts, e.g. live-{rw,sn} and custom-{rw,sn}, respectively? If
+one where to name live.persist incorrectly, one could otherwise
+potentially screw up (i.e. overwrite files in) one's custom mounts
+media, and we really want to avoid that.
 
 ### In-depth example
 
-We want to have home-rw style persistence, but we also want the apt
-cache in case of security upgrades and the occasional program we need
-but are not installed on the image. So, inside our persistent media
-$dev (either a file called live-rw.$EXT or a partition with label
-live-rw), we put a .list containing:
+Let's say we want to have home-rw style persistence, but we also want
+the apt cache in case of security upgrades and the occasional program
+we need but are not installed on the image. So, inside our persistent
+media $dev (either a file called live-rw or a partition with label
+live-rw), we put a live.persist containing:
 
-    /home/user
-    /var/cache/apt
+    /home/user /var/cache/apt
   
-When live-boot is supposed to mount $dev, it does so on some $mnt. It
-checks for the existence of $mnt/.list, and since it's there it does:
+When live-boot has identified $dev as persistent media, $dev is
+mounted on some $mnt. It then checks for the existence of
+$mnt/live.persist, and since it's there we do the following:
 
-    mount -o bind ${mnt}/home/user      ${root}/home/user
-    mount -o bind ${mnt}/var/cache/apt  ${root}/var/cache/apt
+    mount ${mnt}/home/user ${root}/home/user mount
+    ${mnt}/var/cache/apt ${root}/var/cache/apt
 
 where $root is what will become the filesystem root after
-initramfs.
+initramfs. (We leave out the exact details, but the above mount
+command of course has to be adapted depending on whether we use union
+mounts or bind-mounts.)
 
 Say that we also have another persistent media that contains the
-following .list:
+following live.persist:
 
-    /etc
-    /var
-    /home/user
+    /etc /var /home/user
 
 * /etc would be mounted as above without any second thoughts since
   there's no possible mount hiding.
 * /var would have to be mounted before /var/cache/apt in order to
-  avoid getting one mount hiding the other. Note: if the same list
-  would include both, we'd only bind /var, i.e we'd just ignore the
-  children.
-* /home/user is problematic, since hiding is unavoidable. Hence we'd
-  only use the one appearing on the device we scanned first, and
-  reject all consecutive ones.
+  avoid getting one mount hiding the other. Note: if the same device
+  would've listed both, we'd ignore /var/cache/apt and only mount
+  /var, i.e we ignore all sub-directories.
+* /home/user is problematic, since hiding is unavoidable. Hence this
+  will cause undefined behaviour. A single device will be selected and
+  mounted on it, but we don't give any guarantees to which.
 
 ### Snapshots
 
-.list could also be used for all types of snapshots, working as a
-"local" version of the currently available /etc/live-snapshot.list for
-cpio.gz type snapshots. The "local" .list is more flexible than the
-"gloabl" /etc/live-snapshot.list since the latter is *inside* the live
-system and thus isn't modifiable (unless you create a new live image).
+live.persist could also be used for all types of snapshots, working as
+a "local" version of the currently available /etc/live-snapshot.list
+for cpio.gz type snapshots. The "local" live.persist is more flexible
+than the "global" /etc/live-snapshot.list since the latter is *inside*
+the live system and thus isn't modifiable (unless you create a new
+live image).
 
-If there's good reasons for having a "global" .list, like
+If there's good reasons for having a "global" live.persist, like
 /etc/live-snapshot.list, we could keep it, and introduce a
 /etc/live-overlay.list for overlays. And/or we could have a file
 called /etc/live-persistence.list that handles both overlays and
-snapshots. The question is then which .list:s take precedence over
-which. I don't see any use for all this though, so unless someone has
-a good use case I'd drop the /etc files completely and stick with just
-"local" .list files for both overlays and snapshots.
+snapshots. The question is then which take precedence over which. I
+don't see any use for all this though, so unless someone has a good
+use case I'd drop the /etc files completely and stick with just
+"local" live.persist files for both overlays and snapshots.
 
-Note: for snapshots the .list file wouldn't be limited to
+Note: for snapshots the live.persist file wouldn't be limited to
 directories but could also handle individual files. Overlays cannot
-handle individual files as long as we rely on bind-mounting.
+handle individual files as long as we rely on mounting.
 
 ### Backwards-compatibility
 
 *If* we care for backwards-compatibility, we'd have to allow for an
-optional extended syntax which allows specifying source-desination
+optional extended syntax which allows specifying source-destination
 pairs. To use a home-{rw,sn} partition/file that worked in an older
-version of live-boot, the .list should look like this:
+version of live-boot, the live.persist should look like this:
 
-    .    /home
+    #source #destination .  /home
 
 which translates to:
 
-    mount -o bind ${mnt}/.  ${root}/home
+    mount ${mnt}/.  ${root}/home
 
 so it would work exactly like before. If live-boot finds a
-home-{sn,rw} partition/file, it could just create the above file,
-making the backwards-compatibility completely transparent.
+home-{sn,rw} partition/file, it could just create the above file if
+it's not present already, making the backwards-compatibility
+completely transparent.
 
-*If* we care for backwards-compatibiliy, we should also keep the
+*If* we care for backwards-compatibility, we should also keep the
 "global" /etc/live-snapshot.list, but then the precedence problem
 mentioned in the "Snapshots" section needs to be resolved.
+
+### Missing sources and destinations
+
+An interesting issue is what to do if the mount source on the
+persistent media (e.g. ${mnt}/home/user from the in-depth example)
+and/or the destination (i.e. mount point) in the live system
+(e.g. ${root}/home/user) don't exist. The particular examples I gave
+within parentheses is especially troubling since users are set up in
+live-config, i.e. after live-boot, so we lack user and group
+information for setting correct ownership. Below I'll present a
+solution for all these problematic cases:
+
+#### Missing destination in live system, persistent source present
+
+If the destination doesn't exist in the live system, it obviously has
+to be auto-created by live-boot so we can mount the source from the
+persistent media on it. This isn't completely straight-forward as we
+have to set the ownership of these newly create directories in some at
+least semi-intelligent way. Sure, since we will mount something on the
+destination, it will get the source's ownership, so that will be no
+problem (unless both source and destination are missing, see
+below). But what if the destination is ${root}/home/${USER}/a/b? First
+of all ${USER} hasn't been set up yet (it'll be done in live-config)
+so ${root}/home/${USER} doesn't exist, and we don't have access to
+${USER}'s uid and guid to set ownership correctly. Even if we ignore
+that issue we need to set the ownership of ${root}/home/${USER}/a
+after we create it.
+
+In general we cannot solve this problem as we never know exactly how
+the user wants ownership to be set up. The best we can do is something
+that will handle standard ownership situations so that everything will
+be working out of the box. I believe the following will work except in
+very complex ownership situations:
+
+**Case:** Say the destination is /$A/$B/$DIR, where $A are the only
+directories in that path that already exist in the live system's
+filesystem.
+
+**What we do in live-boot:** We simply "mkdir -p /$A/$B/$DIR" and give
+all the newly create directories ownership as the last directory in
+$A. In other words, non-existing directories inherit the parent's
+ownership. We list the paths of all directories that were created in
+/home in some $FILE that will be available for live-config later.
+
+**What we do in live-config:** When we set up $USER, we check if
+/home/$USER has any subdirs listed in $FILE, and if so we change the
+ownership of those subdirs to $USER. (Note: we don't want to do a
+"chown -R $USER:$USER /home/$USER" as that will increase the boot time
+proportionally to how many persistent files there are in /home. And
+since the source exists we assume it will have correct ownership -- we
+are mainly concerned about getting the $B subdirs' ownership correct.)
+
+AFAICT this will handle persistence anywhere in the filesystem
+gracefully as long as the ownership situation is like in a normal
+Debian install. The live-config stuff is only necessary for home
+directories since users are set up in live-config, but other
+directories with non-root owner's are usually (more like "always" I
+believe) set up when some package is installed, and thus that
+ownership info will be available in the live system's filesystem, so
+it can be handled in live-boot.
+
+If a user needs more flexibility than this, s/he has to use either
+full persistence or make /$A persistent, and then create all of $B
+within the persistent media and manually set the complex ownership
+settings.
+
+#### Missing persistent source, destination present in live system
+
+If the source doesn't exist, we should create it so users don't have
+to do that themselves, as it is error prone. But just creating the
+directories isn't enough; we need to make sure the source somehow
+contains the files that the destination contains in the live system,
+and that ownership is correct. E.g. if someone wants /etc to be
+persistent, then the live system's /etc has to be "contained" in the
+source somehow, otherwise the system won't boot. Fix:
+
+* If we use bind-mount we should bootstrap the source with the
+  contents of the destination by copying it using "cp -a ..." to
+  preserve permissions, ownership, links, etc.
+* If we use union-mounting we just create the source and give it the
+  same ownership as the destination.
+
+#### Both source and destination missing
+
+In order to make the best of this situation we first create the
+destination as above, and then the source as above (this order is
+important), with the eception that all directories will have root as
+owner. Home-directories and their subdirs will get correct ownership
+any way thanks to the live-config change, but all directories outside
+of /home will remain owned by root. If the latter isn't what the user
+wants, there's no way we can anticipate what she wants. Instead she
+has make /$A persistent and then fix ownership on the $B subdirs
+manually. This has to be clearly documented.
