@@ -38,12 +38,7 @@
 		<li><a href="project/news">News</a></li>
 		<li><a href="project/contact">Contact</a></li>
 		<li><a href="/project/team">Team</a></li>
-		<li>Users
-		<ul>
-			<li><a href="project/deployment">Deployment</a></li>
-			<li><a href="project/downstream">Downstream</a></li>
-		</ul>
-		</li>
+		<li><b>Users</b>: <a href="project/deployment">Deployment</a> <a href="project/downstream">Downstream</a></li>
 		<li><a href="project/status">Status</a></li>
 		<li><a href="project/roadmap">Roadmap</a></li>
 		<li><a href="project/lifespan">Support policy</a></li>
