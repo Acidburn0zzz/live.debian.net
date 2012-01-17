@@ -5,7 +5,7 @@
 
 	<ul>
 		<li><b>Manual</b>: <a href="/manual/index.en.html">en</a> <a href="/manual/index.es.html">es</a> <a href="/manual/index.de.html">de</a> <a href="/manual/index.fr.html">fr</a> <a href="/manual/index.it.html">it</a> <a href="/manual/index.pt_BR.html">pt_BR</a> <a href="/manual/index.ro.html">ro</a></li>
-		<li><b>Pre-built images</b>: a href="http://www.debian.org/CD/live/">stable</a> <a href="cdimage">oldstable</a> <a href="archive/images">archived</a></li>
+		<li><b>Pre-built images</b>: <a href="http://www.debian.org/CD/live/">stable</a> <a href="cdimage">oldstable</a> <a href="archive/images">archived</a></li>
 		<li><b>Web Images Builder</b>: <a href="http://live-build.debian.net/">CGI</a> <a href="http://live-studio.debian.net/">Django</a></li>
 		<li><a href="http://lists.debian.org/debian-live/">Mailing list</a></li>
 		<li><b>IRC</b> <a href="archive/irc">log</a></li>
