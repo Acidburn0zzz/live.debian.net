@@ -34,16 +34,17 @@
 	<a class="sl" id="sl_project" href="/project">Project</a>
 
 	<ul>
-		<li><a href="project/about">Overview</a></li>
-		<li><a href="project/news">News</a></li>
-		<li><a href="project/contact">Contact</a></li>
+		<li><a href="/project/about">About</a></li>
+		<li><a href="/project/contact">Contact</a></li>
+		<li><a href="/project/deployment">Deployment</a></li>
+		<li><a href="/project/downstream">Downstream</a></li>
+		<li><a href="/project/lifespan">Lifespan</a></li>
+		<li><a href="/project/links">Links</a></li>
+		<li><a href="/project/news">News</a></li>
+		<li><a href="/project/releases">Releases</a></li>
+		<li><a href="/project/roadmap">Roadmap</a></li>
+		<li><a href="/project/status">Status</a></li>
 		<li><a href="/project/team">Team</a></li>
-		<li><b>Users</b>: <a href="project/deployment">Deployment</a> <a href="project/downstream">Downstream</a></li>
-		<li><a href="project/status">Status</a></li>
-		<li><a href="project/roadmap">Roadmap</a></li>
-		<li><a href="project/lifespan">Support policy</a></li>
-		<li><a href="project/links">Media</a></li>
-		<li><a href="project/releases">Releases</a></li>
 	</ul>
 </div>
 
