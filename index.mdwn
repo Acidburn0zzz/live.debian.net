@@ -16,17 +16,17 @@
 </div>
 
 <div id="tab2" class="tab">
-	<a class="sl" id="sl_devel" href="/devel">Development</a>
+	<a class="sl" id="sl_devel" href="/devel">Components</a>
 
 	<ul>
-		<li><a href="./devel/live-boot/">live-boot</a></li>
-		<li><a href="./devel/live-build/">live-build</a></li>
-		<li><a href="./devel/live-config/">live-config</a></li>
-		<li><a href="./devel/live-installer/">live-installer</a></li>
-		<li><a href="./devel/live-manual/">live-manual</a></li>
-		<li><a href="./devel/live-tools/">live-tools</a></li>
-		<li><a href="./devel/other/">other</a></li>
-		<li><a href="./devel/rfc/">RFC</a></li>
+		<li>Early userspace: <a href="devel/live-boot/">live-boot</a></li>
+		<li>Image builder: <a href="devel/live-build/">live-build</a></li>
+		<li>Late userspace: <a href="devel/live-config/">live-config</a></li>
+		<li>Debian-installer support: <a href="devel/live-installer/">live-installer</a></li>
+		<li>Documentation: <a href="devel/live-manual/">live-manual</a></li>
+		<li>Helpers for live system: <a href="devel/live-tools/">live-tools</a></li>
+		<li><a href="devel/other">other</a></li>
+		<li><a href="devel/rfc">proposals</a></li>
 	</ul>
 </div>
 
