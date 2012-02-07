@@ -20,13 +20,13 @@
 
   * **Legacy Support:** will run optimal on squeeze, but has legacy support for lenny.
 
-## 5.0 "lenny": Legacy
+## 5.0 "lenny": Unsupported
 
   * **Packages:** live-helper, live-initramfs
 
   * **Version:** 1.x
 
-  * **Support:** only release criticial bugs in core functionality.
+  * **Support:** no support at all.
 
   * **Legacy Support:** will run optimal on lenny, but has legacy support for etch.
 
