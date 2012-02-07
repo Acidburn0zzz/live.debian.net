@@ -1,12 +1,10 @@
 # Status
 
-Last update: 2011-06-11
+Last update: 2012-02-07
 
 ## live-build 3.x
 
-  * building squeeze images requires backport of syslinux-themes-debian, otherwise works.
-
-  * building wheezy and sid images works.
+  * building squeeze, wheezy and sid images works (live-build 3.0~a43-1 or newer required).
 
 ## live-build 2.x
 
