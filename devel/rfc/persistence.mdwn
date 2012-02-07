@@ -50,17 +50,15 @@ would be `persistent-compression=...`.
 
 ### General idea
 
-We make home-{rw,sn} obsolete, and use live-{rw,sn} as the only way to
-tell that "this is a live-boot compatible overlay/snapshot". When a
-persistent media (i.e. with the right label/filename) is found by
-live-boot, it looks for a file called live.persist in its root. If
-it's not there, then it mounts the media on / just like it does for
-live-rw currently. But if live.persist is present, then it doesn't
-mount anything on /, it instead mounts the directories listed in
-live.persist to their specified destinations. Each persistent media
-can have it's own live.persist, but we'd be careful about making sure
-not to hide a previous mounted directory by mounting everything in the
-right order, and not allowing mounts to the same mount point.
+We make home-{rw,sn} obsolete. When a persistent media (i.e. with the
+right label/filename) is found by live-boot, it looks for a file
+called live.persist in its root. If it's not there, the device is
+ignored. If live.persist is present, then it mounts the directories
+listed in live.persist to their specified destinations. Each
+persistent media can have it's own live.persist, but we'd be careful
+about making sure not to hide a previous mounted directory by mounting
+everything in the right order, and not allowing mounts to the same
+mount point.
 
 ### How to mount persistent media
 
@@ -98,23 +96,28 @@ union. I suppose the lack of this problem this is the only advantage
 of bind-mounting over union mounting. I still think union mounting is
 preferable though.
 
-### Labels and existence of live.persist
+### Labels
 
-Perhaps it's better to have different labels for full persistence and
-custom mounts, e.g. live-{rw,sn} and custom-{rw,sn}, respectively? If
-one where to name live.persist incorrectly, one could otherwise
-potentially screw up (i.e. overwrite files in) one's custom mounts
-media, and we really want to avoid that.
+We use different labels for full persistence and custom mounts:
+
+* full-{ov,sn} indicates full persistence using overlays and
+  snapshots, respectively.
+* custom-{ov,sn}, indicates custom directory overlay mounts and
+  snapshots, respectively.
+
+Full and custom persistence are not mutually exclusive but will work
+just like when using live-rw and home-rw at the same time previously.
 
 ### In-depth example
 
 Let's say we want to have home-rw style persistence, but we also want
 the apt cache in case of security upgrades and the occasional program
 we need but are not installed on the image. So, inside our persistent
-media $dev (either a file called live-rw or a partition with label
-live-rw), we put a live.persist containing:
+media $dev (either a file called custom-ov or a partition with label
+custom-ov), we put a live.persist containing:
 
-    /home/user /var/cache/apt
+    /home/user
+    /var/cache/apt
   
 When live-boot has identified $dev as persistent media, $dev is
 mounted on some $mnt. It then checks for the existence of
@@ -131,7 +134,9 @@ mounts or bind-mounts.)
 Say that we also have another persistent media that contains the
 following live.persist:
 
-    /etc /var /home/user
+    /etc
+    /var
+    /home/user
 
 * /etc would be mounted as above without any second thoughts since
   there's no possible mount hiding.
@@ -172,7 +177,8 @@ optional extended syntax which allows specifying source-destination
 pairs. To use a home-{rw,sn} partition/file that worked in an older
 version of live-boot, the live.persist should look like this:
 
-    #source #destination .  /home
+    #source destination
+    .       /home
 
 which translates to:
 
