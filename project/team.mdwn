@@ -3,6 +3,7 @@
 ## Infrastructure
 
   * Website: [http://live.debian.net/](http://live.debian.net/)
+  * CGI Builder: [http://live-build.debian.net/](http://live-build.debian.net/)
   * Documentation: [http://live.debian.net/manual/](http://live.debian.net/manual/)
 
 ## [[Contact]]
