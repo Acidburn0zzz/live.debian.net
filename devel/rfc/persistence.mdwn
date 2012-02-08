@@ -193,6 +193,25 @@ completely transparent.
 "global" /etc/live-snapshot.list, but then the precedence problem
 mentioned in the "Snapshots" section needs to be resolved.
 
+### Options
+
+Options may be passed as a coma separated list in the second column
+(or the third in case of the "extended syntax") and have the following
+effects:
+
+* `linkfiles`: Instead of mounting the source on the destination,
+  create the directory structure of the source in the destination
+  directory and create symbolic links (overwriting existing files or
+  directories with the same name) from the corresponding place in the
+  destination to each file in the source. Note that deleting the links
+  in the destination will only remove the link, not the corresponding
+  file in the source; removed links will reappear after a reboot.
+
+  Effectively `linkfiles` will make *only* the files already in the
+  source persistent, not files created in the destination. This option
+  is useful when one only need certain files to be persistent and not
+  the whole directory they're in, e.g. some dot-files in $HOME's root.
+
 ### Missing sources and destinations
 
 An interesting issue is what to do if the mount source on the
