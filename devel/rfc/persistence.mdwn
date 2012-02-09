@@ -63,38 +63,33 @@ mount point.
 ### How to mount persistent media
 
 The type of mounting method to consider for this are, as I can see it,
-bind-mounts and union mounts. I think the latter is the better choice
-for the following reasons:
+bind-mounts and union mounts. Union mounts has some nice properties
+compared to bind-mounts:
 
 * With union mounts we only save the "diff" against the live system,
   and this has the potential to save a lot of disc space on the
-  persistent media (think persistent /usr).
+  persistent media (think persistent /usr + installed packages). It's
+  not so useful for e.g. /home since /home/$USER is dynamically
+  generated during live-config. So this option is only useful if the
+  mount point occupies a lot of space on the read-only filesystem.
 * While we still have to worry about union mounts hiding stuff in the
-  live system, we don't have to worry about it as much. In particular,
-  if a new version of a live system introduces some new directory, it
-  will be visible through the union mount (imagine a persistent /etc
-  and a new configuration file or directory from a new program in a
-  new version of the live system).
+  read-only filesystem, we don't have to worry about it as much as
+  with bind mounts. Any changes in the read-only filesystem will be
+  visible through the union mount unless the user has removed or
+  modified that file, or added a file with the same name as some new
+  file that's introduced in the ro filesystem.
 
-I don't think the $UNION type "unionmount" supports making unions of
-two directories (which we require), but OTOH it's not even listed as a
-supported union filesystem in the man page. Is unionmount only there
-for historical reasons? Can we deprecate it?
+Switching between unionfs, unionfs-fuse and aufs is problematic since
+they are not compatible (right?). I don't think converting between
+them is an option either. Likely we'd have to restrict a particular
+persistent media to only use one type of union. I suppose the lack of
+this problem is the only advantage of bind-mounting over union
+mounting.
 
-If we can't deprecate it and really care about supporting custom
-mounts type persistence for all union types we could make live-boot
-fall-back to bind-moumting if unionmount is used. I imagine that would
-make the implementation messier though. And moving from a live system
-where you use bind-mount to one where you use union mount (or vice
-versa) would produce weird results.
-
-On a similar note, switching between unionfs, unionfs-fuse and aufs is
-also problematic since they are not compatible (right?). I don't think
-converting between them is an option either. Likely we'd have to
-restrict a particular persistent media to only use one type of
-union. I suppose the lack of this problem this is the only advantage
-of bind-mounting over union mounting. I still think union mounting is
-preferable though.
+Since bind-mounting may be what the user expects (it's what was used
+for home-rw style before) that should be the default, but union
+mounting is available as an option for individual custom mounts (see
+below).
 
 ### Labels
 
@@ -196,8 +191,8 @@ mentioned in the "Snapshots" section needs to be resolved.
 ### Options
 
 Options may be passed as a coma separated list in the second column
-(or the third in case of the "extended syntax") and have the following
-effects:
+(or the third in case of the "extended syntax") for any live.persist
+entry and have the following effects:
 
 * `linkfiles`: Instead of mounting the source on the destination,
   create the directory structure of the source in the destination
@@ -211,6 +206,11 @@ effects:
   source persistent, not files created in the destination. This option
   is useful when one only need certain files to be persistent and not
   the whole directory they're in, e.g. some dot-files in $HOME's root.
+
+* `union`: Let the source on the persistent media be an rw branch of a
+  union so only the *changes* are stored persistently. This can
+  potentially reduce disk usage, and will not hide files added to the
+  read-only media. This is not supported with `union=unionmount`.
 
 ### Missing sources and destinations
 
