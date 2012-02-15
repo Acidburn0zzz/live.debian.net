@@ -96,12 +96,14 @@ below).
 We use different labels for full persistence and custom mounts:
 
 * full-{ov,sn} indicates full persistence using overlays and
-  snapshots, respectively.
+  snapshots, respectively. In order to maintain backwards
+  compatibility live-{rw,sn} still works too.
 * custom-{ov,sn}, indicates custom directory overlay mounts and
   snapshots, respectively.
 
 Full and custom persistence are not mutually exclusive but will work
 just like when using live-rw and home-rw at the same time previously.
+
 
 ### In-depth example
 
