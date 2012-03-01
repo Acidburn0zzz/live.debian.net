@@ -199,6 +199,21 @@ live.persist on another persistent media):
 Then we'd always deal with this mount *after* the `/etc` mount so that
 no mount is hid by another mount.
 
+### Backwards-compatibility
+
+We have backwards-compatibility for home-rw partitions/files that
+worked in older versions of live-boot. When such a label is found
+the following live.persist is created (if no live-persist exists):
+
+    #source destination
+    /       /home
+
+which translates to:
+
+    mount --bind ${mnt} ${root}/home
+
+so it will work exactly like before.
+
 ### Snapshots
 
 live.persist could also be used for all types of snapshots, working as
@@ -220,29 +235,6 @@ use case I'd drop the /etc files completely and stick with just
 Note: for snapshots the live.persist file wouldn't be limited to
 directories but could also handle individual files. Overlays cannot
 handle individual files as long as we rely on mounting.
-
-### Backwards-compatibility
-
-*If* we care for backwards-compatibility, we'd have to allow for an
-optional extended syntax which allows specifying source-destination
-pairs. To use a home-{rw,sn} partition/file that worked in an older
-version of live-boot, the live.persist should look like this:
-
-    #source destination
-    .       /home
-
-which translates to:
-
-    mount ${mnt}/.  ${root}/home
-
-so it would work exactly like before. If live-boot finds a
-home-{sn,rw} partition/file, it could just create the above file if
-it's not present already, making the backwards-compatibility
-completely transparent.
-
-*If* we care for backwards-compatibility, we should also keep the
-"global" /etc/live-snapshot.list, but then the precedence problem
-mentioned in the "Snapshots" section needs to be resolved.
 
 ### Missing sources and destinations
 
