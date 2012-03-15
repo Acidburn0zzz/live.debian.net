@@ -227,6 +227,14 @@ More information:
 
   * [Homepage](http://mandalka.name/privatix/index.html)
 
+## Progress Linux
+
+[Progress Linux](http://www.progress-linux.org/) is a derivative focused on system integration.
+
+More information:
+
+  * [Homepage](http://www.progress-linux.org/)
+
 ## Puredyne
 
 [Puredyne](http://puredyne.goto10.org/) is aimed at creative people, looking for tools outside the standard. It provides the best experimental creative applications alongside a solid set of graphic, audio and video tools in a fast, minimal package. For everything from sound art to innovative filmmaking.
