@@ -1,0 +1,5 @@
+# live-tools Todo
+
+  * once there are more than one script, generalize shell functions into a common file to be sourced.
+  * scripts/live-system should provide similar output and interface as lsb_release
+  * scripts/live-system should also provide information about persistency
