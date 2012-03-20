@@ -106,77 +106,91 @@ just like when using live-rw and home-rw at the same time previously.
 
 ### live.persist syntax
 
-Each line in live.persist are either a comment (line starts with `#`)
-or of the following form (using sh's IFS as separators):
+A legal line in live.persist is either empty, a comment (line starts
+with `#`) or of the following form (using sh's IFS as separators):
 
-    SOURCE [DEST [OPTIONS...]]
+    DIR [OPTIONS...]
 
-which roughly translates to "mount SOURCE on DEST in the way described
-by OPTIONS".
+which roughly translates to "make DIR persistent in the way described
+by the list of OPTIONS".
 
-SOURCE is an absolute path w.r.t. the persistent media's root that
-cannot contain "`.`" or "`..`". It specifies where the persistent data
-is stored on the persistent media.
+DIR must be an absolute path that cannot contain "`.`" or "`..`", and
+cannot be "`/live`" or any of its subdirectories, or "`/`" (for the
+latter, use full-ov instead). live-boot will create the path
+equivalent to DIR on the persistent media and will persistently store
+the changes to DIR there.
 
-DEST is an absolute path w.r.t. the live system's filesystem root
-that cannot contain "`.`" or "`..`". It specifies where SOURCE will be
-"mounted" in the live system's filesystem. If DEST isn't specified
-it's the same as specifying DEST which is the same as SOURCE.
+All custom mounts will be done in an order so that no DIR1 ever hides
+another DIR2 since DIR1 is a parent directory of DIR2. For instance,
+if we have the two DIR:s `/a` and `/a/b` we'd always mount `/a` first,
+then `/a/b`. The ordering in live.persist doesn't matter, and it
+doesn't matter if several live.persist:s on different storage media
+are used. It should be noted that "nested" mountes like these on the
+same media will cause errors unless you use the `source` option (see
+below) to make sure that they are stored in different directories on
+the media.
 
-We will always make the "mounts" in an order so that no DEST1 ever
-hides another DEST2 since DEST1 is a parent directory of DEST2. For
-instance, if we have the two DEST:s `/a` and `/a/b` we'd always mount
-`/a` first, then `/a/b`. The ordering in live.persist doesn't matter,
-and it doesn't matter if we're dealing with several live.persist:s on
-different storage media either.
+When a source directory doesn't exist on the persistent media for a
+certain custom mount, it will be created automatically. It will also
+be bootstrapped by copying the contents of the DIR into the
+source. The bootstrapping will not happen when the `linkfiles` or
+`union` options are used (see below).
 
 OPTIONS is a coma-separated list that determines in what way we
-"mount" SOURCE on DEST and can be any of the following:
+make DIR persistent, and can be any of the following:
 
-* Default: Bind-mount SOURCE on DEST.
+* Default: Use bind-mounts.
 
-* `linkfiles`: Create the directory structure of the SOURCE directory
-  in the DEST directory and create symbolic links (overwriting
+* `linkfiles`: Create the directory structure of the source directory
+  on the persistent media in DIR and create symbolic links (overwriting
   existing files or directories with the same name) from the
-  corresponding place in DEST to each file in SOURCE. Note that
-  deleting the links in DEST will only remove the link, not the
-  corresponding file in SOURCE; removed links will reappear after a
-  reboot.
+  corresponding place in DIR to each file in the source. Note that
+  deleting the links in DIR will only remove the link, not the
+  corresponding file in the source; removed links will reappear after a
+  reboot. This option is mutually exclusive with `union`.
 
-  Effectively `linkfiles` will make *only* the files already in SOURCE
-  persistent, not files created in DEST. This option is useful when
+  Effectively `linkfiles` will make *only* the files already in the source
+  persistent, not files created in DIR. This option is useful when
   one only need certain files to be persistent and not the whole
   directory they're in, e.g. some dot-files in $HOME's root.
 
-* `union`: Let the SOURCE be the rw branch of a union with DEST from
-  the image's read-only filesystem so only the *changes* are stored
-  persistently. This can potentially reduce disk usage, and will not
-  hide files added to the read-only media. This is not supported with
-  `union=unionmount`.
+* `union`: Save the rw branch on a union on the persistent media, so
+  only the *changes* are stored persistently. This can potentially
+  reduce disk usage, and will not hide files added to the read-only
+  media. One caveat is that the union will use DIR from the image's
+  read-only filesystem, not the real filesystem root, so files created
+  after boot will not appear in the union. This is not supported with
+  `union=unionmount`, and is mutually exclusive with `linkfiles`.
+
+* `source=PATH`: When given, store the persistent changes in PATH on
+  the persistent media. PATH must be an relative path (w.r.t. the
+  persistent media root) that cannot contain "`.`" or "`..`", with the
+  exception that it can be just "`.`" which means the persistent media
+  root. This option is mostly relevant if you want to nest custom
+  mounts, which otherwise would cause errors, or if you want to make
+  the whole media root available.
 
 ### In-depth example
 
-Let's say we want to have home-rw style persistence, but we also want
-the apt cache in case of security upgrades and the occasional program
-we need but are not installed on the image. So, inside our persistent
-media $dev (either a file called custom-ov or a partition with label
-custom-ov), we put a live.persist containing:
+Let's say our persistent media $dev (either a file called custom-ov or
+a partition with label custom-ov) contains the following live.persist
+file:
 
     /var/cache/apt
-    /config-files /home/user linkfiles
-	/etc /etc union
+    /home/user linkfiles,source=config-files
+	/etc union
 
-When live-boot has identified $dev as persistent media, $dev is
+When live-boot has identified $dev as a persistent media, $dev is
 mounted on some `${mnt}`. It then checks for the existence of
 $mnt/live.persist, and since it's there we proceed. For the first line
-we simply do:
+it simply does:
 
     mount --bind ${mnt}/var/cache/apt /var/cache/apt
 
 For the second line, let's say `${mnt}/config-files` contains the
-files `.emacs` and `.ssh/config`. We first create
+files `.emacs` and `.ssh/config`. live-boot would first create
 `/home/user/.ssh` and make sure it has the same ownership and
-permissions as `${mnt}/config-files/.ssh`. Then we do:
+permissions as `${mnt}/config-files/.ssh`. Then it does:
 
     ln -s ${mnt}/config-files/.emacs /home/user/.emacs
 	ln -s ${mnt}/config-files/.ssh /home/user/.ssh/config
@@ -197,7 +211,16 @@ live.persist on another persistent media):
     /etc/ssh
 
 Then we'd always deal with this mount *after* the `/etc` mount so that
-no mount is hid by another mount.
+no mount is hid by another mount. However, if this is listed in the
+live.persist of the same file as above we'd get an error since the
+source directories auto-created by live-boot would nest;
+`${mnt}/etc/ssh` is a subdirectory of `${mnt}/ssh`. Hence we'd have to
+do something like this instead:
+
+    /etc/ssh source=ssh-config
+
+This would ensure that the source directories on the persistent media
+would not nest (`${mnt}/ssh-config` vs `${mnt}/etc`.
 
 ### Backwards-compatibility
 
@@ -205,12 +228,11 @@ We have backwards-compatibility for home-rw partitions/files that
 worked in older versions of live-boot. When such a label is found
 the following live.persist is created (if no live-persist exists):
 
-    #source destination
-    /       /home
+    /home source=.
 
 which translates to:
 
-    mount --bind ${mnt} ${root}/home
+    mount --bind ${mnt}/. ${root}/home
 
 so it will work exactly like before.
 
