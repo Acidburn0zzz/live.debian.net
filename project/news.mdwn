@@ -1,5 +1,10 @@
 # News
 
+## 2012
+
+  * 2012-01-29: [Debian Live Squeeze 6.0.4(http://live.debian.net/cdimage/release/6.0.4)<br />
+    Debian Squeeze 6.0.4 was released.
+
 ## 2011
 
   * 2011-10-17: [Debian Live Squeeze 6.0.3(http://live.debian.net/cdimage/release/6.0.3)<br />
