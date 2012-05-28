@@ -61,6 +61,14 @@ More information:
 
   * [Homepage](http://pkg-kde.alioth.debian.org/kde4livecd.html)
 
+## debtailor
+
+[debtailor](http://users.ninthfloor.org/~rbern/debtailor/) tries to configure and maintain a distribution using only debian tools (debian-live, git-buildpackage, mini-buildd), git, config-packages (packages that configures other debian packages), and to release the code in a distributed and decentralized way using a script (ikisync) with ikiwiki.
+
+More information:
+
+  * [Homepage](http://users.ninthfloor.org/~rbern/debtailor/)
+
 ## Django Live
 
 [Django Live](http://sourceforge.net/projects/djangolive/) is a live system to ease the setup, hosting and testing of applications based on the Dijango Web framework.
