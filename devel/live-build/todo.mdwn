@@ -9,27 +9,23 @@
   * tmpfs support
   * implement globaly shared caches
   * update d-i handling for new Xorg based gui installer
-  * fuers cgi die configs in ein repo pushen, so dass es dann via cgi kommt
+  * put default configs into a git repository so that the cgi clones from them
   * fix build failures with -p minimal and local packages
   * add extlinux as bootloader
-  * binary_debian-installer fails when cpi is not available (should use chrooted cpio)
+  * binary_debian-installer fails when cpio is not available (should use chrooted cpio)
   * update to use syslinux-themes-debian
-  * rethink sources.list and sources.list.d handling.
   * trusted keys from local repository are not removed again.
   * finish usb-zip support.
   * finish grub on usb.
   * fix size issues in the desktop images (tasksel usage screwup).
   * "common" source packages must include other architectures packages (e.g. bootloaders) too.
-  * using menu beep when syslinux prompt is ready.
   * build 'all-in-one' dvd.
   * finish image-name option and other temporary branches.
   * think about prebuilt alternatives images with grub instead of syslinux.
-  * zsync files for snapshots? cdimage.d.o appears to drop them anyway due to a bug with zsync that makes it useless (see debian-cd ml archive for details).
   * make lb invocation to build installer-only images possible.
 
 ### core
 
-  * us lh as generic exec wrapper
   * add bash completion.
   * create log file per default
   * support global cache in /var/cache/live-build
@@ -41,7 +37,6 @@
   * allow to build for cross-architectures (binfmt where possible, otherwise two stage debootstrap with qemu emulation).
   * interactive mode should set debconf frontends to interactive and priority to low.
   * merge different tarball compressions into tar-gz, tar-bz2, etc., same way as usb-hdd and usb-zip.
-  * merge different checksums into one function, and make configurable which hash to use.
   * support building multiple binary images in a row.
   * support building images without root (fakeroot, fakechroot, sudo etc).
   * improve webfrontend, use http://linuxcoe.sourceforge.net/ for inspiration.
@@ -51,14 +46,6 @@
 
   * create --report-config option
   * create --validate-config option
-  * provide config auto update:
-    * s/enabled/true/g; s/disable/false/g
-    * s/categories/archive-areas/
-    * local packageslists changes:
-      * config/chroot_local-packageslists/foo to config/chroot_local-packageslists/foo.list
-      * any *.list doesn't need to be in LH_PACKAGES_LISTS anymore
-      * any list in LH_PACKAGES_LISTS needs to have a suffix *.list
-    * scripts/ renamed to auto/
   * define modes by dropping files with variables into modes.d/ directory
   * improve Check_defaults() to cover more wrong combinations/values
   * improve --clone (see bootcd for inspiration).
