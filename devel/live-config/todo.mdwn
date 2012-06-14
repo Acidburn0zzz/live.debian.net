@@ -11,6 +11,14 @@ Everything that worked with live-initramfs works with live-boot/live-config, exc
 
   * factor out netbase (3.x).
 
+### medium
+
+  * live-debconfig:
+    - integrate support for systemd
+    - integrate support for upstart
+    - disable udev
+    - disable update-initramfs
+
 ### bigger
 
   * making plugins post- and pre- login processing
