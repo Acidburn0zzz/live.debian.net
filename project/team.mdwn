@@ -42,6 +42,7 @@ The Debian Live team works on the framework to build official Debian Live system
   * [Package Overview (DDPO)](http://qa.debian.org/developer.php?login=debian-live@lists.debian.org)
   * [Package Uploaders Statistics](http://blends.debian.net/liststats/uploaders_debian-live.png)
   * [Bugs closed Statistics](http://blends.debian.net/liststats/bugs_debian-live.png)
-  * [List Authors Statistic](http://blends.debian.net/liststats/authorstat_live.png)
+  * [VCS Authors Statistics](http://blends.debian.net/liststats/commitstat_debian-live.png)
+  * [List Authors Statistic](http://blends.debian.net/liststats/authorstat_debian-live.png)
   * [List Traffic Statistic](http://lists.debian.org/stats/debian-live.png)
   * [List Spam Review](https://lists.debian.org/cgi-bin/review/review2.pl?debian-live)
