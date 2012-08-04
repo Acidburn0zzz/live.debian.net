@@ -1,48 +1,58 @@
 # Other
 
-## autorun4linuxcd
+# live-build config
 
-  * Browse: [http://git.debian.org/?p=debian-live/autorun4linuxcd.git](http://git.debian.org/?p=debian-live/autorun4linuxcd.git)
-  * Git: [git://git.debian.org/debian-live/autorun4linuxcd.git](git://git.debian.org/debian-live/autorun4linuxcd.git)
+## Active
 
-## autotesting
-
-  * Browse: [http://git.debian.org/?p=debian-live/autotesting.git](http://git.debian.org/?p=debian-live/autotesting.git)
-  * Git: [git://git.debian.org/debian-live/autotesting.git](git://git.debian.org/debian-live/autotesting.git)
-
-## live-build config
-
-debian-eeepc
-
-  * Browse: [http://git.debian.org/?p=debian-eeepc/eeepc-live.git](http://git.debian.org/?p=debian-eeepc/eeepc-live.git)
-  * Git: [git://git.debian.org/debian-eeepc/eeepc-live.git](git://git.debian.org/debian-eeepc/eeepc-live.git)
-
-debian-junior
-
-  * Browse: [http://git.debian.org/?p=debian-live/config-junior.git](http://git.debian.org/?p=debian-live/config-junior.git)
-  * Git: [git://git.debian.org/debian-live/config-junior.git](git://git.debian.org/debian-live/config-junior.git)
-
-webconverger
-
-  * Browse: [http://git.debian.org/?p=debian-live/config-webc.git](http://git.debian.org/?p=debian-live/config-webc.git)
-  * Git: [git://git.debian.org/debian-live/config-webc.git](git://git.debian.org/debian-live/config-webc.git)
-
-## live-config-staging
+### live-config-staging
 
   * Browse: [http://live.debian.net/gitweb/?p=live-config-staging.git](http://live.debian.net/gitweb/?p=live-config-staging.git)
   * Git: [git://live.debian.net/git/live-config-staging.git](git://live.debian.net/git/live-config-staging.git)
 
-## live-magic
+###debian-eeepc
 
-  * Browse: [http://live.debian.net/gitweb/?p=live-magic.git](http://live.debian.net/gitweb/?p=live-magic.git)
-  * Git: [git://live.debian.net/git/live-magic.git](git://live.debian.net/git/live-magic.git)
+  * Browse: [http://git.debian.org/?p=debian-eeepc/eeepc-live.git](http://git.debian.org/?p=debian-eeepc/eeepc-live.git)
+  * Git: [git://git.debian.org/debian-eeepc/eeepc-live.git](git://git.debian.org/debian-eeepc/eeepc-live.git)
 
-## live-studio
+## Not longer active
 
-  * Browse: [http://live.debian.net/gitweb/?p=live-studio.git](http://live.debian.net/gitweb/?p=live-studio.git)
-  * Git: [git://live.debian.net/git/live-studio.git](git://live.debian.net/git/live-studio.git)
+###debian-junior
 
-## live-workbench
+  * Browse: [http://live.debian.net/gitweb?p=old/config-junior.git](http://live.debian.net/gitweb?p=old/config-junior.git)
+  * Git: [git://live.debian.net/git/old/config-junior.git](git://live.debian.net/git/old/config-junior.git)
 
-  * Browse: [http://git.debian.org/?p=debian-live/live-workbench.git](http://git.debian.org/?p=debian-live/live-workbench.git)
-  * Git: [git://git.debian.org/debian-live/live-workbench.git](git://git.debian.org/debian-live/live-workbench.git)
+###webconverger
+
+  * Browse: [http://live.debian.net/gitweb?p=old/config-webc.git](http://live.debian.net/gitweb?p=old/config-webc.git)
+  * Git: [git://live.debian.net/git/old/config-webc.git](git://live.debian.net/git/old/config-webc.git)
+
+# Projects
+
+## Active
+
+## Not longer active
+
+### autorun4linuxcd
+
+  * Browse: [http://live.debian.net/gitweb?p=old/autorun4linuxcd.git](http://live.debian.net/gitweb?p=old/autorun4linuxcd.git)
+  * Git: [git://live.debian.net/git/old/autorun4linuxcd.git](git://live.debian.net/git/old/autorun4linuxcd.git)
+
+### autotesting
+
+  * Browse: [http://live.debian.net/gitweb?p=old/autotesting.git](http://live.debian.net/gitweb?p=old/autotesting.git)
+  * Git: [git://live.debian.net/git/old/autotesting.git](git://live.debian.net/git/old/autotesting.git)
+
+### live-magic
+
+  * Browse: [http://live.debian.net/gitweb?p=old/live-magic.git](http://live.debian.net/gitweb?p=old/live-magic.git)
+  * Git: [git://live.debian.net/git/old/live-magic.git](git://live.debian.net/git/old/live-magic.git)
+
+### live-studio
+
+  * Browse: [http://live.debian.net/gitweb?p=old/live-studio.git](http://live.debian.net/gitweb?p=old/live-studio.git)
+  * Git: [git://live.debian.net/git/old/live-studio.git](git://live.debian.net/git/old/live-studio.git)
+
+### live-workbench
+
+  * Browse: [http://live.debian.net/gitweb?p=old/live-workbench.git](http://live.debian.net/gitweb?p=old/live-workbench.git)
+  * Git: [git://live.debian.net/git/old/live-workbench.git](git://live.debian.net/git/old/live-workbench.git)
