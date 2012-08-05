@@ -14,7 +14,7 @@
   * Browse: [http://git.debian.org/?p=debian-eeepc/eeepc-live.git](http://git.debian.org/?p=debian-eeepc/eeepc-live.git)
   * Git: [git://git.debian.org/debian-eeepc/eeepc-live.git](git://git.debian.org/debian-eeepc/eeepc-live.git)
 
-## Not longer active
+## No longer active
 
 ###debian-junior
 
@@ -30,7 +30,7 @@
 
 ## Active
 
-## Not longer active
+## No longer active
 
 ### autorun4linuxcd
 
