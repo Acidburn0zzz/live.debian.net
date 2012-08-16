@@ -6,6 +6,7 @@ live-tools contains additional support scripts for Debian Live systems.
 
 ## News
 
+  * 2012-06-05: Releasing first 3.0 stable version (3.0.0-1).
   * 2010-09-02: Uploading initial version to debian (3.0~a1-1).
 
 ## Links
