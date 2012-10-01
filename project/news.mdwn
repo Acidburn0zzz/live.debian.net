@@ -2,6 +2,9 @@
 
 ## 2012
 
+  * 2012-10-01: [Debian Live Wheezy 7.0~a1](http://live.debian.net/cdimage/release/7.0~a1)<br />
+    Debian Live Wheezy 7.0~a1 was released.
+
  * 2012-09-29: [Debian Live Squeeze 6.0.5(http://live.debian.net/cdimage/release/6.0.5)<br />
     Debian Squeeze 6.0.5 was released.
 
