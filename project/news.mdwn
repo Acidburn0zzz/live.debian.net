@@ -5,53 +5,53 @@
   * 2012-10-01: [Debian Live Wheezy 7.0~a1](http://live.debian.net/cdimage/release/7.0~a1)<br />
     Debian Live Wheezy 7.0~a1 was released.
 
- * 2012-09-29: [Debian Live Squeeze 6.0.5(http://live.debian.net/cdimage/release/6.0.5)<br />
+  * 2012-09-29: [Debian Live Squeeze 6.0.5](http://live.debian.net/cdimage/release/6.0.5)<br />
     Debian Squeeze 6.0.5 was released.
 
   * 2012-04-07: [Debian Live Lenny 5.0.10](http://live.debian.net/archive/images/5.0.10/)<br />
     Updated images for Debian Lenny 5.0.10 have been uploaded.
 
-  * 2012-01-29: [Debian Live Squeeze 6.0.4(http://live.debian.net/cdimage/release/6.0.4)<br />
+  * 2012-01-29: [Debian Live Squeeze 6.0.4](http://cdimage.debian.org/cdimage/archive/6.0.4-live/)<br />
     Debian Squeeze 6.0.4 was released.
 
 ## 2011
 
-  * 2011-10-17: [Debian Live Squeeze 6.0.3(http://live.debian.net/cdimage/release/6.0.3)<br />
+  * 2011-10-17: [Debian Live Squeeze 6.0.3](http://cdimage.debian.org/cdimage/archive/6.0.3-live/)<br />
     Debian Squeeze 6.0.3 was released.
 
-  * 2011-10-04: [Debian Live Lenny 5.0.9](http://live.debian.net/archive/images/5.0.9/)<br />
+  * 2011-10-04: [Debian Live Lenny 5.0.9](http://cdimage.debian.org/cdimage/archive/5.0.9-live/)<br />
     Updated images for Debian Lenny 5.0.9 have been uploaded.
 
-  * 2011-03-24: [Debian Live Squeeze 6.0.2](http://live.debian.net/cdimage/release/6.0.2/)<br />
+  * 2011-03-24: [Debian Live Squeeze 6.0.2](http://cdimage.debian.org/cdimage/archive/6.0.2-live/)<br />
     Debian Squeeze 6.0.2 was released.
 
   * 2010-07-21: [Debian Live Team Members meet at DebConf 12 in Banja Luka, Bosnia Herzegovina](http://live.debian.net/archive/meetings/2011-debconf/)<br />
     Members of the Debian Live Team have met at the annual Debian Conference.
 
-  * 2011-03-24: [Debian Live Squeeze 6.0.1](http://live.debian.net/cdimage/release/6.0.1/)<br />
+  * 2011-03-24: [Debian Live Squeeze 6.0.1](http://cdimage.debian.org/cdimage/archive/6.0.1-live/)<br />
     Debian Squeeze 6.0.1 was released.
 
-  * 2011-02-06: [Debian Live Squeeze 6.0.0](http://live.debian.net/cdimage/release/6.0.0/)<br />
+  * 2011-02-06: [Debian Live Squeeze 6.0.0](http://cdimage.debian.org/cdimage/archive/6.0.0-live/)<br />
     Debian Squeeze 6.0.0 was released.
 
-  * 2011-02-02: [Debian Live Squeeze rc2](http://live.debian.net/cdimage/release/6.0_rc2/)<br />
+  * 2011-02-02: Debian Live Squeeze rc2<br />
     Debian Squeeze rc2 was released.
 
-  * 2011-01-23: [Debian Live Lenny 5.0.8](http://live.debian.net/archive/images/5.0.8/)<br />
+  * 2011-01-23: [Debian Live Lenny 5.0.8](http://cdimage.debian.org/cdimage/archive/5.0.8-live/)<br />
     Updated images for Debian Lenny 5.0.8 have been uploaded.
 
-  * 2011-01-12: [Debian Live Squeeze rc1](http://live.debian.net/cdimage/release/6.0_rc1/)<br />
+  * 2011-01-12: Debian Live Squeeze rc1<br />
     Debian Squeeze rc1 was released.
 
 ## 2010
 
-  * 2010-12-26: [Debian Live Squeeze beta2](http://live.debian.net/archive/images/6.0_beta2/)<br />
+  * 2010-12-26: Debian Live Squeeze beta2<br />
     Debian Squeeze beta2 was released.
 
-  * 2010-11-29: [Debian Live Lenny 5.0.7](http://live.debian.net/archive/images/5.0.7/)<br />
+  * 2010-11-29: [Debian Live Lenny 5.0.7](http://cdimage.debian.org/cdimage/archive/5.0.7-live/)<br />
     Updated images for Debian Lenny 5.0.7 have been uploaded.
 
-  * 2010-10-29: [Debian Live Squeeze beta1](http://live.debian.net/archive/images/6.0_beta1/)<br />
+  * 2010-10-29: Debian Live Squeeze beta1<br />
     Debian Squeeze beta1 was released.
 
   * 2010-10-06: [Autobuilding live images](http://lists.debian.org/debian-live/2010/10/msg00098.html)<br />
@@ -63,7 +63,7 @@
   * 2010-09-27: [New server running live.debian.net](http://lists.debian.org/debian-live/2010/09/msg00363.html)<br />
     live.debian.net was moved to a more powerful server in order to allow images autobuilds and autotests in future.
 
-  * 2010-09-05: [Debian Live Lenny 5.0.6](http://live.debian.net/archive/images/5.0.6/)<br />
+  * 2010-09-05: [Debian Live Lenny 5.0.6](http://cdimage.debian.org/cdimage/archive/5.0.6-live/)<br />
     Updated images for Debian Lenny 5.0.6 have been uploaded.
 
   * 2010-09-02: live-tools 3.0~a1-1<br />
@@ -78,10 +78,10 @@
   * 2010-08-05: [Debian Live Team Meeting at DebConf 11 in New York, USA](http://live.debian.net/archive/meetings/2010-debconf/)<br />
     Members of the Debian Live Team have met at the annual Debian Conference.
 
-  * 2010-07-21: [Debian Live Squeeze alpha2](http://live.debian.net/archive/images/6.0_alpha2/)<br />
+  * 2010-07-21: Debian Live Squeeze alpha2<br />
     Debian Squeeze alpha2 was released.
 
-  * 2010-06-27: [Debian Live Lenny 5.0.5](http://live.debian.net/archive/images/5.0.5/)<br />
+  * 2010-06-27: [Debian Live Lenny 5.0.5](http://cdimage.debian.org/cdimage/archive/5.0.5-live/)<br />
     Updated images for Debian Lenny 5.0.5 have been uploaded.
 
   * 2010-05-24: [live-boot 2.0~a1-1](http://packages.debian.org/changelogs/pool/main/l/live-boot/current/changelog#versionversion2.0_a1-1)<br />
@@ -90,14 +90,14 @@
   * 2010-05-24: [live-config 2.0~a1-1](http://packages.debian.org/changelogs/pool/main/l/live-config/current/changelog#versionversion2.0_a1-1)<br />
     Releasing first 2.0 alpha version (2.0~a1-1).
 
-  * 2010-03-17: [Debian Live Squeeze alpha1](http://live.debian.net/archive/images/6.0_alpha1/)<br />
+  * 2010-03-17: Debian Live Squeeze alpha1<br />
     The first alpha images for the upcoming Debian Squeeze 6.0 release have been uploaded.
 
-  * 2010-03-06: [Debian Live Lenny 5.0.4](http://live.debian.net/archive/images/5.0.4/)<br />
+  * 2010-03-06: [Debian Live Lenny 5.0.4](http://cdimage.debian.org/cdimage/archive/5.0.4-live/)<br />
     Updated images for Debian Lenny 5.0.4 have been uploaded.
 
 
-  * 2010-01-23: [Debian Live Lenny 5.0.3](http://live.debian.net/archive/images/5.0.3/)<br />
+  * 2010-01-23: [Debian Live Lenny 5.0.3](http://cdimage.debian.org/cdimage/archive/5.0.3-live/)<br />
     Updated images for Debian Lenny 5.0.3 have been uploaded.
 
 ## 2009
@@ -105,19 +105,19 @@
   * 2009-11-15: [live-helper 2.0~a1](http://packages.debian.org/changelogs/pool/main/l/live-helper/current/changelog#versionversion2.0~a1-1)<br />
     Releasing first 2.0 alpha version (2.0~a1-1).
 
-  * 2009-09-04: [Debian Live Lenny 5.0.2](http://live.debian.net/archive/images/5.0.2/)<br />
+  * 2009-09-04: [Debian Live Lenny 5.0.2](http://cdimage.debian.org/cdimage/archive/5.0.2-live/)<br />
     Updated images for Debian Lenny 5.0.2 have been uploaded.
 
   * 2009-08-12: [live-installer with live-installer-launcher](http://packages.debian.org/changelogs/pool/main/l/live-installer/current/changelog#versionversion12)<br />
     First upload with live-installer-launcher (12).
 
-  * 2009-06-14: [Debian Live Lenny 5.0.1](http://live.debian.net/archive/images/5.0.1/)<br />
+  * 2009-06-14: [Debian Live Lenny 5.0.1](http://cdimage.debian.org/cdimage/archive/5.0.1-live/)<br />
     Updated images for Debian Lenny 5.0.1 have been uploaded.
 
-  * 2009-02-15: [Debian Live Lenny 5.0.0](http://live.debian.net/archive/images/5.0.0/)<br />
+  * 2009-02-15: [Debian Live Lenny 5.0.0](http://cdimage.debian.org/cdimage/archive/5.0.0-live/)<br />
     Debian Lenny 5.0.0 was released, for the first time also featuring live systems.
 
-  * 2009-02-09: [Debian Live Lenny RC1](http://live.debian.net/archive/images/5.0_rc1/)<br />
+  * 2009-02-09: Debian Live Lenny RC1<br />
     Debian Lenny RC1 was released.
 
   * 2009-01-01: [live-manual in unstable](http://packages.debian.org/changelogs/pool/main/l/live-manual/current/changelog#versionversion20090101-1)<br />
@@ -125,10 +125,10 @@
 
 ## 2008
 
-  * 2008-12-20: [Debian Live Lenny Beta2](http://live.debian.net/archive/images/5.0_beta2/)<br />
+  * 2008-12-20: Debian Live Lenny Beta2<br />
     Debian Lenny Beta2 was released.
 
-  * 2008-08-27: [Debian Live Lenny Beta1](http://live.debian.net/archive/images/5.0_beta1/)<br />
+  * 2008-08-27: Debian Live Lenny Beta1<br />
     The Debian Live team is pleased to [announce](http://lists.debian.org/debian-live/2008/08/msg00222.html) the first beta of Debian Lenny's Live images.
 
 ## 2007
