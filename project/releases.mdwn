@@ -2,7 +2,8 @@
 
 ## 7.0 "wheezy"
 
-  * [7.0~a1](http://live.debian.net/archive/images/7.0~a1/): 2012-10-01
+  * [7.0~a2](http://live.debian.net/archive/images/7.0~a2/): 2012-10-04
+  * 7.0~a1: 2012-10-01
 
 ## 6.0 "squeeze"
 
