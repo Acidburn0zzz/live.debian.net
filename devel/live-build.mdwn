@@ -35,6 +35,7 @@ An introduction to live-build can be found in the live-build manpage.
 ## Documentation
 
   * [[todo]]
+  * [Web live image builder service](http://live.debian.net/manual-3.x/html/live-manual/the-basics.en.html#using-web-builder)
 
 ## Source
 
