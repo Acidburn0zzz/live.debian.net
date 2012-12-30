@@ -1,3 +1,0 @@
-# live-installer Todo
-
-See [BTS](http://bugs.debian.org/cgi-bin/pkgreport.cgi?&src=live-installer).
