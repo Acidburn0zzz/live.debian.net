@@ -15,15 +15,15 @@ use IkiWiki::Setup::Standard {
 	# users who are banned from the wiki
 	banned_users => [],
 	# where the source of the wiki is located
-	srcdir => '/srv/debian.net/live-wiki/git',
+	srcdir => '/srv/live-systems.org/ikiwiki/git',
 	# where to build the wiki
-	destdir => '/srv/debian.net/live-wiki/html',
+	destdir => '/srv/live-systems.org/ikiwiki/html',
 	# base url to the wiki
 	url => 'http://live.debian.net',
 	# url to the ikiwiki.cgi
 	cgiurl => 'http://live.debian.net/ikiwiki.cgi',
 	# filename of cgi wrapper to generate
-	cgi_wrapper => '/srv/debian.net/live-wiki/html/ikiwiki.cgi',
+	cgi_wrapper => '/srv/live-systems.org/ikiwiki/html/ikiwiki.cgi',
 	# mode for cgi_wrapper (can safely be made suid)
 	cgi_wrappermode => '06755',
 	# rcs backend to use
@@ -33,7 +33,7 @@ use IkiWiki::Setup::Standard {
 	# plugins to disable
 	disable_plugins => [],
 	# location of template files
-	templatedir => '/srv/debian.net/live-wiki/templates',
+	templatedir => '/usr/share/ikiwiki/templates',
 	# base wiki source location
 	underlaydir => '/usr/share/ikiwiki/basewiki',
 	# display verbose messages?
@@ -83,7 +83,7 @@ use IkiWiki::Setup::Standard {
 
 	# git plugin
 	# git hook to generate
-	git_wrapper => '/srv/debian.net/live-git/repositories/wiki-content.git/hooks/post-update',
+	git_wrapper => '/srv/live-systems.org/git/repositories/live.debian.net.git/hooks/post-update',
 	# mode for git_wrapper (can safely be made suid)
 	#git_wrappermode => '06755',
 	# git pre-receive hook to generate
@@ -91,9 +91,9 @@ use IkiWiki::Setup::Standard {
 	# unix users whose commits should be checked by the pre-receive hook
 	#untrusted_committers => [],
 	# gitweb url to show file history ([[file]] substituted)
-	historyurl => 'http://live.debian.net/gitweb/?p=wiki-content.git;a=history;f=[[file]]',
+	historyurl => 'http://live.debian.net/gitweb/?p=live.debian.net.git;a=history;f=[[file]]',
 	# gitweb url to show a diff ([[file]], [[sha1_to]], [[sha1_from]], [[sha1_commit]], and [[sha1_parent]] substituted)
-	diffurl => 'http://live.debian.net/gitweb/?p=wiki-content.git;a=blobdiff;f=[[file]];h=[[sha1_to]];hp=[[sha1_from]];hb=[[sha1_commit]];hpb=[[sha1_parent]]',
+	diffurl => 'http://live.debian.net/gitweb/?p=live.debian.net.git;a=blobdiff;f=[[file]];h=[[sha1_to]];hp=[[sha1_from]];hb=[[sha1_commit]];hpb=[[sha1_parent]]',
 	# where to pull and push changes (set to empty string to disable)
 	#gitorigin_branch => 'origin',
 	# branch that the wiki is stored in
