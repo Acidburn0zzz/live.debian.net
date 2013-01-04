@@ -1,1 +1,0 @@
-../../live-manual/manual-1.x
