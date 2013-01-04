@@ -4,7 +4,6 @@
   * [[multifs]]
   * [[multiarch]]
   * [[unionmount]]
-  * [[overlayfs]]
   * [[tmpfs]]
   * [[package validation|package-validation]]
   * [[lxc]]
