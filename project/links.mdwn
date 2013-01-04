@@ -27,7 +27,4 @@ Debian Live was mentioned on various Internet sites. Here is an incomplete list 
 
 ## Other
 
-  * [German translation](http://wiki.skolelinux.de/DebianLive)
   * [Article in linux-magazin.de](http://www.linux-magazin.de/online_artikel/workshop_debian_live_system_mit_etch)
-  * [Another german documentation](http://wiki.freenetproject.org/deDebianLiveCD)
-  * [Spanish documentation project](http://el-directorio.org/DebianLive)
