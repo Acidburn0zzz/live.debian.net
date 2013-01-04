@@ -18,6 +18,8 @@
 	<a class="sl" id="sl_devel" href="/devel">Development</a>
 
 	<ul>
+		<li><a href="/gitweb"><b>Gitweb</b></a></li>
+		<li><a href="/gitstats">Gitstats</a></li>
 		<li><a href="./devel/live-boot/">live-boot</a></li>
 		<li><a href="./devel/live-build/">live-build</a></li>
 		<li><a href="./devel/live-config/">live-config</a></li>
