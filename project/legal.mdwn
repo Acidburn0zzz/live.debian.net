@@ -1,0 +1,33 @@
+# Legal Notice
+
+[Debian Live](/) is an official sub-project of the [Debian](http://www.debian.org/) project.
+
+## Trademarks
+
+[Debian](http://www.debian.org/) and the [Debian logos](http://www.debian.org/logos/) are registered trademarks of [Software in the Public Interest, Inc.](http://www.spi-inc.org/)<br />
+[Linux](http://www.kernel.org/) is a registered trademark of <a href="mailto:linus@linux-foundation.org">Linux Torvalds</a>.
+
+All other trademarks are property of their respective owners.
+
+## Copyright
+
+If not otherwise stated, the following license applies.
+
+<pre>Copyright © 2006-2013 Debian Live Project &lt;<a href="mailto:debian-live@lists.debian.org">debian-live@lists.debian.org</a>&gt;
+Copyright © 2006-2013 Daniel Baumann &lt;<a href="mailto:daniel@debian.org">daniel@debian.org</a>&gt;
+
+This information is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This work is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see &lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.
+
+The complete text of the GNU General Public License
+can be found in <a href="file:///usr/share/common-licenses/GPL-3">/usr/share/common-licenses/GPL-3</a> file.</pre>
