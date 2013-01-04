@@ -25,7 +25,7 @@ An introduction to live-build can be found in the live-build manpage.
   * [Debian Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-build)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-build.html)
   * [Package Archive](http://live.debian.net/archive/packages/live-build/)
-  * [Git Statistics](stats)
+  * [Git Statistics](/gitstats/live-build)
 
 ## Contact
 

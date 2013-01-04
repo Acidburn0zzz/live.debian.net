@@ -15,7 +15,7 @@ live-tools contains additional support scripts for Debian Live systems.
   * [Debian Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-tools)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-tools.html)
   * [Package Archive](http://live.debian.net/archive/packages/live-tools/)
-  * [Git Statistics](stats)
+  * [Git Statistics](/gitstats/live-tools)
 
 ## Contact
 

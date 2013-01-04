@@ -16,7 +16,7 @@ This is the documentation for Debian Live project. It provides a broad overview 
   * [Debian Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-manual)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-manual.html)
   * [Package Archive](http://live.debian.net/archive/packages/live-manual/)
-  * [Git Statistics](stats)
+  * [Git Statistics](/gitstats/live-manual)
   * [Debian Live Manual](http://live.debian.net/manual/) (autobuilt from Git every half hour)
 
 ## Contact
