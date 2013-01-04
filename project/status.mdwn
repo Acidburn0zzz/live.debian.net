@@ -1,14 +1,18 @@
 # Status
 
-Last update: 2012-02-07
+Last update: 2013-01-04
+
+## live-build 4.x
+
+  * building wheezy and sid images works.
 
 ## live-build 3.x
 
-  * building squeeze, wheezy and sid images works (live-build 3.0~a43-1 or newer required).
+  * building squeeze, wheezy and sid images works.
 
 ## live-build 2.x
 
-  * building lenny and squeeze images works.
+  * building lenny and squeeze images works (use version from Git in debian-old-2.0 branch).
 
   * building wheezy and newer is not supported in 2.x.
 
