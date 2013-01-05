@@ -8,3 +8,4 @@
   * [[package validation|package-validation]]
   * [[lxc]]
   * [[persistence]]
+  * [[wheezy]]
