@@ -8,6 +8,7 @@
 
   * live-build:
     - finalize on dpkg/debhelper-ish config tree layout.
+    - support building multiple images combinations from one config tree and in a row.
 
   * live-config:
     - use live-debconfig for everything.
