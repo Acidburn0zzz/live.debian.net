@@ -1,66 +1,19 @@
 # Roadmap
 
-## Outstanding Issues for Wheezy (unsorted)
+## Debian 8.0 "jessie" aka live-* 4.x
 
-  * live-build/live-boot:
-    - move live/filesystem.dir to live/filesystem
-
-  * live-build:
-    - get rid of templates/ and stuff everything into bootloaders/
+  * live-boot:
+    - finish scripts transition.
+    - add port to dracut.
 
   * live-build:
-    - fix persistence with crypto handling for newer initramfs-tools/cryptsetup/console-tools:
-      http://mibpaste.com/3bjtZN
-
-  * live-build:
-    - confirm that non-free is in sources.lists for non-free images when installed (preseed that for d-i)?
-
-  * live-boot/live-tools:
-    - decide on point '4' from earlier about
-      /lib/live/* stuff
-
-  * live-build/boot/config:
-    - remove eth* entries in interfaces when using network-manager
-
-  * live-build:
-    - mdadm hook incomplete, needs to remove the mdadm initramfs hook,
-      and then rebuild initrd to be effective.
-
-  * live-build:
-    - netboot: include non-free firmware in both the installer and the live initrd.
+    - finalize on dpkg/debhelper-ish config tree layout.
 
   * live-config:
-    - xfce default login needs a dotfile or something like that
+    - use live-debconfig for everything.
+    - improve support when being run with persistence (so that still the system is 'reconfigured' on boot).
 
-  * live-config:
-    - gconfg -> gsettings or whatever migration, is done, does it work?
+## Debian 9.0 "no-name-yet" aka live-* 5.x
 
   * live-build:
-    - final syslinux layout
-    - sync syslinux-themes-debian
-
-  * live-tools:
-    - revamp persistence script and manpage
-
-  * live-build
-    - review the contents/structure of .disk
-    - review the content/structure of binary/ for all binary images
-
-  * live-build/live-boot:
-    - update manpages
-
-..and finally:
-
-  * all live-*
-    - get manpage translations up2date
-
-  * let everything migrate to wheezy
-
-## Other Issues (unsorted)
-
-  * live.d.n:
-    - setup ikiwiki for live-build.debian.net
-    - use bootstrap
-    - re-setup ikiwiki for live.debian.net
-    - re-organize autobuild layout in live-manual
-    - use filter-command in irker
+    - rewrite in Python to have proper interfaces for future GUI and web frontends.
