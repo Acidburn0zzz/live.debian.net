@@ -1,6 +1,6 @@
 # Status
 
-Last update: 2013-01-04
+Last update: 2013-01-05
 
 ## live-build 4.x
 
@@ -8,7 +8,9 @@ Last update: 2013-01-04
 
 ## live-build 3.x
 
-  * building squeeze, wheezy and sid images works.
+  * building squeeze and wheezy and images works.
+
+  * building jessie and newer is not supported in 3.x.
 
 ## live-build 2.x
 
@@ -18,8 +20,10 @@ Last update: 2013-01-04
 
 ## live-build 1.x
 
-  * building lenny images works.
-
-  * building etch images requires updated default mirror selections (for archive.debian.org), otherwise works.
+  * building etch and lenny images works (use version from Git in debian-old-1.0 branch).
 
   * building squeeze and newer is not supported in 1.x.
+
+## live-build 0.x
+
+  * broken, use live-build 1.x to build etch images.
