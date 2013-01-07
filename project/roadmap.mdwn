@@ -2,6 +2,9 @@
 
 ## Debian 8.0 "jessie" aka live-* 4.x
 
+  * live-*:
+    - check everything to use conf.d really everywhere (interfaces.d, fstab.d, etc.).
+
   * live-boot:
     - finish scripts transition.
     - add port to dracut.
