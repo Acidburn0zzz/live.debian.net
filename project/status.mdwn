@@ -4,23 +4,25 @@ Last update: 2013-01-05
 
 ## live-build 4.x
 
-  * building wheezy and sid images works.
+  * building wheezy and sid live images works.
 
 ## live-build 3.x
 
-  * building squeeze and wheezy and images works.
+  * building squeeze and wheezy live and installer images works.
+
+  * using debian-installer on wheezy is not tested yet.
 
   * building jessie and newer is not supported in 3.x.
 
 ## live-build 2.x
 
-  * building lenny and squeeze images works (use version from Git in debian-old-2.0 branch).
+  * building lenny and squeeze live and installer images works (use version from Git in debian-old-2.0 branch).
 
   * building wheezy and newer is not supported in 2.x.
 
 ## live-build 1.x
 
-  * building etch and lenny images works (use version from Git in debian-old-1.0 branch).
+  * building etch and lenny live images works (use version from Git in debian-old-1.0 branch).
 
   * building squeeze and newer is not supported in 1.x.
 
