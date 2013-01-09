@@ -4,6 +4,7 @@
 
   * live-*:
     - check everything to use conf.d really everywhere (interfaces.d, fstab.d, etc.).
+    - debian de-branding, make it as nice as possible for derivatives.
 
   * live-boot:
     - finish scripts transition.
