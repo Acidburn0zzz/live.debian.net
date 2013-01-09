@@ -15,15 +15,15 @@ use IkiWiki::Setup::Standard {
 	# users who are banned from the wiki
 	banned_users => [],
 	# where the source of the wiki is located
-	srcdir => '/srv/live-systems.org/ikiwiki/git',
+	srcdir => '/srv/live-systems.org/ikiwiki/www',
 	# where to build the wiki
-	destdir => '/srv/live-systems.org/ikiwiki/html',
+	destdir => '/srv/live-systems.org/ikiwiki/www.html',
 	# base url to the wiki
 	url => 'http://live.debian.net',
 	# url to the ikiwiki.cgi
 	cgiurl => 'http://live.debian.net/ikiwiki.cgi',
 	# filename of cgi wrapper to generate
-	cgi_wrapper => '/srv/live-systems.org/ikiwiki/html/ikiwiki.cgi',
+	cgi_wrapper => '/srv/live-systems.org/ikiwiki/www.html/ikiwiki.cgi',
 	# mode for cgi_wrapper (can safely be made suid)
 	cgi_wrappermode => '06755',
 	# rcs backend to use
