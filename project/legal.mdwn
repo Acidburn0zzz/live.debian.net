@@ -1,33 +1,48 @@
-# Legal Notice
+<section id="legal">
 
-[Debian Live](/) is an official sub-project of the [Debian](http://www.debian.org/) project.
+<div class="page-header">
+  <h1>Legal Information</h1>
+</div>
 
-## Trademarks
+<p><a href="/">Debian Live</a> is an official sub-project of the <a href="http:/www.debian.org/">Debian</a> project.</p>
 
-[Debian](http://www.debian.org/) and the [Debian logos](http://www.debian.org/logos/) are registered trademarks of [Software in the Public Interest, Inc.](http://www.spi-inc.org/)<br />
-[Linux](http://www.kernel.org/) is a registered trademark of <a href="mailto:linus@linux-foundation.org">Linux Torvalds</a>.
+<div class="row">
+  <div class="span12">
+    <h3>Copyright</h3>
+    <p>Copyright &copy; 2006-2013 Debian Live</p>
+    <p>Distributed software is copyrighted by their respective authors and are distributed under their own individual licenses.</p>
 
-All other trademarks are property of their respective owners.
+    <h3> Disclaimer</h3>
+    <p>This site is provided as a public service by the Debian Live project. Our server is located in Nuremberg, BY, Germany. Use in violation of any applicable laws is strictly prohibited.</p>
+    <p>Neither the Debian Live project nor any of its sponsors make any guarantees, explicit or implicit, about the contents of this site. Use at your own risk.</p>
 
-## Copyright
+    <h3>Service Provider</h3>
+    <div class="row">
+      <div class="span4">
+        <address>
+          Daniel Baumann<br />
+          Donnerb&uuml;hlweg 3<br />
+          CH-3012 Bern<br />
+          Switzerland
+        </address>
+      </div>
 
-If not otherwise stated, the following license applies.
+      <div class="span6">
+        <address>
+          <strong>E-mail</strong><br />
+          <a href="mailto:daniel@debian.org">daniel@debian.org</a>
+        </address>
 
-<pre>Copyright © 2006-2013 Debian Live Project &lt;<a href="mailto:debian-live@lists.debian.org">debian-live@lists.debian.org</a>&gt;
-Copyright © 2006-2013 Daniel Baumann &lt;<a href="mailto:daniel@debian.org">daniel@debian.org</a>&gt;
+        <address>
+          <strong>IRC</strong> <small>(OFTC)</small><br />
+          <tt>dba</tt> on <a href="irc://irc.debian.org/">irc://irc.debian.org</a>
+        </address>
+      </div>
+    </div>
 
-This information is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+    <h3>Trademarks</h3>
+    <p>All trademarks are property of their respective owners.</p>
+  </div>
+</div>
 
-This work is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program. If not, see &lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.
-
-The complete text of the GNU General Public License
-can be found in <a href="file:///usr/share/common-licenses/GPL-3">/usr/share/common-licenses/GPL-3</a> file.</pre>
+</section>
