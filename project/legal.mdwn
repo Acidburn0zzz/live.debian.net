@@ -30,7 +30,7 @@
       <div class="span6">
         <address>
           <strong>E-mail</strong><br />
-          <a href="mailto:daniel@debian.org">daniel@debian.org</a>
+          <a href="mailto:daniel@debian.org?subject=Debian%20Live:%20Feedback">daniel@debian.org</a>
         </address>
 
         <address>

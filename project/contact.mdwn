@@ -19,7 +19,7 @@
 
 <h2>Mailing Lists</h2>
 
-Address: <a href="mailto:debian-live@lists.debian.org">debian-live@lists.debian.org</a>
+Address: <a href="mailto:debian-live@lists.debian.org?subject=Debian%20Live:%20Feedback">debian-live@lists.debian.org</a>
 
 <ul>
   <li><a href="http://lists.debian.org/debian-live/">Archive</a></li>
