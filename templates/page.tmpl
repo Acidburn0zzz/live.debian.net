@@ -1,209 +1,76 @@
-<TMPL_IF HTML5><!DOCTYPE html>
-<html>
-<TMPL_ELSE><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-</TMPL_IF>
-<head>
-<TMPL_IF DYNAMIC>
-<TMPL_IF FORCEBASEURL><base href="<TMPL_VAR FORCEBASEURL>" /><TMPL_ELSE>
-<TMPL_IF BASEURL><base href="<TMPL_VAR BASEURL>" /></TMPL_IF>
-</TMPL_IF>
-</TMPL_IF>
-<TMPL_IF HTML5><meta charset="utf-8" /><TMPL_ELSE><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></TMPL_IF>
-<title><TMPL_VAR TITLE></title>
-<TMPL_IF FAVICON>
-<link rel="icon" href="<TMPL_VAR BASEURL><TMPL_VAR FAVICON>" type="image/x-icon" />
-</TMPL_IF>
-<link rel="stylesheet" href="<TMPL_VAR BASEURL>style.css" type="text/css" />
-<TMPL_IF LOCAL_CSS>
-<link rel="stylesheet" href="<TMPL_VAR BASEURL><TMPL_VAR LOCAL_CSS>" type="text/css" />
-<TMPL_ELSE>
-<link rel="stylesheet" href="<TMPL_VAR BASEURL>local.css" type="text/css" />
-</TMPL_IF>
-<TMPL_IF EDITURL>
-<link rel="alternate" type="application/x-wiki" title="Edit this page" href="<TMPL_VAR EDITURL>" />
-</TMPL_IF>
-<TMPL_IF FEEDLINKS><TMPL_VAR FEEDLINKS></TMPL_IF>
-<TMPL_IF RELVCS><TMPL_VAR RELVCS></TMPL_IF>
-<TMPL_IF META><TMPL_VAR META></TMPL_IF>
-<TMPL_LOOP TRAILLOOP>
-<TMPL_IF PREVPAGE>
-<link rel="prev" href="<TMPL_VAR PREVURL>" title="<TMPL_VAR PREVTITLE>" />
-</TMPL_IF>
-<link rel="up" href="<TMPL_VAR TRAILURL>" title="<TMPL_VAR TRAILTITLE>" />
-<TMPL_IF NEXTPAGE>
-<link rel="next" href="<TMPL_VAR NEXTURL>" title="<TMPL_VAR NEXTTITLE>" />
-</TMPL_IF>
-</TMPL_LOOP>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Debian Live - Live Debian Systems!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Debian Live - Live Debian Systems!">
+    <meta name="author" content="Debian Live <debian-live@lists.debian.org>">
+    <meta name="keywords" content="Debian, Live, Systems">
 
-<TMPL_IF HTML5><article class="page"><TMPL_ELSE><div class="page"></TMPL_IF>
+    <!-- Le styles -->
+    <link href="/stuff/spacelab/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .label a:active, .label a:hover, .label a:link, .label a:visited {
+        color: #ffffff;
+        text-decoration: none;
+      }
+    </style>
+    <link href="/stuff/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 
-<TMPL_IF HTML5><section class="pageheader"><TMPL_ELSE><div class="pageheader"></TMPL_IF>
-<TMPL_IF HTML5><header class="header"><TMPL_ELSE><div class="header"></TMPL_IF>
-<span>
-<span class="parentlinks">
-<TMPL_LOOP PARENTLINKS>
-<a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>/ 
-</TMPL_LOOP>
-</span>
-<span class="title">
-<TMPL_VAR TITLE>
-<TMPL_IF ISTRANSLATION>
-&nbsp;(<TMPL_VAR PERCENTTRANSLATED>%)
-</TMPL_IF>
-</span>
-</span>
-<TMPL_IF SEARCHFORM>
-<TMPL_VAR SEARCHFORM>
-</TMPL_IF>
-<TMPL_IF HTML5></header><TMPL_ELSE></div></TMPL_IF>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="/stuff/html5shiv/html5shiv.min.js"></script>
+    <![endif]-->
 
-<TMPL_IF HAVE_ACTIONS>
-<TMPL_IF HTML5><nav class="actions"><TMPL_ELSE><div class="actions"></TMPL_IF>
-<ul>
-<TMPL_IF EDITURL>
-<li><a href="<TMPL_VAR EDITURL>" rel="nofollow">Edit</a></li>
-</TMPL_IF>
-<TMPL_IF RECENTCHANGESURL>
-<li><a href="<TMPL_VAR RECENTCHANGESURL>">RecentChanges</a></li>
-</TMPL_IF>
-<TMPL_IF HISTORYURL>
-<li><a href="<TMPL_VAR HISTORYURL>">History</a></li>
-</TMPL_IF>
-<TMPL_IF GETSOURCEURL>
-<li><a href="<TMPL_VAR GETSOURCEURL>">Source</a></li>
-</TMPL_IF>
-<TMPL_IF PREFSURL>
-<li><a href="<TMPL_VAR PREFSURL>">Preferences</a></li>
-</TMPL_IF>
-<TMPL_IF ACTIONS>
-<TMPL_LOOP ACTIONS>
-<li><TMPL_VAR ACTION></li>
-</TMPL_LOOP>
-</TMPL_IF>
-<TMPL_IF COMMENTSLINK>
-<li><TMPL_VAR COMMENTSLINK></li>
-<TMPL_ELSE>
-<TMPL_IF DISCUSSIONLINK>
-<li><TMPL_VAR DISCUSSIONLINK></li>
-</TMPL_IF>
-</TMPL_IF>
-</ul>
-<TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/stuff/images/logo-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/stuff/images/logo-114.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/stuff/images/logo-72.png">
+                    <link rel="apple-touch-icon-precomposed" href="/stuff/images/logo-57.png">
+                                   <link rel="shortcut icon" href="/stuff/images/logo-16.png">
+  </head>
 
-<TMPL_IF OTHERLANGUAGES>
-<TMPL_IF HTML5><nav id="otherlanguages"><TMPL_ELSE><div id="otherlanguages"></TMPL_IF>
-<ul>
-<TMPL_LOOP OTHERLANGUAGES>
-<li>
-<a href="<TMPL_VAR URL>"><TMPL_VAR LANGUAGE></a>
-<TMPL_IF MASTER>
-(master)
-<TMPL_ELSE>
-&nbsp;(<TMPL_VAR PERCENT>%)
-</TMPL_IF>
-</li>
-</TMPL_LOOP>
-</ul>
-<TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
+  <body>
 
-<TMPL_VAR TRAILS>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="/">Debian Live</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="http://live-build.debian.net/">Build</a></li>
+              <li class="active"><a href="http://live.debian.net/">WWW</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
 
-<TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
+    <div class="container">
 
-<TMPL_IF SIDEBAR>
-<TMPL_IF HTML5><aside class="sidebar"><TMPL_ELSE><div class="sidebar"></TMPL_IF>
-<TMPL_VAR SIDEBAR>
-<TMPL_IF HTML5></aside><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
-
-<div id="pagebody">
-
-<TMPL_IF HTML5><section id="content"><TMPL_ELSE><div id="content"></TMPL_IF>
 <TMPL_VAR CONTENT>
-<TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
 
-<TMPL_UNLESS DYNAMIC>
-<TMPL_IF COMMENTS>
-<TMPL_IF HTML5><section id="comments"><TMPL_ELSE><div id="comments"></TMPL_IF>
-<TMPL_VAR COMMENTS>
-<TMPL_IF ADDCOMMENTURL>
-<div class="addcomment">
-<a href="<TMPL_VAR ADDCOMMENTURL>">Add a comment</a>
-</div>
-<TMPL_ELSE>
-<div class="addcomment">Comments on this page are closed.</div>
-</TMPL_IF>
-<TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
-</TMPL_UNLESS>
+      <hr>
 
-</div>
+      <footer>
+        <p>&copy; 2006-2013 Debian Live <a class="muted pull-right" href="/project/legal/">Legal Information</a></p>
+      </footer>
 
-<TMPL_IF HTML5><footer id="footer" class="pagefooter"><TMPL_ELSE><div id="footer" class="pagefooter"></TMPL_IF>
-<TMPL_UNLESS DYNAMIC>
-<TMPL_IF HTML5><nav id="pageinfo"><TMPL_ELSE><div id="pageinfo"></TMPL_IF>
+    </div> <!-- /container -->
 
-<TMPL_VAR TRAILS>
+    <!-- Le javascript -->
+    <script src="/stuff/jquery/jquery.min.js"></script>
+    <script src="/stuff/bootstrap/js/bootstrap.min.js"></script>
 
-<TMPL_IF TAGS>
-<TMPL_IF HTML5><nav class="tags"><TMPL_ELSE><div class="tags"></TMPL_IF>
-Tags:
-<TMPL_LOOP TAGS>
-<TMPL_VAR LINK>
-</TMPL_LOOP>
-<TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
-
-<TMPL_IF BACKLINKS>
-<TMPL_IF HTML5><nav id="backlinks"><TMPL_ELSE><div id="backlinks"></TMPL_IF>
-Links:
-<TMPL_LOOP BACKLINKS>
-<a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>
-</TMPL_LOOP>
-<TMPL_IF MORE_BACKLINKS>
-<span class="popup">...
-<span class="balloon">
-<TMPL_LOOP MORE_BACKLINKS>
-<a href="<TMPL_VAR URL>"><TMPL_VAR PAGE></a>
-</TMPL_LOOP>
-</span>
-</span>
-</TMPL_IF>
-<TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
-</TMPL_IF>
-
-<TMPL_IF COPYRIGHT>
-<div class="pagecopyright">
-<a name="pagecopyright"></a>
-<TMPL_VAR COPYRIGHT>
-</div>
-</TMPL_IF>
-
-<TMPL_IF LICENSE>
-<div class="pagelicense">
-<a name="pagelicense"></a>
-License: <TMPL_VAR LICENSE>
-</div>
-</TMPL_IF>
-
-<div class="pagedate">
-Last edited <TMPL_VAR MTIME>
-<!-- Created <TMPL_VAR CTIME> -->
-</div>
-
-<TMPL_IF HTML5></nav><TMPL_ELSE></div></TMPL_IF>
-<TMPL_IF EXTRAFOOTER><TMPL_VAR EXTRAFOOTER></TMPL_IF>
-</TMPL_UNLESS>
-<!-- from <TMPL_VAR WIKINAME> -->
-<TMPL_IF HTML5></footer><TMPL_ELSE></div></TMPL_IF>
-
-<TMPL_IF HTML5></article><TMPL_ELSE></div></TMPL_IF>
-
-</body>
+  </body>
 </html>
