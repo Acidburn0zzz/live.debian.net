@@ -20,12 +20,16 @@
     <ul>
       <li><a href="/gitweb"><b>Gitweb</b></a></li>
       <li><a href="/gitstats">Gitstats</a></li>
+    </ul>
+    <ul>
       <li><a href="/devel/live-boot/">live-boot</a></li>
       <li><a href="/devel/live-build/">live-build</a></li>
       <li><a href="/devel/live-config/">live-config</a></li>
       <li><a href="/devel/live-debconfig/">live-debconfig</a></li>
       <li><a href="/devel/live-manual/">live-manual</a></li>
       <li><a href="/devel/live-tools/">live-tools</a></li>
+    </ul>
+    <ul>
       <li><a href="/devel/other/">other</a></li>
       <li><a href="/devel/rfc/">RFC</a></li>
     </ul>
