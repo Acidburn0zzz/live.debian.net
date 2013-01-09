@@ -1,54 +1,48 @@
-<div id="contentstart">
+<div class="row">
+  <div class="span4">
+    <h2>User</h2>
+    <ul>
+      <li><a href="archive">Archive</a></li>
+      <li><b>Download releases:</b> <a href="/cdimage/release/current/">stable</a> <a href="/cdimage/release/current-next">testing</a> <a href="/cdimage/release/current-next+nonfree">testing+nonfree</a> <a href="/cdimage/release/5.0.10/">oldstable</a></li>
+      <li><b>Download snapshots (if available):</b> <a href="cdimage/daily-builds">daily</a> <a href="cdimage/weekly-builds">weekly</a> <a href="cdimage/monthly-builds">monthly</a></li>
+      <li><a href="http://www.debian.org/CD/live/">About release images</a>
+      <li><b>Manual</b>: <a href="manual/2.x/html/">stable</a> <a href="manual/3.x">unstable</a> <a href="manual/1.x">oldstable</a></li>
+      <li><b>Man Pages</b>: <a href="manpages/2.x/">stable</a> <a href="manpages/3.x/">unstable</a> <a href="manpages/4.x">experimental</a></li>
+      <li><a href="http://lists.debian.org/debian-live/">Mailinglist</a></li>
+      <li><a href="http://live-build.debian.net/"><b>Web Images Builder</b></a></li>
+    </ul>
+  </div>
 
-<div id="tab1" class="tab">
-	<a class="sl" id="sl_user" href="/user">User</a>
+  <div class="span4">
+    <h2>Development</h2>
+    <ul>
+      <li><a href="/gitweb"><b>Gitweb</b></a></li>
+      <li><a href="/gitstats">Gitstats</a></li>
+      <li><a href="/devel/live-boot/">live-boot</a></li>
+      <li><a href="/devel/live-build/">live-build</a></li>
+      <li><a href="/devel/live-config/">live-config</a></li>
+      <li><a href="/devel/live-debconfig/">live-debconfig</a></li>
+      <li><a href="/devel/live-manual/">live-manual</a></li>
+      <li><a href="/devel/live-tools/">live-tools</a></li>
+      <li><a href="/devel/other/">other</a></li>
+      <li><a href="/devel/rfc/">RFC</a></li>
+    </ul>
+  </div>
 
-	<ul>
-		<li><a href="archive">Archive</a></li>
-		<li><b>Download releases:</b> <a href="/cdimage/release/current/">stable</a> <a href="/cdimage/release/current-next">testing</a> <a href="/cdimage/release/current-next+nonfree">testing+nonfree</a> <a href="/cdimage/release/5.0.10/">oldstable</a></li>
-		<li><b>Download snapshots (if available):</b> <a href="cdimage/daily-builds">daily</a> <a href="cdimage/weekly-builds">weekly</a> <a href="cdimage/monthly-builds">monthly</a></li>
-		<li><a href="http://www.debian.org/CD/live/">About release images</a>
-		<li><b>Manual</b>: <a href="manual/2.x/html/">stable</a> <a href="manual/3.x">unstable</a> <a href="manual/1.x">oldstable</a></li>
-		<li><b>Man Pages</b>: <a href="manpages/2.x/">stable</a> <a href="manpages/3.x/">unstable</a> <a href="manpages/4.x">experimental</a></li>
-		<li><a href="http://lists.debian.org/debian-live/">Mailinglist</a></li>
-		<li><a href="http://live-build.debian.net/"><b>Web Images Builder</b></a></li>
-	</ul>
-</div>
-
-<div id="tab2" class="tab">
-	<a class="sl" id="sl_devel" href="/devel">Development</a>
-
-	<ul>
-		<li><a href="/gitweb"><b>Gitweb</b></a></li>
-		<li><a href="/gitstats">Gitstats</a></li>
-		<li><a href="./devel/live-boot/">live-boot</a></li>
-		<li><a href="./devel/live-build/">live-build</a></li>
-		<li><a href="./devel/live-config/">live-config</a></li>
-		<li><a href="./devel/live-debconfig/">live-debconfig</a></li>
-		<li><a href="./devel/live-installer/">live-installer</a></li>
-		<li><a href="./devel/live-manual/">live-manual</a></li>
-		<li><a href="./devel/live-tools/">live-tools</a></li>
-		<li><a href="./devel/other/">other</a></li>
-		<li><a href="./devel/rfc/">RFC</a></li>
-	</ul>
-</div>
-
-<div id="tab3" class="tab">
-	<a class="sl" id="sl_project" href="/project">Project</a>
-
-	<ul>
-		<li><a href="/project/about">About</a></li>
-		<li><a href="/project/contact">Contact</a></li>
-		<li><a href="/project/deployment">Deployment</a></li>
-		<li><a href="/project/downstream">Downstream</a></li>
-		<li><a href="/project/lifespan">Lifespan</a></li>
-		<li><a href="/project/links">Links</a></li>
-		<li><a href="/project/news">News</a></li>
-		<li><a href="/project/releases">Releases</a></li>
-		<li><a href="/project/roadmap">Roadmap</a></li>
-		<li><a href="/project/status">Status</a></li>
-		<li><a href="/project/team">Team</a></li>
-	</ul>
-</div>
-
+  <div class="span4">
+    <h2>Project</h2>
+    <ul>
+      <li><a href="/project/about">About</a></li>
+      <li><a href="/project/contact">Contact</a></li>
+      <li><a href="/project/deployment">Deployment</a></li>
+      <li><a href="/project/downstream">Downstream</a></li>
+      <li><a href="/project/lifespan">Lifespan</a></li>
+      <li><a href="/project/links">Links</a></li>
+      <li><a href="/project/news">News</a></li>
+      <li><a href="/project/releases">Releases</a></li>
+      <li><a href="/project/roadmap">Roadmap</a></li>
+      <li><a href="/project/status">Status</a></li>
+      <li><a href="/project/team">Team</a></li>
+    </ul>
+  </div>
 </div>
