@@ -2,7 +2,5 @@
 
   * put every volatile content (such as temporary hacks, wishlists etc) to ikiwiki on live.d.n.
   * put every 'more or less stable' documentation stuff into live-manual
-  * wipe wiki.d.o/DebianLive/*
-  * have wiki.d.o/DebianLive pointing to live.d.n or something like that
-  * mop up all links on wiki.d.o/DebianLive to their new location
+  * update all references to wiki.d.o/DebianLive to their new location
   * add test target that can be run live.debian.net and which sends mail to the mailinglist in case of build failures.
