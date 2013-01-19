@@ -34,7 +34,7 @@ live-boot contains the scripts that configure a Debian Live system during the bo
 
 ## Source
 
-The sources of live-boot are released under the terms of the GNU General Public License 3 (or later), and available in a git repository at live.debian.net.
+The sources of live-boot are released under the terms of the GNU General Public License 3 (or later), and available in a [Git](http://git-scm.com/) repository.
 
   * Browse: [http://live.debian.net/gitweb/?p=live-boot.git](/gitweb/?p=live-boot.git)
   * Git: [git://live.debian.net/git/live-boot.git](git://live.debian.net/git/live-boot.git)
