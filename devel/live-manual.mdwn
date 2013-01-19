@@ -27,6 +27,7 @@ This is the documentation for Debian Live project. It provides a broad overview 
 
 ## Documentation
 
+  * [Manual Pages](/manpages/)
   * [[Todo]]
 
 ## Source
