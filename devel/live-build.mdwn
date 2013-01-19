@@ -2,14 +2,12 @@
 
 ## About
 
-live-build is a set of scripts to build Debian Live system images.
-
-The idea behind live-build is a framework that uses a configuration directory to completely automate and customize all aspects of building a Live image.
-
-An introduction to live-build can be found in the live-build manpage.
+live-build contains the scripts that build a live system from a configuration directory.
 
 ## News
 
+  * 2012-12-10: Releasing first 3.0 beta version (3.0~b1-1).
+  * 2012-11-30: Releasing first 4.0 alpha version (4.0~a1-1).
   * 2011-02-01: Releasing last 2.0 stable version (2.0.12-2).
   * 2010-09-26: Releasing first 3.0 alpha version (3.0~a1-1).
   * 2010-09-26: Releasing first 2.0 stable version (2.0.0-1).
@@ -29,17 +27,18 @@ An introduction to live-build can be found in the live-build manpage.
 
 ## Contact
 
-  * [Debian Live Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](debian-live@lists.debian.org)
+  * [Debian Live Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](mailto:debian-live@lists.debian.org)
   * [Debian Live IRC Channel](/archive/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
 
 ## Documentation
 
-  * [[todo]]
+  * [Manual Pages](/manpages)
+  * [[Todo]]
   * [Web live image builder service](/manual/current/html/live-manual/the-basics.en.html#using-web-builder)
 
 ## Source
 
-The sources of live-build are released under the terms of the GNU General Public License 3 (or later), and available in a git repository at live.debian.net.
+The sources of live-build are released under the terms of the GNU General Public License 3 (or later), and available in a [Git](http://git-scm.com/) repository.
 
   * Browse: [http://live.debian.net/gitweb/?p=live-build.git](/gitweb/?p=live-build.git)
   * Git: [git://live.debian.net/git/live-build.git](git://live.debian.net/git/live-build.git)
