@@ -29,7 +29,8 @@ live-boot contains the scripts that configure a Debian Live system during the bo
 
 ## Documentation
 
-  * [[todo]]
+  * [Manual Pages](/manpages/)
+  * [[Todo]]
 
 ## Source
 
