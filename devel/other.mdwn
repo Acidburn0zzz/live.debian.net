@@ -3,7 +3,7 @@
 ### live-config-staging
 
   * Browse: [http://live.debian.net/gitweb/?p=live-config-staging.git](/gitweb/?p=live-config-staging.git)
-  * Git: [git://live.debian.net/git/live-config-staging.git]/git/live-config-staging.git)
+  * Git: [git://live.debian.net/git/live-config-staging.git](git://live.debian.net/git/live-config-staging.git)
 
 ### debian-eeepc
 
