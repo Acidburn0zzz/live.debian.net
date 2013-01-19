@@ -60,7 +60,5 @@
 
   * live.d.n:
     - setup ikiwiki for live-build.debian.net
-    - use bootstrap
-    - re-setup ikiwiki for live.debian.net
     - re-organize autobuild layout in live-manual
     - use filter-command in irker
