@@ -26,6 +26,7 @@
       <li><a href="/devel/live-build/">live-build</a></li>
       <li><a href="/devel/live-config/">live-config</a></li>
       <li><a href="/devel/live-debconfig/">live-debconfig</a></li>
+      <li><a href="/devel/live-images/">live-images</a></li>
       <li><a href="/devel/live-manual/">live-manual</a></li>
       <li><a href="/devel/live-tools/">live-tools</a></li>
     </ul>
