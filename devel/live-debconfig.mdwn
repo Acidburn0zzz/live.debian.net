@@ -17,16 +17,16 @@ live-debconfig contains the scripts that configure a Debian Live system during t
 
 ## Contact
 
-  * [Debian Live Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](debian-live@lists.debian.org)
+  * [Debian Live Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](mailto:debian-live@lists.debian.org)
   * [Debian Live IRC Channel](/archive/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
 
 ## Documentation
 
-  * [[todo]]
+  * [[Todo]]
 
 ## Source
 
-The sources of live-debconfig are released under the terms of the GNU General Public License 3 (or later), and available in a git repository at live.debian.net.
+The sources of live-debconfig are released under the terms of the GNU General Public License 3 (or later), and available in a [Git](http://git-scm.com/) repository.
 
   * Browse: [http://live.debian.net/gitweb/?p=live-debconfig.git](/gitweb/?p=live-debconfig.git)
   * Git: [git://live.debian.net/git/live-debconfig.git](git://live.debian.net/git/live-debconfig.git)
