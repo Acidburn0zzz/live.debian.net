@@ -1,5 +1,7 @@
 # Lifespan
 
+**NOTE:** Always use the newest version of component within its branch. We do <b><i><u>not</u></i></b> support any previous versions within a branch, regardless if that version happens to be in the Debian testing distribution or not.
+
 ## 8.0 "jessie", and "sid": Development
 
   * **Packages:** live-boot, live-build, live-config, live-debconfig, live-images, live-manual, live-tools:
