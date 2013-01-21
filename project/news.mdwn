@@ -2,6 +2,9 @@
 
 ## 2013
 
+  * 2013-01-21: [Debian Live Wheezy 7.0~b4](http://lists.debian.org/debian-live/2013/01/msg00161.html)<br />
+    Debian Live Wheezy 7.0~b4 was released.
+
   * 2013-01-08: [Debian Live Wheezy 7.0~b3](http://lists.debian.org/debian-live/2013/01/msg00068.html)<br />
     Debian Live Wheezy 7.0~b3 was released.
 
