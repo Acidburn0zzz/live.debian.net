@@ -14,6 +14,9 @@
     - finalize on dpkg/debhelper-ish config tree layout.
     - support building multiple images combinations from one config tree and in a row.
 
+  * live-build/live-boot:
+    - include an ext4 secondary partition on the image (10mb or so) configured for persistence and resize it on first boot with persistence from within live-boot.
+
   * live-config:
     - use live-debconfig for everything.
     - improve support when being run with persistence (so that still the system is 'reconfigured' on boot).
