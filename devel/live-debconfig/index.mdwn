@@ -23,6 +23,7 @@ live-debconfig contains the scripts that configure a Debian Live system during t
 ## Documentation
 
   * [Manual Pages](/manpages/)
+  * [Roadmap](/project/roadmap/)
   * [[Todo]]
 
 ## Source

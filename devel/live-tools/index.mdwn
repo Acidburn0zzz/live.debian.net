@@ -26,6 +26,7 @@ live-tools contains additional support scripts for Debian Live systems.
 ## Documentation
 
   * [Manual Pages](/manpages/)
+  * [Roadmap](/project/roadmap/)
   * [[Todo]]
 
 ## Source

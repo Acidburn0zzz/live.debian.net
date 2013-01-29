@@ -23,6 +23,7 @@ Live images are built with live-build configuration trees. The configuration tre
 ## Documentation
 
   * [Manual Pages](/manpages/)
+  * [Roadmap](/project/roadmap/)
   * [[Todo]]
 
 ## Source

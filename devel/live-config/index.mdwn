@@ -29,6 +29,7 @@ live-config contains the scripts that configure a Debian Live system during the 
 ## Documentation
 
   * [Manual Pages](/manpages/)
+  * [Roadmap](/project/roadmap/)
   * [[Todo]]
 
 ## Source

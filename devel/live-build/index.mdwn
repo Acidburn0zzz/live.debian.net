@@ -33,6 +33,7 @@ live-build contains the scripts that build a live system from a configuration di
 ## Documentation
 
   * [Manual Pages](/manpages)
+  * [Roadmap](/project/roadmap/)
   * [[Todo]]
   * [Web live image builder service](/manual/current/html/live-manual/the-basics.en.html#using-web-builder)
 
