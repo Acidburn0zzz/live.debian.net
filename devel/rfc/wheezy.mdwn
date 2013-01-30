@@ -30,9 +30,6 @@
     - netboot: include non-free firmware in both the installer and the live initrd.
 
   * live-config:
-    - xfce default login needs a dotfile or something like that
-
-  * live-config:
     - gconfg -> gsettings or whatever migration, is done, does it work?
 
   * live-build:
