@@ -179,7 +179,7 @@ More information:
 
 ## lernstick
 
-[lernstick](http://imedias.ch/lernstick/) contains a lot of software for educational purposes.
+The [lernstick](http://imedias.ch/lernstick/) distribution contains educational programs, multimedia software, a complete office package, games, programs for digital picture editing, Internet applications and has space for personal data.
 
 More information:
 
