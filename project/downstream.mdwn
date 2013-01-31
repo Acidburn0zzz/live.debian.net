@@ -169,6 +169,20 @@ More information:
 
   * [Homepage](http://sourceforge.net/projects/io-gnu-linux/)
 
+## Jumpshot
+
+[Jumpshot](http://www.jumpshot.com/) is a fully automated solution for solving PC frustration. Launch the app and enjoy an elegant interface and secure web surfing while it works the magic in the background.
+
+Jumpshot is remarkable in three major ways:
+
+ * A strong focus on user experience. Effortless to use, conversational feedback and a social game based on earning Karma.
+ * Much like a surgeon, we sedate your PC before beginning our work. This allows our software to run without interference from viruses.
+ * Crowd driven. Jumpshot gets smarter every time someone uses it.
+
+More information:
+
+  * [Homeage](http://www.jumpshot.com/)
+
 ## Knoppel
 
 [Knoppel](http://www.knoppel.org/) is developed for Greek Users. It's main goal is to offer a Debian system with  a selected list of packages all translated in Greek.
