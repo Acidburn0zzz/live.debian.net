@@ -2,18 +2,9 @@
 
 ## Outstanding Issues for Wheezy (unsorted)
 
-  * live-build/live-boot:
-    - move live/filesystem.dir to live/filesystem
-
-  * live-build:
-    - get rid of templates/ and stuff everything into bootloaders/
-
-  * live-build:
+  * live-boot:
     - fix persistence with crypto handling for newer initramfs-tools/cryptsetup/console-tools:
       http://mibpaste.com/3bjtZN
-
-  * live-build:
-    - confirm that non-free is in sources.lists for non-free images when installed (preseed that for d-i)?
 
   * live-boot/live-tools:
     - decide on point '4' from earlier about
@@ -22,40 +13,10 @@
   * live-build/boot/config:
     - remove eth* entries in interfaces when using network-manager
 
-  * live-build:
-    - mdadm hook incomplete, needs to remove the mdadm initramfs hook,
-      and then rebuild initrd to be effective.
-
-  * live-build:
-    - netboot: include non-free firmware in both the installer and the live initrd.
-
-  * live-config:
-    - gconfg -> gsettings or whatever migration, is done, does it work?
-
-  * live-build:
-    - final syslinux layout
-    - sync syslinux-themes-debian
-
-  * live-tools:
-    - revamp persistence script and manpage
-
-  * live-build
-    - review the contents/structure of .disk
-    - review the content/structure of binary/ for all binary images
-
-  * live-build/live-boot:
+  * live-*:
     - update manpages
+    - get manpage translations up2date
 
 ..and finally:
 
-  * all live-*
-    - get manpage translations up2date
-
   * let everything migrate to wheezy
-
-## Other Issues (unsorted)
-
-  * live.d.n:
-    - setup ikiwiki for live-build.debian.net
-    - re-organize autobuild layout in live-manual
-    - use filter-command in irker
