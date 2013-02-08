@@ -6,12 +6,12 @@
     - fix persistence with crypto handling for newer initramfs-tools/cryptsetup/console-tools:
       http://mibpaste.com/3bjtZN
 
+  * live-boot/live-config:
+    - remove eth* entries in interfaces when using network-manager
+
   * live-boot/live-tools:
     - decide on point '4' from earlier about
       /lib/live/* stuff
-
-  * live-build/boot/config:
-    - remove eth* entries in interfaces when using network-manager
 
   * live-*:
     - update manpages
