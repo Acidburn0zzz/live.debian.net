@@ -16,6 +16,9 @@
     - update manpages
     - get manpage translations up2date
 
+  * live-manual:
+    - get final review from Ben
+
 ..and finally:
 
   * let everything migrate to wheezy
