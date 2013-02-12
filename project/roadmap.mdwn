@@ -9,6 +9,8 @@
   * live-*:
     - check everything to use conf.d really everywhere (interfaces.d, fstab.d, etc.).
     - debian de-branding, make it as nice as possible for derivatives.
+    - decide on point '4' from earlier about /lib/live/* stuff and multifs-images
+      http://lists.debian.org/debian-live/2012/10/msg00025.html
 
   * live-boot:
     - finish scripts transition.
