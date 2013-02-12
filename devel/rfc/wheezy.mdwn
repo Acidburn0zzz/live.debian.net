@@ -9,9 +9,6 @@
   * live-config:
     - autlogin is not complete for lightdm (e.g. on xfce-desktop images).
 
-  * live-boot/live-config:
-    - remove eth* entries in interfaces when using network-manager
-
   * live-*:
     - update manpages
     - get manpage translations up2date
