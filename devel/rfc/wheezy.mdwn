@@ -6,9 +6,6 @@
     - fix persistence with crypto handling for newer initramfs-tools/cryptsetup/console-tools:
       http://mibpaste.com/3bjtZN
 
-  * live-config:
-    - autlogin is not complete for lightdm (e.g. on xfce-desktop images).
-
   * live-*:
     - update manpages
     - get manpage translations up2date
