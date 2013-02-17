@@ -6,6 +6,8 @@ This is the documentation for Debian Live project. It provides a broad overview 
 
 ## News
 
+  * 2013-02-17: Releasing first 4.0 alpha version (4.0~a1-1).
+  * 2013-02-17: Releasing first 3.0 stable version (3.0.0-1).
   * 2012-12-30: Releasing first 3.0 beta version (3.0~b1-1).
   * 2011-02-09: Releasing first 3.0 alpha version (3.0~a1-1).
   * 2011-01-25: Releasing last 2.0 stable version (2.0.2-1).
