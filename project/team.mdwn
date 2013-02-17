@@ -13,13 +13,9 @@
 The following list of people (alphabetically sorted) are regularly working with Debian Live:
 
   * Ben Armstrong
-  * Chris Lamb
-  * Cody Somerville
   * Daniel Baumann
   * intrigeri
   * Kai Hendry
-  * Marco Amadori
-  * Otavio Salvador
   * Richard Nelson
 
 <!-- alioth members
