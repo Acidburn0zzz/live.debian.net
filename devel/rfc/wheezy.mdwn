@@ -1,18 +1,11 @@
 # Wheezy
 
-## Outstanding Issues for Wheezy (unsorted)
+## Outstanding Issues for Wheezy
 
   * live-boot:
-    - fix persistence with crypto handling for newer initramfs-tools/cryptsetup/console-tools:
-      http://mibpaste.com/3bjtZN
+    - fix important bugs in 4.x first.
 
-  * live-*:
+  * live-*
     - update manpages
     - get manpage translations up2date
-
-  * live-manual:
-    - get final review from Ben
-
-..and finally:
-
-  * let everything migrate to wheezy
+    - review 4.x changes since last 3.x sync, cherry-pick for wheezy and upload another round with unblocks for 7.0~rc2 consisting the last set of changes for wheezy.
