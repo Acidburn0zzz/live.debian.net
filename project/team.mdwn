@@ -18,17 +18,6 @@ The following list of people (alphabetically sorted) are regularly working with 
   * Kai Hendry
   * Richard Nelson
 
-<!-- alioth members
-Alex Owen
-Brendan Sleight
-Fathi Boudra
-Frank Lin Piat
-Frederic Daniel Luc Lehobey
-Mathieu GELI
-Michael Dorrington
-Vagrant Cascadian
--->
-
 ## Task description
 
 The Debian Live team works on the framework to build official Debian Live systems.
