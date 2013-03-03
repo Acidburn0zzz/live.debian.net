@@ -28,6 +28,7 @@
     - confirm that non-free is in sources.lists for non-free images when installed (preseed that for d-i)?
     - review the contents/structure of .disk
     - review the content/structure of binary/ for all binary images
+    - support pinning of udebs
 
   * live-build/live-boot:
     - include an ext4 secondary partition on the image (10mb or so) configured for persistence and resize it on first boot with persistence from within live-boot.
