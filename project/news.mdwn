@@ -3,7 +3,7 @@
 ## 2013
 
   * 2013-03-03: [Debian Live Wheezy 7.0~rc1](http://lists.debian.org/debian-live/2013/03/msg00017.html)<br />
-    Debian Live Wheezy 7.0~rc1 was released.
+    Debian Live Wheezy 7.0~rc1 was released ([#701967](http://bugs.debian.org/701967)).
 
   * 2013-01-21: [Debian Live Wheezy 7.0~b4](http://lists.debian.org/debian-live/2013/01/msg00161.html)<br />
     Debian Live Wheezy 7.0~b4 was released.
