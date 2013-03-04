@@ -12,7 +12,8 @@
 
 ## 6.0 "squeeze"
 
-  * [6.0.6](http://cdimage.debian.org/cdimage/release/6.0.6-live/): [2012-12-14](http://lists.debian.org/debian-live/2012/12/msg00107.html)
+  * [6.0.7](http://cdimage.debian.org/cdimage/release/6.0.7-live/): [2013-03-04](http://lists.debian.org/debian-live/2013/03/msg00028.html) ([#702189](http://bugs.debian.org/702189))
+  * [6.0.6](http://cdimage.debian.org/cdimage/archive/6.0.6-live/): [2012-12-14](http://lists.debian.org/debian-live/2012/12/msg00107.html)
   * [6.0.5](http://cdimage.debian.org/cdimage/archive/6.0.5-live/): [2012-09-29](http://lists.debian.org/debian-live/2012/10/msg00000.html)
   * [6.0.4](http://cdimage.debian.org/cdimage/archive/6.0.4-live/): 2012-01-29
   * [6.0.3](http://cdimage.debian.org/cdimage/archive/6.0.3-live/): 2011-10-17

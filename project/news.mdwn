@@ -2,6 +2,9 @@
 
 ## 2013
 
+  * 2012-03-04: [Debian Live Squeeze 6.0.7](http://lists.debian.org/debian-live/2013/03/msg00028.html)<br />
+    Debian Live Squeeze 6.0.7 was released ([#702189](http://bugs.debian.org/702189)).
+
   * 2013-03-03: [Debian Live Wheezy 7.0~rc1](http://lists.debian.org/debian-live/2013/03/msg00017.html)<br />
     Debian Live Wheezy 7.0~rc1 was released ([#701967](http://bugs.debian.org/701967)).
 
