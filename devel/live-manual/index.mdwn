@@ -2,7 +2,7 @@
 
 ## About
 
-This is the documentation for Debian Live project. It provides a broad overview of the tools and philosophy of Debian Live, as well as providing details on how live systems may be built and customised by end users and developers.
+This is the documentation for Live Systems project. It provides a broad overview of the tools and philosophy of live systems, as well as providing details on how live systems may be built and customised by end users and developers.
 
 ## News
 
@@ -16,16 +16,16 @@ This is the documentation for Debian Live project. It provides a broad overview 
 
 ## Links
 
-  * [Debian Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-manual)
+  * [Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-manual)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-manual.html)
   * [Package Archive](/archive/packages/live-manual/)
   * [Git Statistics](/gitstats/live-manual)
-  * [Debian Live Manual](/manual/) (autobuilt from Git)
+  * [Live Manual](/manual/) (autobuilt from Git)
 
 ## Contact
 
-  * [Debian Live Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](mailto:debian-live@lists.debian.org)
-  * [Debian Live IRC Channel](/archive/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
+  * [Live Systems Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](mailto:debian-live@lists.debian.org)
+  * [Live Systems IRC Channel](/archive/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
 
 ## Documentation
 
@@ -37,5 +37,5 @@ This is the documentation for Debian Live project. It provides a broad overview 
 
 The sources of live-manual are released under the terms of the GNU General Public License 3 (or later), and available in a [Git](http://git-scm.com/) repository.
 
-  * Browse: [http://live.debian.net/gitweb/?p=live-manual.git](/gitweb/?p=live-manual.git)
-  * Git: [git://live.debian.net/git/live-manual.git](git://live.debian.net/git/live-manual.git)
+  * Browse: [http://live-systems.org/gitweb/?p=live-manual.git](/gitweb/?p=live-manual.git)
+  * Git: [git://live-systems.org/git/live-manual.git](git://live-systems.org/git/live-manual.git)

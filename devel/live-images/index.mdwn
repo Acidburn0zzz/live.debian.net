@@ -10,15 +10,15 @@ Live images are built with live-build configuration trees. The configuration tre
 
 ## Links
 
-  * [Debian Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-images)
+  * [Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-images)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-images.html)
   * [Package Archive](/archive/packages/live-images/)
   * [Git Statistics](/gitstats/live-images)
 
 ## Contact
 
-  * [Debian Live Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](mailto:debian-live@lists.debian.org)
-  * [Debian Live IRC Channel](/archive/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
+  * [Live Systems Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](mailto:debian-live@lists.debian.org)
+  * [Live Systems IRC Channel](/archive/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
 
 ## Documentation
 
@@ -30,5 +30,5 @@ Live images are built with live-build configuration trees. The configuration tre
 
 The sources of live-images are released under the terms of the GNU General Public License 3 (or later), and available in a [Git](http://git-scm.com/) repository.
 
-  * Browse: [http://live.debian.net/gitweb/?p=live-images.git](/gitweb/?p=live-images.git)
-  * Git: [git://live.debian.net/git/live-images.git](git://live.debian.net/git/live-images.git)
+  * Browse: [http://live-systems.org/gitweb/?p=live-images.git](/gitweb/?p=live-images.git)
+  * Git: [git://live-systems.org/git/live-images.git](git://live-systems.org/git/live-images.git)
