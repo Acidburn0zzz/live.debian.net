@@ -20,6 +20,7 @@
     <div class="row">
       <div class="span4">
         <address>
+          <strong>Address</strong><br />
           Daniel Baumann<br />
           Donnerb&uuml;hlweg 3<br />
           CH-3012 Bern<br />
@@ -30,12 +31,12 @@
       <div class="span6">
         <address>
           <strong>E-mail</strong><br />
-          <a href="mailto:daniel@debian.org?subject=Debian%20Live:%20Feedback">daniel@debian.org</a>
+          <a href="mailto:mail@daniel-baumann.ch?subject=Live%20Systems:%20Feedback">mail@daniel-baumann.ch</a>
         </address>
 
         <address>
-          <strong>IRC</strong> <small>(OFTC)</small><br />
-          <tt>dba</tt> on <a href="irc://irc.debian.org/">irc://irc.debian.org</a>
+          <strong>Instant Messaging</strong><br />
+          <tt>dba</tt> on <a href="irc://irc.oftc.net/">irc://irc.oftc.net</a>
         </address>
       </div>
     </div>
