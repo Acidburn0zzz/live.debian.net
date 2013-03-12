@@ -11,7 +11,7 @@
     <img src="/stuff/images/user.svg" width="200" />
     <h2>User</h2>
     <ul>
-      <li><a href="archive">Archive</a></li>
+      <li><a href="/files">Archive</a></li>
       <li><b>Download releases:</b> <a href="/cdimage/release/current/">stable</a> <a href="/cdimage/release/next">testing</a> <a href="/cdimage/release/next+nonfree">testing+nonfree</a> <a href="/cdimage/release/old/">oldstable</a></li>
       <li><b>Download snapshots (if available):</b> <a href="cdimage/daily-builds">daily</a> <a href="cdimage/weekly-builds">weekly</a> <a href="cdimage/monthly-builds">monthly</a></li>
       <li><a href="http://www.debian.org/CD/live/">About release images</a>
