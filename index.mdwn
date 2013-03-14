@@ -18,7 +18,7 @@
       <li><b>Manual</b>: <a href="manual/2.x/html/">stable</a> <a href="manual/3.x">unstable</a> <a href="manual/1.x">oldstable</a></li>
       <li><b>Man Pages</b>: <a href="manpages/2.x/">stable</a> <a href="manpages/3.x/">unstable</a> <a href="manpages/4.x">experimental</a></li>
       <li><a href="http://lists.debian.org/debian-live/">Mailinglist</a></li>
-      <li><a href="http://live-build.debian.net/"><b>Web Images Builder</b></a></li>
+      <li><a href="http://live-build.debian.net/"><b>Images Autobuilder</b></a></li>
     </ul>
   </div>
 
