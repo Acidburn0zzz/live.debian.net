@@ -15,13 +15,13 @@ live-tools contains additional support scripts for live systems.
 
   * [Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-tools)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-tools.html)
-  * [Package Archive](/archive/packages/live-tools/)
+  * [Package Archive](/files/4.x/packages/live-tools/)
   * [Git Statistics](/gitstats/live-tools)
 
 ## Contact
 
   * [Live Systems Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](mailto:debian-live@lists.debian.org)
-  * [Live Systems IRC Channel](/archive/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
+  * [Live Systems IRC Channel](/files/other/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
 
 ## Documentation
 

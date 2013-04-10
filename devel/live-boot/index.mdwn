@@ -20,13 +20,13 @@ live-boot contains the scripts that configure a live system during the boot proc
 
   * [Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-boot)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-boot.html)
-  * [Package Archive](/archive/packages/live-boot/)
+  * [Package Archive](/files/4.x/packages/live-boot/)
   * [Git Statistics](/gitstats/live-boot)
 
 ## Contact
 
   * [Live Systems Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](mailto:debian-live@lists.debian.org)
-  * [Live Systems IRC Channel](/archive/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
+  * [Live Systems IRC Channel](/files/other/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
 
 ## Documentation
 

@@ -12,13 +12,13 @@ Live images are built with live-build configuration trees. The configuration tre
 
   * [Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-images)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-images.html)
-  * [Package Archive](/archive/packages/live-images/)
+  * [Package Archive](/files/4.x/packages/live-images/)
   * [Git Statistics](/gitstats/live-images)
 
 ## Contact
 
   * [Live Systems Mailing List](http://lists.debian.org/debian-live/): [debian-live@lists.debian.org](mailto:debian-live@lists.debian.org)
-  * [Live Systems IRC Channel](/archive/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
+  * [Live Systems IRC Channel](/files/other/irc/): [irc://irc.debian.org/debian-live](irc://irc.debian.org/debian-live) (OFTC)
 
 ## Documentation
 
