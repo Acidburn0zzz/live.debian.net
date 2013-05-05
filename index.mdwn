@@ -15,7 +15,7 @@
       <li><b>Download releases:</b> <a href="/cdimage/release/stable/">stable</a> <a href="/cdimage/release/stable+nonfree">stable+nonfree</a> <a href="/cdimage/release/oldstable">oldstable</a></li>
       <li><b>Download snapshots (if available):</b> <a href="cdimage/daily-builds">daily</a> <a href="cdimage/weekly-builds">weekly</a> <a href="cdimage/monthly-builds">monthly</a></li>
       <li><a href="http://www.debian.org/CD/live/">About release images</a>
-      <li><b>Manual</b>: <a href="manual/3.x/html/">stable</a> <a href="manual/current">unstable</a> <a href="manual/2.x">oldstable</a></li>
+      <li><b>Manual</b>: <a href="manual/3.x/">stable</a> <a href="manual/4.x/">unstable</a> <a href="manual/2.x/html">oldstable</a></li>
       <li><b>Man Pages</b>: <a href="manpages/3.x/">stable</a> <a href="manpages/current/">unstable</a> <a href="manpages/2.x">oldstable</a></li>
       <li><a href="http://lists.debian.org/debian-live/">Mailinglist</a></li>
       <li><a href="http://live-build.debian.net/"><b>Images Autobuilder</b></a></li>
