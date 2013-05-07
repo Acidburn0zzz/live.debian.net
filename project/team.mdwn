@@ -1,4 +1,4 @@
-# Debian Live System Team
+# Live Systems Team
 
 ## Infrastructure
 
@@ -10,7 +10,7 @@
 
 ## Usual roles
 
-The following list of people (alphabetically sorted) are regularly working with Debian Live:
+The following list of people (alphabetically sorted) are regularly working with Live Systems:
 
   * Ben Armstrong
   * Daniel Baumann
@@ -20,7 +20,7 @@ The following list of people (alphabetically sorted) are regularly working with 
 
 ## Task description
 
-The Debian Live team works on the framework to build official Debian Live systems.
+The Live Systems team works on the framework to build official Debian Live systems.
 
 ## Various links
 

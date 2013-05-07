@@ -4,7 +4,7 @@
   <h1>Contact Information</h1>
 </div>
 
-<p>The Debian Live team can be contacted in several different ways (alphabetical order).</p>
+<p>The Live Systems project can be contacted in several different ways (alphabetical order).</p>
 
 <h2>Bug Tracking System</h2>
 

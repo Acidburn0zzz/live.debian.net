@@ -4,17 +4,15 @@
   <h1>Legal Information</h1>
 </div>
 
-<p><a href="/">Debian Live</a> is an official sub-project of the <a href="http:/www.debian.org/">Debian</a> project.</p>
-
 <div class="row">
   <div class="span12">
     <h3>Copyright</h3>
-    <p>Copyright &copy; 2006-2013 Debian Live</p>
+    <p>Copyright &copy; 2006-2013 Live Systems Project</p>
     <p>Distributed software is copyrighted by their respective authors and are distributed under their own individual licenses.</p>
 
     <h3> Disclaimer</h3>
-    <p>This site is provided as a public service by the Debian Live project. Our server is located in Frankfurt am Main, HE, Germany. Use in violation of any applicable laws is strictly prohibited.</p>
-    <p>Neither the Debian Live project nor any of its sponsors make any guarantees, explicit or implicit, about the contents of this site. Use at your own risk.</p>
+    <p>This site is provided as a public service by the Live Systems project. Our server is located in Frankfurt am Main, HE, Germany. Use in violation of any applicable laws is strictly prohibited.</p>
+    <p>Neither the Live Systems project nor any of its sponsors make any guarantees, explicit or implicit, about the contents of this site. Use at your own risk.</p>
 
     <h3>Service Provider</h3>
     <div class="row">

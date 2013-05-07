@@ -1,5 +1,5 @@
 <div class="row">
-  <h3>The Debian Live project produces the tools used to build official Debian Live systems and the official Debian Live images themselves.</h3>
+  <h3>The Live Systems project produces the tools used to build official Debian Live systems and the official Debian Live images themselves.</h3>
 </div>
 
 <div class="row">
