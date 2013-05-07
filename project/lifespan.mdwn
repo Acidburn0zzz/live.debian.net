@@ -12,17 +12,17 @@
 
   * **Legacy Support:** will run optimal on jessie, but has legacy support for wheezy.
 
-## 7.0 "wheezy": Pre-Release
+## 7.0 "wheezy": Current stable Release
 
   * **Packages:** live-boot, live-build, live-config, live-manual, live-tools:
 
   * **Version:** 3.x
 
-  * **Support:** only release criticial bugs.
+  * **Support:** only release criticial bugs in core functionality.
 
   * **Legacy Support:** will run optimal on wheezy, but has legacy support for squeeze.
 
-## 6.0 "squeeze": Release
+## 6.0 "squeeze": Current oldstable Release
 
   * **Packages:** live-boot, live-build, live-config, live-manual:
 
