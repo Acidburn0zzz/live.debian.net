@@ -1,8 +1,8 @@
 # Roadmap
 
-## Debian 7.0 "wheezy" aka live-* 3.x
+## Debian 7.0.1 "wheezy" aka live-* 3.x
 
-  * [Remaining issues to be solved for the wheezy release](/devel/rfc/wheezy/)
+  * [Remaining issues to be solved for the next wheezy point-release](http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=706618)
 
 ## Debian 8.0 "jessie" aka live-* 4.x
 
