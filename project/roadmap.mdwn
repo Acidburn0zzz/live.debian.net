@@ -29,6 +29,7 @@
     - review the contents/structure of .disk
     - review the content/structure of binary/ for all binary images
     - support pinning of udebs
+    - get as far as possible with rewriting individual helpers in Python
 
   * live-build/live-boot:
     - include an ext4 secondary partition on the image (10mb or so) configured for persistence and resize it on first boot with persistence from within live-boot.
@@ -45,8 +46,7 @@
 ## Debian 9.0 "no-name-yet" aka live-* 5.x
 
   * live-build:
-    - rewrite in Python to have proper interfaces for future GUI and web frontends.
-
+    - add GUI and web frontends.
 
 ## Infrastructure (unsorted)
 
