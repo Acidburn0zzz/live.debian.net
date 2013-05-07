@@ -13,7 +13,7 @@
     <p>Distributed software is copyrighted by their respective authors and are distributed under their own individual licenses.</p>
 
     <h3> Disclaimer</h3>
-    <p>This site is provided as a public service by the Debian Live project. Our server is located in Nuremberg, BY, Germany. Use in violation of any applicable laws is strictly prohibited.</p>
+    <p>This site is provided as a public service by the Debian Live project. Our server is located in Frankfurt am Main, HE, Germany. Use in violation of any applicable laws is strictly prohibited.</p>
     <p>Neither the Debian Live project nor any of its sponsors make any guarantees, explicit or implicit, about the contents of this site. Use at your own risk.</p>
 
     <h3>Service Provider</h3>
