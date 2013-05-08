@@ -11,6 +11,7 @@ live-debconfig contains the scripts that configure a live system during the buil
 ## Links
 
   * [Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-debconfig)
+  * [changelog](http://live.debian.net/gitweb/?p=live-debconfig.git;a=blob;f=debian/changelog;hb=refs/heads/debian)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-debconfig.html)
   * [Package Archive](/files/4.x/packages/live-debconfig/)
   * [Git Statistics](/gitstats/live-debconfig)

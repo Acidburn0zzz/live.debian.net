@@ -11,6 +11,7 @@ Live images are built with live-build configuration trees. The configuration tre
 ## Links
 
   * [Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-images)
+  * [changelog](http://live.debian.net/gitweb/?p=live-images.git;a=blob;f=debian/changelog;hb=refs/heads/debian)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-images.html)
   * [Package Archive](/files/4.x/packages/live-images/)
   * [Git Statistics](/gitstats/live-images)
