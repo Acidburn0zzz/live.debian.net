@@ -27,6 +27,7 @@
     <h2>Development</h2>
     <ul>
       <li><a href="/gitweb"><b>Gitweb</b></a></li>
+      <li><a href="/gitdm">Git Data Miner</a></li>
       <li><a href="/gitstats">Gitstats</a></li>
     </ul>
     <ul>

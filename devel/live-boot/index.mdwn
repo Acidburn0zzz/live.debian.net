@@ -23,6 +23,7 @@ live-boot contains the scripts that configure a live system during the boot proc
   * [changelog](http://live.debian.net/gitweb/?p=live-boot.git;a=blob;f=debian/changelog;hb=refs/heads/debian)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-boot.html)
   * [Package Archive](/files/4.x/packages/live-boot/)
+  * [Git Data Miner](/gitdm/live-boot)
   * [Git Statistics](/gitstats/live-boot)
   * [Ohloh Statistics](http://https://www.ohloh.net/p/live-boot)
 

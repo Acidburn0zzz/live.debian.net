@@ -20,6 +20,7 @@ This is the documentation for Live Systems project. It provides a broad overview
   * [changelog](http://live.debian.net/gitweb/?p=live-manual.git;a=blob;f=debian/changelog;hb=refs/heads/debian)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-manual.html)
   * [Package Archive](/files/4.x/packages/live-manual/)
+  * [Git Data Miner](/gitdm/live-manual)
   * [Git Statistics](/gitstats/live-manual)
   * [Ohloh Statistics](http://https://www.ohloh.net/p/live-manual)
   * [Live Manual](/manual/) (autobuilt from Git)
