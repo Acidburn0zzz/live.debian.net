@@ -21,6 +21,7 @@ live-config contains the scripts that configure a live system during the boot pr
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-config.html)
   * [Package Archive](/files/4.x/packages/live-config/)
   * [Git Statistics](/gitstats/live-config)
+  * [Ohloh Statistics](http://https://www.ohloh.net/p/live-config)
 
 ## Contact
 
