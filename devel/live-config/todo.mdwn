@@ -9,7 +9,7 @@ Everything that worked with live-initramfs works with live-boot/live-config, exc
 
 ### small
 
-  * factor out netbase (3.x).
+  * factor out netbase (4.x).
 
 ### medium
 
@@ -18,6 +18,9 @@ Everything that worked with live-initramfs works with live-boot/live-config, exc
     - integrate support for upstart
     - disable udev
     - disable update-initramfs
+  * live-config-upstart:
+    - reimplement based on the way https://launchpad.net/ubuntu/+source/friendly-recovery/ interacts with upstart,
+      see also http://lists.debian.org/debian-devel/2013/05/msg01288.html
 
 ### bigger
 
