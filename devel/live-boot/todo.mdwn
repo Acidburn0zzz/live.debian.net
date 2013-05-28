@@ -21,6 +21,7 @@
   * Release specific compatibility/legacy handling during package build-time
   * i18n/l10n support during early userspace (gettext, po4a)
   * Logging with different types of messages (info, warn, error, ...). Depending on the log-level just the according level messages are visible. All boot messages should be logged for later investigation.
+  * Improve media detection by writing a proper patch for [#700920](http://bugs.debian.org/700920).
 
 ## Priority 2: Important Features
 
