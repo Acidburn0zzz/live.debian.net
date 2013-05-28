@@ -78,6 +78,9 @@
   * use custom theming from /usr/share/$bootloader-theme-$foo
   * add gfxboot helper
   * add extlinux support
+  * update for syslinux 6:
+    - since syslinux 5 and syslinux 6 themes are incompatible due to path changes,
+      move syslinux 6 bootloaders to proper capitalized includes (e.g. config/bootloaders/ISOLINUX).
 
 ### chroot_linux-image
 
