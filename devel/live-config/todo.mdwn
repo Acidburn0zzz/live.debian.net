@@ -1,4 +1,4 @@
-# live-config 3.0 Todo
+# live-config Todo
 
 ### regressions
 
