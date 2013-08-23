@@ -1,7 +1,8 @@
 # Releases
 
-## 7.0 "wheezy"
+## 7 "wheezy"
 
+  * 7.1: 2013-08-23
   * 7.0.0: [2013-05-06](http://lists.debian.org/debian-live/2013/05/msg00014.html) ([#702187](http://bugs.debian.org/702187))
   * 7.0~rc1: [2013-03-03](http://lists.debian.org/debian-live/2013/03/msg00017.html) ([#701967](http://bugs.debian.org/701967))
   * 7.0~b4: [2013-01-21](http://lists.debian.org/debian-live/2013/01/msg00161.html)
