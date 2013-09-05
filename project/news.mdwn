@@ -57,7 +57,7 @@
   * 2011-03-24: Debian Live Squeeze 6.0.3<br />
     Debian Live Squeeze 6.0.3 was released.
 
-  * 2010-07-21: [Debian Live Team Members meet at DebConf 12 in Banja Luka, Bosnia Herzegovina](http://live-systems.org/files/other/meetings/2011-debconf/)<br />
+  * 2010-07-21: [Debian Live Team Members meet at DebConf 12 in Banja Luka, Bosnia Herzegovina](/files/other/meetings/2011-debconf/)<br />
     Members of the Debian Live Team have met at the annual Debian Conference.
 
   * 2011-03-24: Debian Live Squeeze 6.0.1<br />
@@ -87,10 +87,10 @@
     Debian Live Squeeze beta1 was released.
 
   * 2010-10-06: [Autobuilding live images](http://lists.debian.org/debian-live/2010/10/msg00098.html)<br />
-    Automatic build of live images is back at <a href="http://live-systems.org/cdimage/">live-systems.org/cdimage</a>.
+    Automatic build of live images is back at <a href="/cdimage/">live-systems.org/cdimage</a>.
 
   * 2010-10-03: [Autobuilding live-manual again](http://lists.debian.org/debian-live/2010/10/msg00022.html)<br />
-    Automatic build of live-manual is back at <a href="http://live-systems.org/manual/">live-systems.org/manual</a>.
+    Automatic build of live-manual is back at <a href="/manual/">live-systems.org/manual</a>.
 
   * 2010-09-27: [New server running live-systems.org](http://lists.debian.org/debian-live/2010/09/msg00363.html)<br />
     live-systems.org was moved to a more powerful server in order to allow images autobuilds and autotests in future.
@@ -107,7 +107,7 @@
   * 2010-08-10: [live-boot 3.0~a1-1](http://packages.debian.org/changelogs/pool/main/l/live-boot/current/changelog#versionversion3.0_a1-1)<br />
     Releasing first 3.0 alpha version (3.0~a1-1).
 
-  * 2010-08-05: [Debian Live Team Meeting at DebConf 11 in New York, USA](http://live-systems.org/files/other/meetings/2010-debconf/)<br />
+  * 2010-08-05: [Debian Live Team Meeting at DebConf 11 in New York, USA](/files/other/meetings/2010-debconf/)<br />
     Members of the Debian Live Team have met at the annual Debian Conference.
 
   * 2010-07-21: Debian Live Squeeze alpha2<br />

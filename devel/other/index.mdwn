@@ -14,4 +14,4 @@
 
 Some old components can be found here for reference purposes:
 
-  * [http://live-systems.org/gitweb/](/gitweb)
+  * [/gitweb/](/gitweb)

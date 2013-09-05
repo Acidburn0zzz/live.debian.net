@@ -14,7 +14,7 @@
 
 <ul>
   <li><a href="irc://irc.debian.org/debian-live">irc://irc.debian.org/debian-live</a> (OFTC)</li>
-  <li><a href="http://live-systems.org/files/other/irc/">Archive</a></li>
+  <li><a href="/files/other/irc/">Archive</a></li>
 </ul>
 
 <h2>Mailing Lists</h2>

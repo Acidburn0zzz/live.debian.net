@@ -22,7 +22,7 @@ live-build contains the scripts that build a live system from a configuration di
 ## Links
 
   * [Bug Tracking System](http://bugs.debian.org/cgi-bin/pkgreport.cgi?repeatmerged=no&src=live-build)
-  * [changelog](http://live.debian.net/gitweb/?p=live-build.git;a=blob;f=debian/changelog;hb=refs/heads/debian)
+  * [changelog](/gitweb/?p=live-build.git;a=blob;f=debian/changelog;hb=refs/heads/debian)
   * [Debian Package Tracking System](http://packages.qa.debian.org/l/live-build.html)
   * [Package Archive](/files/4.x/packages/live-build/)
   * [Git Data Miner](/gitdm/live-build)

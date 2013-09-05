@@ -2,9 +2,9 @@
 
 ## Infrastructure
 
-  * Website: [http://live-systems.org/](http://live-systems.org/)
+  * Website: [/](http://live-systems.org/)
+  * Documentation: [/manual/](http://live-systems.org/manual/)
   * CGI Builder: [http://live-build.debian.net/](http://live-build.debian.net/)
-  * Documentation: [http://live-systems.org/manual/](http://live-systems.org/manual/)
 
 ## [[Contact]]
 
