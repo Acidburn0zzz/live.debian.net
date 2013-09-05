@@ -7,8 +7,8 @@
 </div>
 
 <div class="row">
-  <div class="span4">
-    <img src="/stuff/images/user.svg" width="200" />
+  <div class="col-lg-4">
+    <img src="/images/user.svg" width="200" />
     <h2>User</h2>
     <ul>
       <li><a href="/files">Archive</a></li>
@@ -22,8 +22,8 @@
     </ul>
   </div>
 
-  <div class="span4">
-    <img src="/stuff/images/development.svg" width="200" />
+  <div class="col-lg-4">
+    <img src="/images/development.svg" width="200" />
     <h2>Development</h2>
     <ul>
       <li><a href="/gitweb"><b>Gitweb</b></a></li>
@@ -45,8 +45,8 @@
     </ul>
   </div>
 
-  <div class="span4">
-    <img src="/stuff/images/project.svg" width="200" />
+  <div class="col-lg-4">
+    <img src="/images/project.svg" width="200" />
     <h2>Project</h2>
     <ul>
       <li><a href="/project/about">About</a></li>
