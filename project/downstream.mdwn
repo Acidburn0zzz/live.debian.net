@@ -299,6 +299,12 @@ More information:
 
  * [Homepage](http://www.supergrubdisk.org/rescatux/)
 
+## Semplice
+
+[Semplice](http://semplice-linux.org/) is based on Debian unstable with the goal to provide a simple, fast, lightweight and cool environment.
+
+  * [Homepage](http://semplice-linux.org/)
+
 ## Ubuntu
 
 [Ubuntu](http://www.ubuntu.com/) is a Linux distribution that starts with the breadth of Debian and adds regular releases (every six months), a clear focus on the user and usability (it should "Just Work", TM) and a commitment to security updates with 18 months of support for every release. Ubuntu ships with the latest GNOME and KDE releases as well as a selection of server and desktop software that makes for a comfortable desktop experience off a single installation CD.
