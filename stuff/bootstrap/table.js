@@ -1,3 +1,3 @@
-function() {
-$("table").addClass("table table-bordered table-hover table-striped");
-}
+$(function() {
+$("table").addClass("table table-bordered table-hover table-responsive table-striped");
+});
