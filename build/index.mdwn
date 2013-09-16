@@ -1,43 +1,43 @@
 <div class="row">
-  <div class="span1"></div>
-    <div class="span4">
+  <div class="col-lg-1"></div>
+    <div class="col-lg-4">
     <p style="text-align: center;"><a href="http://cgi.build.live-systems.org/"><img src="debian.svg" width="200" /></a></p>
     <p><h3><a style="color: black" href="http://cgi.build.live-systems.org/">Build your own customized <b>Debian Live</b> system.</a></h3></p>
   </div>
 
-  <div class="span1"></div>
-    <div class="span4">
+  <div class="col-lg-1"></div>
+    <div class="col-lg-4">
     <p style="text-align: center"><a href="http://build.progress-linux.org/"><img src="progress-linux.svg" width="250" /></a></p>
     <p><h3><a style="color: black" href="http://build.progress-linux.org/">Build your own customized <b>Progress Linux</b> system.</a></h3></p>
   </div>
 </div>
 
 <div class="row">
-  <div class="span1"></div>
-    <div class="span4">
+  <div class="col-lg-1"></div>
+    <div class="col-lg-4">
     <p>Debian is a free operating system (OS) for your computer. It comes with over 29000 packages, precompiled software bundled up in a nice format for easy installation on your machine. <a href="http://www.debian.org/">Read more...</a></p>
     <p>The Debian Live Web builder allows to build customized images with custom package selection, installer support, and more...
   </div>
 
-  <div class="span1"></div>
+  <div class="col-lg-1"></div>
 
-  <div class="span4">
+  <div class="col-lg-4">
     <p>Progress Linux is a free and open source computer operating system focused on system integration. <a href="http://www.progress-linux.org/">Read more...</a></p>
     <p>The Progress Linux Web builder allows to build customized images with custom package selection, installer support, and more...
   </div>
 </div>
 
 <div class="row">
-  <div class="span1"></div>
-    <div class="span4">
+  <div class="col-lg-1"></div>
+    <div class="col-lg-4">
     <p><b>Currently available Image Autobuilders</b></p>
     <p><a class="btn" href="http://cgi.build.live-systems.org/">cgi.build.live-systems.org &raquo;</a>
     <span class="pull-right label label-success">&nbsp; UP &nbsp;</span></p>
   </div>
 
-  <div class="span1"></div>
+  <div class="col-lg-1"></div>
 
-  <div class="span4">
+  <div class="col-lg-4">
     <p><b>Currently available Image Autobuilders</b></p>
     <p><a class="btn" href="http://build.progress-linux.org/">build.progress-linux.org &raquo;</a>
     <span class="pull-right label label-important">&nbsp; BEING SETUP &nbsp;</span></p>
