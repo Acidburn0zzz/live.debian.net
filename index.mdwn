@@ -18,7 +18,7 @@
       <li><b>Manual</b>: <a href="manual/oldstable/">oldstable</a> <a href="manual/stable/">stable</a> <a href="manual/unstable/">unstable</a> <a href="manual/current/">git</a></li>
       <li><b>Man Pages</b>: <a href="manpages/oldstable/">oldstable</a> <a href="manpages/stable/">stable</a> <a href="manpages/unstable/">unstable</a> <a href="manpages/current/">git</a></li>
       <li><a href="http://lists.debian.org/debian-live/">Mailinglist</a></li>
-      <li><a href="http://cgi.build.live-systems.org/"><b>Images Autobuilder</b></a></li>
+      <li><a href="http://build.live-systems.org/"><b>Images Autobuilder</b></a></li>
     </ul>
   </div>
 
