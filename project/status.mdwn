@@ -1,6 +1,10 @@
 # Status
 
-Last update: 2013-08-23
+Last update: 2013-09-17
+
+## Images Autobuilder ([cgi.build.live-systems.org](http://cgi.build.live-systems.org/))
+
+  * hardware broken, being replaced.
 
 ## live-build 4.x
 
