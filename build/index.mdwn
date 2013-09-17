@@ -40,6 +40,6 @@
   <div class="col-lg-4">
     <p><b>Currently available Image Autobuilders</b></p>
     <p><a class="btn" href="http://build.progress-linux.org/">build.progress-linux.org &raquo;</a>
-    <span class="pull-right label label-important">&nbsp; BEING SETUP &nbsp;</span></p>
+    <span class="pull-right label label-warning">&nbsp; BEING SETUP &nbsp;</span></p>
   </div>
 </div>
