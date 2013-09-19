@@ -153,6 +153,12 @@ More information:
 
   * [Homepage](http://www.grml.org/)
 
+## Huayra Linux
+
+[Huayra Linux](http://huayra.conectarigualdad.gob.ar/) is a open project by the goverment of Argentina developing a distribution for everyone and everything.
+
+  * [Homepage](http://huayra.conectarigualdad.gob.ar/)
+
 ## Inquisitor
 
 [Inquisitor](http://www.inquisitor.ru/) is a hardware testing and certification system, suitable for both enterprise and home use, customizable, modular and available in both serverless Live CD/DVD format and server-controlled network boot production system.
