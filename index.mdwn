@@ -1,5 +1,5 @@
 <div class="row">
-  <h3>The Live Systems project maintains the components used to build the official Debian Live systems and the official Debian Live images themselves.</h3>
+  <h3>The Live Systems project maintains the components to build Debian based Live systems and the official Debian Live images themselves.</h3>
 </div>
 
 <div class="row">
