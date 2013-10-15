@@ -33,8 +33,7 @@
     <p><b>Currently available Image Autobuilders</b></p>
     <p><a class="btn" href="http://cgi.build.live-systems.org/">cgi.build.live-systems.org &raquo;</a>
     <!-- <span class="pull-right label label-success">&nbsp; UP &nbsp;</span></p> -->
-    <span class="pull-right label label-danger">&nbsp; DOWN FOR MAINTENANCE &nbsp;</span></p>
-    <p><b>2013-09-16</b>: hardware broken, being replaced.</p>
+    <span class="pull-right label label-success">&nbsp; online &nbsp;</span></p>
   </div>
 
   <div class="col-lg-1"></div>
