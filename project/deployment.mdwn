@@ -9,3 +9,12 @@ The [Mountain Grove RIII School District](http://www.mg.k12.mo.us/) utilizes Deb
 More information:
 
   * [Homepage](http://www.mg.k12.mo.us/)
+
+## lernstick
+
+The [lernstick](http://imedias.ch/lernstick/) distribution contains educational programs and is deployed to mainly schools in Switzerland.
+
+More information:
+
+  * [Homepage](http://imedias.ch/lernstick/)
+  * [Map of Deployments](http://imedias.ch/dateien/lernstick/karte.html)
