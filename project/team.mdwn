@@ -22,7 +22,7 @@ The following list of people (alphabetically sorted) are regularly working with 
 
 ## Task description
 
-The Live Systems team works on the framework to build official Debian Live systems.
+The Live Systems team works on the components to build Debian based Live systems and the official Debian Live images themselves.
 
 ## Various links
 
