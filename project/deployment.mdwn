@@ -1,6 +1,6 @@
 # Deployment
 
-This is a selection of deployments (in alphabetical order) that are using Debian Live technologies.
+This is a selection of deployments (in alphabetical order) that are using Live Systems technologies.
 
 ## Mountain Grove RIII School District
 
