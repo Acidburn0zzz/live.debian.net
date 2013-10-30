@@ -17,7 +17,7 @@ More information:
 More information:
 
   * [Homepage](http://canaima.softwarelibre.gob.ve/)
-  * [Wikipedia](http://en.wikipedia.org/wiki/Canaima_(software))
+  * [Wikipedia](http://en.wikipedia.org/wiki/Canaima_(operating_system))
 
 ## Canonical OEM Services
 
