@@ -16,7 +16,7 @@ Live images are built with live-build configuration trees. The configuration tre
   * [Package Archive](/files/4.x/packages/live-images/)
   * [Git Data Miner](/gitdm/live-images)
   * [Git Statistics](/gitstats/live-images)
-  * [Ohloh Statistics](http://https://www.ohloh.net/p/live-images)
+  * [Ohloh Statistics](https://www.ohloh.net/p/live-images)
 
 ## Contact
 

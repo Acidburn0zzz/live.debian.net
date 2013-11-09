@@ -27,7 +27,7 @@ live-build contains the scripts that build a live system from a configuration di
   * [Package Archive](/files/4.x/packages/live-build/)
   * [Git Data Miner](/gitdm/live-build)
   * [Git Statistics](/gitstats/live-build)
-  * [Ohloh Statistics](http://https://www.ohloh.net/p/live-build)
+  * [Ohloh Statistics](https://www.ohloh.net/p/live-build)
 
 ## Contact
 

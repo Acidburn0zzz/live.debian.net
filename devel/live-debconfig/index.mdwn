@@ -16,7 +16,7 @@ live-debconfig contains the scripts that configure a live system during the buil
   * [Package Archive](/files/4.x/packages/live-debconfig/)
   * [Git Data Miner](/gitdm/live-debconfig)
   * [Git Statistics](/gitstats/live-debconfig)
-  * [Ohloh Statistics](http://https://www.ohloh.net/p/live-debconfig)
+  * [Ohloh Statistics](https://www.ohloh.net/p/live-debconfig)
 
 ## Contact
 

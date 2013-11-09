@@ -22,7 +22,7 @@ This is the documentation for Live Systems project. It provides a broad overview
   * [Package Archive](/files/4.x/packages/live-manual/)
   * [Git Data Miner](/gitdm/live-manual)
   * [Git Statistics](/gitstats/live-manual)
-  * [Ohloh Statistics](http://https://www.ohloh.net/p/live-manual)
+  * [Ohloh Statistics](https://www.ohloh.net/p/live-manual)
   * [Live Manual](/manual/) (autobuilt from Git)
 
 ## Contact

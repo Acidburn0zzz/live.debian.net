@@ -22,7 +22,7 @@ live-config contains the scripts that configure a live system during the boot pr
   * [Package Archive](/files/4.x/packages/live-config/)
   * [Git Data Miner](/gitdm/live-config)
   * [Git Statistics](/gitstats/live-config)
-  * [Ohloh Statistics](http://https://www.ohloh.net/p/live-config)
+  * [Ohloh Statistics](https://www.ohloh.net/p/live-config)
 
 ## Contact
 

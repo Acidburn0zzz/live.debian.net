@@ -19,7 +19,7 @@ live-tools contains additional support scripts for live systems.
   * [Package Archive](/files/4.x/packages/live-tools/)
   * [Git Data Miner](/gitdm/live-tools)
   * [Git Statistics](/gitstats/live-tools)
-  * [Ohloh Statistics](http://https://www.ohloh.net/p/live-tools)
+  * [Ohloh Statistics](https://www.ohloh.net/p/live-tools)
 
 ## Contact
 

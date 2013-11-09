@@ -25,7 +25,7 @@ live-boot contains the scripts that configure a live system during the boot proc
   * [Package Archive](/files/4.x/packages/live-boot/)
   * [Git Data Miner](/gitdm/live-boot)
   * [Git Statistics](/gitstats/live-boot)
-  * [Ohloh Statistics](http://https://www.ohloh.net/p/live-boot)
+  * [Ohloh Statistics](https://www.ohloh.net/p/live-boot)
 
 ## Contact
 
