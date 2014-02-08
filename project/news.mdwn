@@ -1,5 +1,10 @@
 # News
 
+## 2014
+
+  * 2014-01-26: Debian Live Wheezy 7.3<br />
+    Debian Live Wheezy 7.3 was released.
+
 ## 2013
 
   * 2013-10-21: Debian Live Squeeze 6.0.8<br />

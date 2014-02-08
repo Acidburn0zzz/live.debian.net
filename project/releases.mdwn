@@ -2,6 +2,7 @@
 
 ## 7 "wheezy"
 
+  * 7.3: 2014-01-26
   * 7.2: 2013-10-14
   * 7.1: 2013-08-23
   * 7.0.0: [2013-05-06](http://lists.debian.org/debian-live/2013/05/msg00014.html) ([#702187](http://bugs.debian.org/702187))
