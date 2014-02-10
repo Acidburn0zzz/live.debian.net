@@ -2,6 +2,9 @@
 
 ## 2014
 
+  * 2014-02-10: Debian Live Wheezy 7.4<br />
+    Debian Live Wheezy 7.4 was released.
+
   * 2014-01-26: Debian Live Wheezy 7.3<br />
     Debian Live Wheezy 7.3 was released.
 
