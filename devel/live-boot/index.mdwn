@@ -1,8 +1,8 @@
-# live-boot - System Boot Scripts
+# live-boot: Live System Boot Components
 
 ## About
 
-live-boot contains the scripts that configure a live system during the boot process (early userspace).
+live-boot contains the components to configure a live system during the boot process (early userspace).
 
 ## News
 

@@ -1,4 +1,4 @@
-# live-boot Todo
+# live-boot: Todo
 
 ## Priority 1: Core Features
 
