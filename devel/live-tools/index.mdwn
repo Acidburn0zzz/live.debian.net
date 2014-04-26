@@ -1,8 +1,8 @@
-# live-tools - System Support Scripts
+# live-tools: Live System Extra Components
 
 ## About
 
-live-tools contains additional support scripts for live systems.
+live-tools contains extra components for live systems.
 
 ## News
 
