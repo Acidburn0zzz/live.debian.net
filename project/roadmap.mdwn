@@ -11,7 +11,7 @@
   * live-boot:
     - finish scripts transition.
     - add port to dracut.
-    - add support for 'new' roofs encryption using losetup with cryptoloop et al.
+    - add support for 'new' rootfs encryption using losetup with cryptoloop et al.
 
   * live-build:
     - finalize on dpkg/debhelper-ish config tree layout.
