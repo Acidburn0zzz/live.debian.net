@@ -8,7 +8,7 @@
 
 <div class="row">
   <div class="col-lg-4">
-    <img src="/images/user.svg" width="200" />
+    <img src="/stuff/user.svg" width="200" />
     <h2>User</h2>
     <ul>
       <li><a href="/files">Archive</a></li>
@@ -23,7 +23,7 @@
   </div>
 
   <div class="col-lg-4">
-    <img src="/images/development.svg" width="200" />
+    <img src="/stuff/development.svg" width="200" />
     <h2>Development</h2>
     <ul>
       <li><a href="/gitweb"><b>Gitweb</b></a></li>
@@ -46,7 +46,7 @@
   </div>
 
   <div class="col-lg-4">
-    <img src="/images/project.svg" width="200" />
+    <img src="/stuff/project.svg" width="200" />
     <h2>Project</h2>
     <ul>
       <li><a href="/project/about">About</a></li>
