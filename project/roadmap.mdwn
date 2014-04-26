@@ -47,6 +47,5 @@
 ## Infrastructure (unsorted)
 
   * live.d.n:
-    - setup ikiwiki for live-build.debian.net
     - re-organize autobuild layout in live-manual
     - use filter-command in irker
