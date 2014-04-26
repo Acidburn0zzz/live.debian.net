@@ -1,8 +1,8 @@
-# live-images - live-build Configurations
+# live-images: Live System Image Components (metapackage)
 
 ## About
 
-Live images are built with live-build configuration trees. The configuration trees for the official Debian images are included in live-images.
+live-images contains the configuration directories for live-build to build live system images.
 
 ## News
 
