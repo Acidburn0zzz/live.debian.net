@@ -15,7 +15,7 @@
 <div class="row">
   <div class="col-lg-1"></div>
     <div class="col-lg-4">
-    <p>Debian is a free operating system (OS) for your computer. It comes with over 29000 packages, precompiled software bundled up in a nice format for easy installation on your machine. <a href="http://www.debian.org/">Read more...</a></p>
+    <p>Debian is a free operating system (OS) for your computer. It comes with over 29'000 packages, precompiled software bundled up in a nice format for easy installation on your machine. <a href="http://www.debian.org/">Read more...</a></p>
     <p>The Debian Live Web builder allows to build customized images with custom package selection, installer support, and more...
   </div>
 
