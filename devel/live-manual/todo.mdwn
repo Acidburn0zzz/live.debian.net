@@ -1,6 +1,3 @@
-# live-manual Todo
+# live-manual: Todo
 
-  * put every volatile content (such as temporary hacks, wishlists etc) to ikiwiki on live.d.n.
-  * put every 'more or less stable' documentation stuff into live-manual
-  * update all references to wiki.d.o/DebianLive to their new location
   * add test target that can be run live-systems.org and which sends mail to the mailinglist in case of build failures.

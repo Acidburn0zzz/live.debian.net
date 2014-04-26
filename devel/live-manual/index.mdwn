@@ -1,8 +1,8 @@
-# live-manual
+# live-manual: Live Systems Documentation
 
 ## About
 
-This is the documentation for Live Systems project. It provides a broad overview of the tools and philosophy of live systems, as well as providing details on how live systems may be built and customised by end users and developers.
+live-manual contains the documentation for the Live Systems project.
 
 ## News
 
