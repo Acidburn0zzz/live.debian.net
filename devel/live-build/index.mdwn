@@ -1,8 +1,8 @@
-# live-build - System Build Scripts
+# live-build: Live System Build Components
 
 ## About
 
-live-build contains the scripts that build a live system from a configuration directory.
+live-build contains the components to build a live system from a configuration directory.
 
 ## News
 
