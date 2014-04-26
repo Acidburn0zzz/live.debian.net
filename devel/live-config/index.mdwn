@@ -1,8 +1,8 @@
-# live-config - System Configuration Scripts
+# live-config: Live System Configuration Components
 
 ## About
 
-live-config contains the scripts that configure a live system during the boot process (late userspace).
+live-config contains the components to configure a live system during the boot process (late userspace).
 
 ## News
 
