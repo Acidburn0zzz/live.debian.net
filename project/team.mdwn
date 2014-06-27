@@ -27,6 +27,7 @@ The Live Systems team works on the components to build Debian based Live systems
 ## Various links
 
   * [Package Overview (DDPO)](http://qa.debian.org/developer.php?login=debian-live@lists.debian.org)
+  * [BTS Graph](http://qa.debian.org/data/bts/graphs/by-maint/debian-live%40lists.debian.org.png)
   * [Package Uploaders Statistics](http://blends.debian.net/liststats/uploaders_debian-live.png)
   * [Bugs closed Statistics](http://blends.debian.net/liststats/bugs_debian-live.png)
   * [VCS Authors Statistics](http://blends.debian.net/liststats/commitstat_debian-live.png)
