@@ -1,3 +1,3 @@
 $(function() {
-$("table").addClass("table table-bordered table-hover table-responsive table-striped");
+  $("table").addClass("table table-striped table-bordered table-hover table-condensed table-responsive");
 });
