@@ -2,6 +2,9 @@
 
 ## 2014
 
+  * 2014-07-20: Debian Live Squeeze 6.0.10<br />
+    Debian Live Squeeze 6.0.10 was released.
+
   * 2014-07-16: Debian Live Wheezy 7.6<br />
     Debian Live Wheezy 7.6 was released.
 

@@ -19,6 +19,7 @@
 
 ## 6.0 "squeeze"
 
+  * 6.0.10: 2014-07-20
   * 6.0.9: 2014-02-16
   * 6.0.8: 2013-10-21
   * [6.0.7](http://cdimage.debian.org/cdimage/release/6.0.7-live/): [2013-03-04](http://lists.debian.org/debian-live/2013/03/msg00028.html) ([#702189](http://bugs.debian.org/702189))
