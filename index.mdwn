@@ -12,7 +12,7 @@
     <h2>User</h2>
     <ul>
       <li><a href="/files">Archive</a></li>
-      <li><b>Download releases:</b> <a href="/cdimage/release/oldstable/">oldstable</a> <a href="http://cdimage.debian.org/debian-cd/current-live/">stable</a> <a href="http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current-live/">stable+nonfree</a></li>
+      <li><b>Download releases:</b> <a href="http://cdimage.debian.org/cdimage/archive/latest-oldstable-live/">oldstable</a> <a href="http://cdimage.debian.org/debian-cd/current-live/">stable</a> <a href="http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current-live/">stable+nonfree</a></li>
       <li><b>Download snapshots (if available):</b> <a href="cdimage/daily-builds">daily</a> <a href="cdimage/weekly-builds">weekly</a> <a href="cdimage/monthly-builds">monthly</a></li>
       <li><a href="http://www.debian.org/CD/live/">About release images</a>
       <li><b>Manual</b>: <a href="manual/oldstable/">oldstable</a> <a href="manual/stable/">stable</a> <a href="manual/unstable/">unstable</a> <a href="manual/current/">git</a></li>
