@@ -1,14 +1,20 @@
 # Status
 
-Last update: 2014-07-20
+Last update: 2015-05-18
 
 ## Images Autobuilder ([cgi.build.live-systems.org](http://cgi.build.live-systems.org/))
 
   * building images works.
 
+## live-build 5.x
+
+  * building jessie (live and installer), strech (live), and sid (live) images works.
+
 ## live-build 4.x
 
-  * building wheezy and sid live images works.
+  * building wheezy and sid live and installer images works.
+
+  * building stretch and newer is not supported in 4.x
 
 ## live-build 3.x
 
