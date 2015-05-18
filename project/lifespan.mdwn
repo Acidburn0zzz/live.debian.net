@@ -2,17 +2,28 @@
 
 **NOTE:** Always use the newest version of component within its branch. We do <b><i><u>not</u></i></b> support any previous versions within a branch, regardless if that version happens to be in the Debian testing distribution or not.
 
-## 8.0 "jessie", and "sid": Development
+## 9.0 "stretch", and "sid": Development
 
-  * **Packages:** live-boot, live-build, live-config, live-debconfig, live-images, live-manual, live-tools:
+  * **Packages:** live-boot, live-build, live-config, live-images, live-manual, live-tools:
 
-  * **Version:** 4.x
+  * **Version:** 5.x
 
   * **Support:** everything is possible.
 
+  * **Legacy Support:** will run optimal on stretch, but has legacy support for jessie.
+
+
+## 8.0 "jessie": Current stable Release
+
+  * **Packages:** live-boot, live-build, live-config, live-images, live-manual, live-tools:
+
+  * **Version:** 4.x
+
+  * **Support:** only release criticial bugs in core functionality.
+
   * **Legacy Support:** will run optimal on jessie, but has legacy support for wheezy.
 
-## 7.0 "wheezy": Current stable Release
+## 7.0 "wheezy": Current oldstable Release
 
   * **Packages:** live-boot, live-build, live-config, live-manual, live-tools:
 
@@ -22,7 +33,7 @@
 
   * **Legacy Support:** will run optimal on wheezy, but has legacy support for squeeze.
 
-## 6.0 "squeeze": Current oldstable Release
+## 6.0 "squeeze": Current oldoldstable Release
 
   * **Packages:** live-boot, live-build, live-config, live-manual:
 
