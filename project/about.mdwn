@@ -8,6 +8,6 @@
 
 <p>A Debian Live system is a <a href="http://www.debian.org/">Debian</a> operating system that does not require a classical installer to use it. It comes on <a href="/manual/current/html/live-manual.en.html#the-basics">various media</a>, including CD-ROM, USB sticks, or via netboot. <a href="/manual/current/html/live-manual.en.html#about-project">Why Debian Live?</a>
 
-Although the Live Systems project is about the tools to create your own customized Live system, we offer some prebuilt images. Currently, builds for four desktop environments <a href="http://www.gnome.org/">GNOME</a>, <a href="http://www.kde.org/">KDE</a>, <a href="http://www.lxde.org/">LXDE</a>, and <a href="http://www.xfce.org/">Xfce</a> as well as the standard system and for rescue purposes are available.
+Although the Live Systems project is about the tools to create your own customized Live system, we offer some prebuilt images. Currently, builds for four main desktop environments <a href="http://www.gnome.org/">GNOME</a>, <a href="http://www.kde.org/">KDE</a>, <a href="http://www.lxde.org/">LXDE</a>, and <a href="http://www.xfce.org/">Xfce</a> as well as <a href="http://cinnamon.linuxmint.com/">Cinnamon</a> and <a href="http://mate-desktop.org/">MATE</a>. A gui-less "standard" system is avaiblable too.
 
 </section>
