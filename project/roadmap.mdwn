@@ -1,6 +1,6 @@
 # Roadmap
 
-## Debian 8.0 "jessie" aka live-* 4.x
+## Debian 9.0 "stretch" aka live-* 5.x
 
   * live-*:
     - check everything to use conf.d really everywhere (interfaces.d, fstab.d, etc.).
@@ -39,7 +39,7 @@
 * live-tools:
     - revamp persistence script and manpage
 
-## Debian 9.0 "no-name-yet" aka live-* 5.x
+## Debian 10.0 "buster" aka live-* 6.x
 
   * live-build:
     - add GUI and web frontends.
